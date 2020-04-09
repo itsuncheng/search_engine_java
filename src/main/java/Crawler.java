@@ -98,7 +98,7 @@ public class Crawler
         StringBean bean = new StringBean();
         bean.setURL(url);
         bean.setLinks(false);
-        String contents = bean.getStrings().substring(getPageTitle().length()).replaceAll("\r|\n", " ");
+        String contents = bean.getStrings().substring(getPageTitle().length()).replaceAll("\\s+", " ");
         return contents;
     }
 
