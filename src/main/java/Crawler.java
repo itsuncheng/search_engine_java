@@ -1,24 +1,17 @@
-import java.util.Date;
 import java.util.Vector;
 import java.net.URL;
 
-import org.htmlparser.Tag;
 import org.htmlparser.beans.StringBean;
-import org.htmlparser.Node;
 import org.htmlparser.NodeFilter;
 import org.htmlparser.Parser;
-import org.htmlparser.filters.AndFilter;
 import org.htmlparser.filters.NodeClassFilter;
-import org.htmlparser.tags.BodyTag;
-import org.htmlparser.tags.HeadTag;
-import org.htmlparser.tags.LinkTag;
 import org.htmlparser.tags.TitleTag;
 import org.htmlparser.util.NodeList;
 import org.htmlparser.util.ParserException;
 import java.util.StringTokenizer;
+import java.util.regex.Pattern;
+
 import org.htmlparser.beans.LinkBean;
-import org.rocksdb.RocksDB;
-import org.rocksdb.RocksDBException;
 
 
 
@@ -90,7 +83,7 @@ public class Crawler
         NodeFilter filter = new NodeClassFilter(TitleTag.class);
         NodeList nodeList = parser.parse(filter);
         result = ((TitleTag) nodeList.elementAt(0)).getTitle();
-        return result;
+        return result.toLowerCase();
     }
 
     public String getPageBody() throws ParserException
@@ -98,8 +91,10 @@ public class Crawler
         StringBean bean = new StringBean();
         bean.setURL(url);
         bean.setLinks(false);
-        String contents = bean.getStrings().substring(getPageTitle().length()).replaceAll("\\s+", " ");
-        return contents;
+        String contents = bean.getStrings().substring(getPageTitle().length());
+        contents = Pattern.compile("[\\W\\d]").matcher(contents).replaceAll(" ");
+        contents = Pattern.compile("\\s+").matcher(contents).replaceAll(" ");
+        return contents.toLowerCase();
     }
 
     public String getLastModDay() throws ParserException
