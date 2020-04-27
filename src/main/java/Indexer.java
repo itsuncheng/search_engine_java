@@ -19,9 +19,9 @@ public class Indexer {
     public Indexer(String rootURL, int numOfPage) {
         try{
             //TODO change the paths
-            this.titleFile = new InvertedIndex("src/main/titleDB");
-            this.bodyFile = new InvertedIndex("src/main/bodyDB");
-            this.pageInfoFile = new InvertedIndex("src/main/pageDB");
+            this.titleFile = new InvertedIndex("src/main/DB");
+            this.bodyFile = new InvertedIndex("src/main/DB");
+            this.pageInfoFile = new InvertedIndex("src/main/DB");
             this.crawler = new Crawler(rootURL);
             this.stopStem = new StopStem("src/main/stopwords.txt");
             this.visited = new Vector<String>();
