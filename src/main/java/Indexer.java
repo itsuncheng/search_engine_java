@@ -6,11 +6,11 @@ import java.util.Map;
 import java.util.Vector;
 
 public class Indexer {
-    private Database titleFile;
-    private Database bodyFile;
-    private Database pageInfoFile;
-    private Database linkFile;
-    private Database wordFile;
+    private Database titleIndex;
+    private Database bodyIndex;
+    private Database idToPageInfo;
+    private Database idToLinks;
+    private Database forwardIndex;
     private Crawler crawler;
     private StopStem stopStem;
     private Vector<String> visited;
@@ -20,11 +20,11 @@ public class Indexer {
 
     public Indexer(String rootURL, int numOfPage) {
         try{
-            this.titleFile = new Database("src/main/DB/titleDB");
-            this.bodyFile = new Database("src/main/DB/bodyDB");
-            this.pageInfoFile = new Database("src/main/DB/pageDB");
-            this.linkFile = new Database("src/main/DB/linkDB");
-            this.wordFile = new Database("src/main/DB/wordDB");
+            this.titleIndex = new Database("src/main/DB/titleDB");
+            this.bodyIndex = new Database("src/main/DB/bodyDB");
+            this.idToPageInfo = new Database("src/main/DB/pageDB");
+            this.idToLinks = new Database("src/main/DB/linkDB");
+            this.forwardIndex = new Database("src/main/DB/wordDB");
             this.crawler = new Crawler(rootURL);
             this.stopStem = new StopStem("src/main/stopwords.txt");
             this.visited = new Vector<String>();
@@ -50,8 +50,8 @@ public class Indexer {
         try{
             // index first root url first
             String firstInWaitlist = rootURL;
-            if(pageInfoFile.needUpdate(firstInWaitlist, crawler.getLastModDay())){
-                pageInfoFile.delEntry(firstInWaitlist);
+            if(idToPageInfo.needUpdate(firstInWaitlist, crawler.getLastModDay())){
+                idToPageInfo.delEntry(firstInWaitlist);
             }
             visited.add(firstInWaitlist);
             Vector<String> childLink = crawler.extractLinks();
@@ -72,8 +72,8 @@ public class Indexer {
                 }
                 //update db
                 crawler = new Crawler(firstInWaitlist);
-                if(pageInfoFile.needUpdate(firstInWaitlist, crawler.getLastModDay())){
-                    pageInfoFile.delEntry(firstInWaitlist);
+                if(idToPageInfo.needUpdate(firstInWaitlist, crawler.getLastModDay())){
+                    idToPageInfo.delEntry(firstInWaitlist);
                 }
                 //successful extract information from a link
                 childLink = crawler.extractLinks();
@@ -101,12 +101,12 @@ public class Indexer {
                 pageInfo.addChildLink(cl);
             }
             // add title words to database
-            indexWord(URL, title, titleFile, pageInfo);
+            indexWord(URL, title, titleIndex, pageInfo);
             // add body words to database
-            indexWord(URL, crawler.getPageBody(), bodyFile, pageInfo);
-            pageInfoFile.addBasicPageInfo(pageInfo);
-            linkFile.addLinks(pageInfo);
-            wordFile.addKeywordFreq(pageInfo);
+            indexWord(URL, crawler.getPageBody(), bodyIndex, pageInfo);
+            idToPageInfo.addBasicPageInfo(pageInfo);
+            idToLinks.addLinks(pageInfo);
+            forwardIndex.addKeywordFreq(pageInfo);
             pages.add(pageInfo);
 
         }catch(ParserException pe){
@@ -145,26 +145,26 @@ public class Indexer {
         }
     }
 
-    public Database getTitleFile() {
-        return titleFile;
+    public Database getTitleIndex() {
+        return titleIndex;
     }
 
-    public Database getBodyFile() {
-        return bodyFile;
+    public Database getBodyIndex() {
+        return bodyIndex;
     }
 
-    public Database getPageInfoFile() {
-        return pageInfoFile;
+    public Database getIdToPageInfo() {
+        return idToPageInfo;
     }
 
-    public Database getWordFile() {return wordFile;}
+    public Database getForwardIndex() {return forwardIndex;}
 
-    public Database getLinkFile() {return linkFile;}
+    public Database getIdToLinks() {return idToLinks;}
 
     public static void main(String[] args) {
         try{
             Indexer in = new Indexer("http://www.cse.ust.hk", 30);
-            in.getPageInfoFile().printAll(in.getWordFile().getDb(), in.getLinkFile().getDb());
+            in.getIdToPageInfo().printAll(in.getForwardIndex().getDb(), in.getIdToLinks().getDb());
         }catch (RocksDBException re){
             re.printStackTrace();
         }
