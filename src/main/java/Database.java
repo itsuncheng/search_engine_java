@@ -10,12 +10,12 @@ import java.util.Map;
 import java.util.Vector;
 
 
-public class InvertedIndex
+public class Database
 {
     public RocksDB db;
     private Options options;
 
-    InvertedIndex(String dbPath) throws RocksDBException
+    Database(String dbPath) throws RocksDBException
     {
         this.options = new Options();
         this.options.setCreateIfMissing(true);

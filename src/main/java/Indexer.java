@@ -6,11 +6,11 @@ import java.util.Map;
 import java.util.Vector;
 
 public class Indexer {
-    private InvertedIndex titleFile;
-    private InvertedIndex bodyFile;
-    private InvertedIndex pageInfoFile;
-    private InvertedIndex linkFile;
-    private InvertedIndex wordFile;
+    private Database titleFile;
+    private Database bodyFile;
+    private Database pageInfoFile;
+    private Database linkFile;
+    private Database wordFile;
     private Crawler crawler;
     private StopStem stopStem;
     private Vector<String> visited;
@@ -20,11 +20,11 @@ public class Indexer {
 
     public Indexer(String rootURL, int numOfPage) {
         try{
-            this.titleFile = new InvertedIndex("src/main/DB/titleDB");
-            this.bodyFile = new InvertedIndex("src/main/DB/bodyDB");
-            this.pageInfoFile = new InvertedIndex("src/main/DB/pageDB");
-            this.linkFile = new InvertedIndex("src/main/DB/linkDB");
-            this.wordFile = new InvertedIndex("src/main/DB/wordDB");
+            this.titleFile = new Database("src/main/DB/titleDB");
+            this.bodyFile = new Database("src/main/DB/bodyDB");
+            this.pageInfoFile = new Database("src/main/DB/pageDB");
+            this.linkFile = new Database("src/main/DB/linkDB");
+            this.wordFile = new Database("src/main/DB/wordDB");
             this.crawler = new Crawler(rootURL);
             this.stopStem = new StopStem("src/main/stopwords.txt");
             this.visited = new Vector<String>();
@@ -116,7 +116,7 @@ public class Indexer {
         }
     }
     // index word and add keyword to pageInfo
-    public void indexWord(String URL, String words, InvertedIndex dbfile, PageInfo pageInfo) throws RocksDBException {
+    public void indexWord(String URL, String words, Database dbfile, PageInfo pageInfo) throws RocksDBException {
     	String[] wordList = words.trim().split(" ");
         String result;
         for (int i = 0; i < wordList.length; i++) {
@@ -145,21 +145,21 @@ public class Indexer {
         }
     }
 
-    public InvertedIndex getTitleFile() {
+    public Database getTitleFile() {
         return titleFile;
     }
 
-    public InvertedIndex getBodyFile() {
+    public Database getBodyFile() {
         return bodyFile;
     }
 
-    public InvertedIndex getPageInfoFile() {
+    public Database getPageInfoFile() {
         return pageInfoFile;
     }
 
-    public InvertedIndex getWordFile() {return wordFile;}
+    public Database getWordFile() {return wordFile;}
 
-    public InvertedIndex getLinkFile() {return linkFile;}
+    public Database getLinkFile() {return linkFile;}
 
     public static void main(String[] args) {
         try{
