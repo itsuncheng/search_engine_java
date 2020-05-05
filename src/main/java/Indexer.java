@@ -1,4 +1,5 @@
 import org.htmlparser.util.ParserException;
+import org.rocksdb.RocksDB;
 import org.rocksdb.RocksDBException;
 
 import java.util.HashMap;
@@ -6,11 +7,15 @@ import java.util.Map;
 import java.util.Vector;
 
 public class Indexer {
-    private InvertedIndex titleFile;
-    private InvertedIndex bodyFile;
-    private InvertedIndex pageInfoFile;
-    private InvertedIndex linkFile;
-    private InvertedIndex wordFile;
+    public Database titleInvertedFile = new Database("src/main/DB/TitleInvertedFile");
+    public Database bodyInvertedFile = new Database("src/main/DB/BodyInvertedFile");
+    public Database word_ID_Bi = new Database("src/main/DB/Word_ID_Bi");
+    public Database page_ID_Bi = new Database("src/main/DB/Page_ID_Bi");
+    public Database pageID_PageInfo = new Database("src/main/DB/PageID_PageInfo");
+    public Database pageID_Links = new Database("src/main/DB/PageID_Links");
+    public Database forwardIndex = new Database("src/main/DB/ForwardIndex");
+
+
     private Crawler crawler;
     private StopStem stopStem;
     private Vector<String> visited;
@@ -19,30 +24,20 @@ public class Indexer {
     private Map<String, String> parentLinks;
 
     public Indexer(String rootURL, int numOfPage) {
-        try{
-            this.titleFile = new InvertedIndex("src/main/DB/titleDB");
-            this.bodyFile = new InvertedIndex("src/main/DB/bodyDB");
-            this.pageInfoFile = new InvertedIndex("src/main/DB/pageDB");
-            this.linkFile = new InvertedIndex("src/main/DB/linkDB");
-            this.wordFile = new InvertedIndex("src/main/DB/wordDB");
-            this.crawler = new Crawler(rootURL);
-            this.stopStem = new StopStem("src/main/stopwords.txt");
-            this.visited = new Vector<String>();
-            this.waitList = new Vector<String>();
-            this.pages = new Vector<PageInfo>();
-            this.parentLinks = new HashMap<String, String>();
-            //crawling
-            BFS(rootURL, numOfPage);
-            //add parent link
-            for (PageInfo page : pages) {
-                String[] link = parentLinks.get(page.getUrl()).split(",");
-                for (String l : link) {
-                    page.addParentLink(l);
-                }
+        this.crawler = new Crawler(rootURL);
+        this.stopStem = new StopStem("src/main/stopwords.txt");
+        this.visited = new Vector<String>();
+        this.waitList = new Vector<String>();
+        this.pages = new Vector<PageInfo>();
+        this.parentLinks = new HashMap<String, String>();
+        //crawling
+        BFS(rootURL, numOfPage);
+        //add parent link
+        for (PageInfo page : pages) {
+            String[] link = parentLinks.get(page.getUrl()).split(",");
+            for (String l : link) {
+                page.addParentLink(l);
             }
-
-        }catch (RocksDBException ex){
-            ex.printStackTrace();
         }
     }
 
@@ -50,15 +45,15 @@ public class Indexer {
         try{
             // index first root url first
             String firstInWaitlist = rootURL;
-            if(pageInfoFile.needUpdate(firstInWaitlist, crawler.getLastModDay())){
-                pageInfoFile.delEntry(firstInWaitlist);
+            if(pageID_PageInfo.needUpdate(firstInWaitlist, crawler.getLastModDay(), page_ID_Bi)){
+                pageID_PageInfo.delEntry(firstInWaitlist);
             }
             visited.add(firstInWaitlist);
             Vector<String> childLink = crawler.extractLinks();
             waitList.addAll(childLink);
             int count = 1;
             recordParentLinks(firstInWaitlist, childLink);
-            indexing(firstInWaitlist,childLink);
+            indexing(rootURL,childLink);
             // index remaining url up to max page set by user
             while(!waitList.isEmpty() && count <= numOfPage){
                 // no more link
@@ -72,8 +67,8 @@ public class Indexer {
                 }
                 //update db
                 crawler = new Crawler(firstInWaitlist);
-                if(pageInfoFile.needUpdate(firstInWaitlist, crawler.getLastModDay())){
-                    pageInfoFile.delEntry(firstInWaitlist);
+                if(pageID_PageInfo.needUpdate(firstInWaitlist, crawler.getLastModDay(), page_ID_Bi)){
+                    pageID_PageInfo.delEntry(firstInWaitlist);
                 }
                 //successful extract information from a link
                 childLink = crawler.extractLinks();
@@ -96,17 +91,20 @@ public class Indexer {
         try{
             // initialize page information data structure
             String title = crawler.getPageTitle();
-            PageInfo pageInfo = new PageInfo(title, URL, crawler.getLastModDay(), crawler.getSizeOfPage());
+            String pageID = page_ID_Bi.IdBiConversion(URL);
+            PageInfo pageInfo = new PageInfo(pageID, title, URL, crawler.getLastModDay(), crawler.getSizeOfPage());
+
             for (String cl : childLink) {
+                page_ID_Bi.IdBiConversion(cl);
                 pageInfo.addChildLink(cl);
             }
             // add title words to database
-            indexWord(URL, title, titleFile, pageInfo);
+            indexWord(pageID, title, titleInvertedFile, pageInfo);
             // add body words to database
-            indexWord(URL, crawler.getPageBody(), bodyFile, pageInfo);
-            pageInfoFile.addBasicPageInfo(pageInfo);
-            linkFile.addLinks(pageInfo);
-            wordFile.addKeywordFreq(pageInfo);
+            indexWord(pageID, crawler.getPageBody(), bodyInvertedFile, pageInfo);
+            pageID_PageInfo.addBasicPageInfo(pageInfo);
+            pageID_Links.addLinks(pageInfo, page_ID_Bi);
+            forwardIndex.addKeywordFreq(pageInfo, word_ID_Bi);
             pages.add(pageInfo);
 
         }catch(ParserException pe){
@@ -116,15 +114,16 @@ public class Indexer {
         }
     }
     // index word and add keyword to pageInfo
-    public void indexWord(String URL, String words, InvertedIndex dbfile, PageInfo pageInfo) throws RocksDBException {
-    	String[] wordList = words.trim().split(" ");
+    public void indexWord(String pageID, String words, Database dbfile, PageInfo pageInfo) throws RocksDBException {
+        String[] wordList = words.trim().split(" ");
         String result;
         for (int i = 0; i < wordList.length; i++) {
             if(!stopStem.isStopWord(wordList[i])){
                 result = stopStem.stem(wordList[i]);
                 if(result.length() > 0) {
-                    dbfile.addWord(wordList[i], URL, i+1);
-                    pageInfo.addKeyword(wordList[i]);
+                    String wordID = word_ID_Bi.IdBiConversion(wordList[i]);
+                    dbfile.addWord(wordID, pageID, i+1);
+                    pageInfo.addKeyword(wordList[i]);//
                 }
             }
         }
@@ -145,26 +144,10 @@ public class Indexer {
         }
     }
 
-    public InvertedIndex getTitleFile() {
-        return titleFile;
-    }
-
-    public InvertedIndex getBodyFile() {
-        return bodyFile;
-    }
-
-    public InvertedIndex getPageInfoFile() {
-        return pageInfoFile;
-    }
-
-    public InvertedIndex getWordFile() {return wordFile;}
-
-    public InvertedIndex getLinkFile() {return linkFile;}
-
     public static void main(String[] args) {
         try{
             Indexer in = new Indexer("http://www.cse.ust.hk", 30);
-            in.getPageInfoFile().printAll(in.getWordFile().getDb(), in.getLinkFile().getDb());
+            Database.printAll(in.pageID_PageInfo.getDb(), in.pageID_Links.getDb(), in.forwardIndex.getDb(), in.word_ID_Bi, in.page_ID_Bi);
         }catch (RocksDBException re){
             re.printStackTrace();
         }

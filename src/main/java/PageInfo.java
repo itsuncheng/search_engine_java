@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class PageInfo {
+    private String pageID;
     private String title;
     private String url;
     private String lastModDay;
@@ -9,7 +10,8 @@ public class PageInfo {
     private Vector<String> childLink;
     private Vector<String> parentLink;
 
-    public PageInfo(String title, String url, String lastModDay, int pageSize) {
+    public PageInfo(String pageID, String title, String url, String lastModDay, int pageSize) {
+        this.pageID = pageID;
         this.title = title;
         this.url = url;
         this.lastModDay = lastModDay;
@@ -39,6 +41,9 @@ public class PageInfo {
         }
     }
 
+    public String getPageID() {
+        return pageID;
+    }
 
     public String getTitle() {
         return title;
@@ -93,4 +98,5 @@ public class PageInfo {
         }
         return result;
     }
+
 }
