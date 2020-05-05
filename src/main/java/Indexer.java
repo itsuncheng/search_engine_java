@@ -7,15 +7,6 @@ import java.util.Map;
 import java.util.Vector;
 
 public class Indexer {
-    public Database titleInvertedFile = new Database("src/main/DB/TitleInvertedFile");
-    public Database bodyInvertedFile = new Database("src/main/DB/BodyInvertedFile");
-    public Database word_ID_Bi = new Database("src/main/DB/Word_ID_Bi");
-    public Database page_ID_Bi = new Database("src/main/DB/Page_ID_Bi");
-    public Database pageID_PageInfo = new Database("src/main/DB/PageID_PageInfo");
-    public Database pageID_Links = new Database("src/main/DB/PageID_Links");
-    public Database forwardIndex = new Database("src/main/DB/ForwardIndex");
-
-
     private Crawler crawler;
     private StopStem stopStem;
     private Vector<String> visited;
@@ -43,6 +34,8 @@ public class Indexer {
 
     private void BFS(String rootURL, int numOfPage){
         try{
+            Database pageID_PageInfo = DbTypeEnum.getDbtypeEnum("PageID_PageInfo").getDatabase();
+            Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
             // index first root url first
             String firstInWaitlist = rootURL;
             if(pageID_PageInfo.needUpdate(firstInWaitlist, crawler.getLastModDay(), page_ID_Bi)){
@@ -89,6 +82,14 @@ public class Indexer {
 
     public void indexing(String URL, Vector<String> childLink){
         try{
+            Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
+            Database word_ID_Bi = DbTypeEnum.getDbtypeEnum("Word_ID_Bi").getDatabase();
+            Database titleInvertedFile = DbTypeEnum.getDbtypeEnum("TitleInvertedFile").getDatabase();
+            Database bodyInvertedFile = DbTypeEnum.getDbtypeEnum("BodyInvertedFile").getDatabase();
+            Database pageID_PageInfo = DbTypeEnum.getDbtypeEnum("PageID_PageInfo").getDatabase();
+            Database pageID_Links = DbTypeEnum.getDbtypeEnum("PageID_Links").getDatabase();
+            Database forwardIndex = DbTypeEnum.getDbtypeEnum("ForwardIndex").getDatabase();
+
             // initialize page information data structure
             String title = crawler.getPageTitle();
             String pageID = page_ID_Bi.IdBiConversion(URL);
@@ -115,6 +116,7 @@ public class Indexer {
     }
     // index word and add keyword to pageInfo
     public void indexWord(String pageID, String words, Database dbfile, PageInfo pageInfo) throws RocksDBException {
+        Database word_ID_Bi = DbTypeEnum.getDbtypeEnum("Word_ID_Bi").getDatabase();
         String[] wordList = words.trim().split(" ");
         String result;
         for (int i = 0; i < wordList.length; i++) {
@@ -147,7 +149,7 @@ public class Indexer {
     public static void main(String[] args) {
         try{
             Indexer in = new Indexer("http://www.cse.ust.hk", 30);
-            Database.printAll(in.pageID_PageInfo.getDb(), in.pageID_Links.getDb(), in.forwardIndex.getDb(), in.word_ID_Bi, in.page_ID_Bi);
+            Database.printAll();
         }catch (RocksDBException re){
             re.printStackTrace();
         }

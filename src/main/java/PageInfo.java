@@ -69,34 +69,8 @@ public class PageInfo {
         return keywordFreq;
     }
 
-    public String getKeywordFreqInfo(){
-        String result = "";
-        Object[] arr = keywordFreq.keySet().toArray();
-        Arrays.sort(arr);
-        for(Object key : arr){
-            result += key + "," + keywordFreq.get(key) +" ";
-        }
-        return result;
-    }
-
     public Vector<String> getChildLink(){return childLink;}
 
-    public String getChildLinkInfo() {
-        String result = "";
-        for (String s : childLink) {
-            result += s+",";
-        }
-        return result;
-    }
-
     public Vector<String> getParentLink(){return parentLink;}
-
-    public String getParentLinkInfo() {
-        String result = "";
-        for (String s : parentLink) {
-            result += s+",";
-        }
-        return result;
-    }
 
 }

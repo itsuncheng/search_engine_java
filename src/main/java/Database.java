@@ -14,7 +14,7 @@ public class Database
     private RocksDB db;
     private Options options;
 
-    Database(String dbPath)
+    public Database(String dbPath)
     {
         try {
             this.options = new Options();
@@ -99,27 +99,42 @@ public class Database
         db.remove(key.getBytes());
     }
 
-    public static void printAll(RocksDB pageFile, RocksDB linkFile, RocksDB wordFile, Database word_ID_Bi, Database page_ID_Bi) throws RocksDBException
+    public boolean needUpdate(String URL, String lastModDay, Database page_ID_Bi) throws RocksDBException{
+        String pageID = page_ID_Bi.IdBiConversion(URL);
+        byte[] content = db.get(pageID.getBytes());
+        if (content == null) return false;
+        else {
+            if (new String(content).contains(lastModDay))return true;
+            return false;
+        }
+    }
+
+    public static void printAll() throws RocksDBException
     {
+        Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
+        Database word_ID_Bi = DbTypeEnum.getDbtypeEnum("Word_ID_Bi").getDatabase();
+        Database pageID_PageInfo = DbTypeEnum.getDbtypeEnum("PageID_PageInfo").getDatabase();
+        Database pageID_Links = DbTypeEnum.getDbtypeEnum("PageID_Links").getDatabase();
+        Database forwardIndex = DbTypeEnum.getDbtypeEnum("ForwardIndex").getDatabase();
 
         try {
             File file = new File("src/main/spider_result.txt");
             PrintWriter pw = new PrintWriter(file);
 
-            RocksIterator iter = pageFile.newIterator();
+            RocksIterator iter = pageID_PageInfo.getDb().newIterator();
             for(iter.seekToFirst(); iter.isValid(); iter.next()) {
                 String[] info = new String(iter.value()).split(",");
                 String output = "Page title: " + info[0] + "\nURL: " + new String(page_ID_Bi.getDb().get(iter.key())) + "\nLast modification date: " + info[1]
                         + ", size of page: " + info[2] + "\n";
                 // words
-                String content = new String(wordFile.get(iter.key()));
+                String content = new String(forwardIndex.getDb().get(iter.key()));
                 for (String s : content.split(" ")) {
                     String[] key_value = s.split(",");
                     output+= new String(word_ID_Bi.getDb().get(key_value[0].getBytes()))+","+ key_value[1]+" ";
                 }
                 output += "\n";
                 // children links
-                String links = new String(linkFile.get(iter.key()));
+                String links = new String(pageID_Links.getDb().get(iter.key()));
                 for (String s : links.split(" ")[0].split(",")) {
                     output += new String(page_ID_Bi.getDb().get(s.getBytes())) + "\n";
                 }
@@ -132,16 +147,6 @@ public class Database
             ie.printStackTrace();
         }
 
-    }
-
-    public boolean needUpdate(String URL, String lastModDay, Database page_ID_Bi) throws RocksDBException{
-        String pageID = page_ID_Bi.IdBiConversion(URL);
-        byte[] content = db.get(pageID.getBytes());
-        if (content == null) return false;
-        else {
-            if (new String(content).contains(lastModDay))return true;
-            return false;
-        }
     }
 
     public RocksDB getDb(){
