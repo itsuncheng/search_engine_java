@@ -141,10 +141,10 @@ public class Database
     public boolean needUpdate(String URL, String lastModDay) throws RocksDBException{
         Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
         String pageID = page_ID_Bi.IdBiConversion(URL);
-        String content = new String(db.get(pageID.getBytes()));
+        byte[] content = db.get(pageID.getBytes());
         if (content == null) return false;
         else {
-            if (content.contains(lastModDay))return true;
+            if (new String(content).contains(lastModDay))return true;
             return false;
         }
     }
