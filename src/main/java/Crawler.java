@@ -20,28 +20,14 @@ public class Crawler
     private String url;
     private Parser parser;
 
-    //    private InvertedIndex index;
-    Crawler(String _url){
+    // private InvertedIndex index;
+    public Crawler(String _url){
         url = _url;
         try{
             parser = new Parser(url);
         }catch (ParserException pe){
             pe.printStackTrace();
         }
-
-
-//        try
-//        {
-//            // a static method that loads the RocksDB C++ library.
-//            RocksDB.loadLibrary();
-//            // modify the path to your database
-//            String path = "./spider_result.txt";
-//            index = new InvertedIndex(path);
-//        }
-//        catch(RocksDBException e)
-//        {
-//            System.err.println(e.toString());
-//        }
 
     }
     public Vector<String> extractWords() throws ParserException
