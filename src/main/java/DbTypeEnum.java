@@ -1,3 +1,6 @@
+/**
+ * A enum class to manage databases
+ */
 public enum DbTypeEnum
 {
     TitleInvertedFile("TitleInvertedFile", new Database("src/main/DB/TitleInvertedFile")),

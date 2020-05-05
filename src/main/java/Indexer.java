@@ -1,11 +1,13 @@
 import org.htmlparser.util.ParserException;
-import org.rocksdb.RocksDB;
 import org.rocksdb.RocksDBException;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Vector;
 
+/**
+ * A class used to index
+ */
 public class Indexer {
     private Crawler crawler;
     private StopStem stopStem;
@@ -14,6 +16,11 @@ public class Indexer {
     private Vector<PageInfo> pages;
     private Map<String, String> parentLinks;
 
+    /**
+     * Constructor and finish crawling and index
+     * @param rootURL the root url used to crawl
+     * @param numOfPage the number of page want to crawl
+     */
     public Indexer(String rootURL, int numOfPage) {
         this.crawler = new Crawler(rootURL);
         this.stopStem = new StopStem("src/main/stopwords.txt");
@@ -32,6 +39,11 @@ public class Indexer {
         }
     }
 
+    /**
+     * A BFS algorithm used to crawl
+     * @param rootURL the root url used to crawl
+     * @param numOfPage the number of page want to crawl
+     */
     private void BFS(String rootURL, int numOfPage){
         try{
             Database pageID_PageInfo = DbTypeEnum.getDbtypeEnum("PageID_PageInfo").getDatabase();
@@ -40,6 +52,7 @@ public class Indexer {
             String firstInWaitlist = rootURL;
             if(pageID_PageInfo.needUpdate(firstInWaitlist, crawler.getLastModDay(), page_ID_Bi)){
                 pageID_PageInfo.delEntry(firstInWaitlist);
+
             }
             visited.add(firstInWaitlist);
             Vector<String> childLink = crawler.extractLinks();
@@ -80,6 +93,11 @@ public class Indexer {
         }
     }
 
+    /**
+     * Index the url
+     * @param URL url to be crawl
+     * @param childLink the children link of the url
+     */
     public void indexing(String URL, Vector<String> childLink){
         try{
             Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
@@ -114,7 +132,15 @@ public class Indexer {
             re.printStackTrace();
         }
     }
-    // index word and add keyword to pageInfo
+
+    /**
+     * Index word and add keyword to pageInfo
+     * @param pageID the page id of page to be index
+     * @param words the words to be index
+     * @param dbfile the database file used to save the data
+     * @param pageInfo the page information of the page given
+     * @throws RocksDBException
+     */
     public void indexWord(String pageID, String words, Database dbfile, PageInfo pageInfo) throws RocksDBException {
         Database word_ID_Bi = DbTypeEnum.getDbtypeEnum("Word_ID_Bi").getDatabase();
         String[] wordList = words.trim().split(" ");
@@ -130,7 +156,20 @@ public class Indexer {
             }
         }
     }
-    // record parent link to pageInfo
+
+    /**
+     * Delete the page id (key) which want to update
+     * @param pageID the page id to be delete
+     */
+    public void deleteIndex(String pageID){
+
+    }
+
+    /**
+     * Record parent link to pageInfo
+     * @param parentURL the parent link to be record
+     * @param childLink the child link need to pair with the parent link
+     */
     public void recordParentLinks(String parentURL, Vector<String> childLink){
         //pair up children and parent
         for (String cl : childLink) {

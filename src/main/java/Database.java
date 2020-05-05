@@ -2,18 +2,24 @@ import org.rocksdb.RocksDB;
 import org.rocksdb.Options;
 import org.rocksdb.RocksDBException;
 import org.rocksdb.RocksIterator;
-
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.*;
 
 
+/**
+ * A class used to store, update, delete or search the index files
+ */
 public class Database
 {
     private RocksDB db;
     private Options options;
 
+    /**
+     * Initialize the constructor
+     * @param dbPath the database path used to stored
+     */
     public Database(String dbPath)
     {
         try {
@@ -25,6 +31,14 @@ public class Database
         }
     }
 
+    /**
+     * Convert the keyword and url into id and save to related database
+     * the id act as an integer which is started from 1 but use string to represent
+     * # is record the max id reached
+     * @param content the keyword or url want to store in the database
+     * @return the id of the keyword or url
+     * @throws RocksDBException
+     */
     public String IdBiConversion(String content) throws RocksDBException{
         byte[] value = db.get("#".getBytes());
         byte[] id = db.get(content.getBytes());
@@ -46,6 +60,11 @@ public class Database
         }else return new String(id);
     }
 
+    /**
+     * Add basic page information (title, url, last modified day and page size)
+     * @param pageInfo the class with contain the basic page information
+     * @throws RocksDBException
+     */
     public void addBasicPageInfo(PageInfo pageInfo) throws RocksDBException
     {
         // information separated by ,
@@ -53,6 +72,12 @@ public class Database
         db.put(pageInfo.getPageID().getBytes(), content.getBytes());
     }
 
+    /**
+     * Add links (including child link and parent link)
+     * @param pageInfo the class with contain the basic page information
+     * @param page_ID_Bi the database saved page and page id
+     * @throws RocksDBException
+     */
     public void addLinks(PageInfo pageInfo, Database page_ID_Bi) throws RocksDBException
     {
         // change link to pageID
@@ -70,6 +95,12 @@ public class Database
 
     }
 
+    /**
+     * Add keyword with its frequency
+     * @param pageInfo the class with contain the basic page information
+     * @param word_ID_Bi the database saved word and word id
+     * @throws RocksDBException
+     */
     public void addKeywordFreq(PageInfo pageInfo, Database word_ID_Bi) throws RocksDBException
     {
         // change the keyword to wordID
@@ -83,7 +114,13 @@ public class Database
         db.put(pageInfo.getPageID().getBytes(), content.getBytes());
     }
 
-    // record pageID and position y in order to perform phase search
+    /**
+     * record pageID and position y in order to perform phase search
+     * @param wordID the word id started from 1
+     * @param pageID the word id started from 1
+     * @param y the position of a word in a page after stemming
+     * @throws RocksDBException
+     */
     public void addWord(String wordID, String pageID, int y) throws RocksDBException
     {
         byte[] content = db.get(wordID.getBytes());
@@ -95,10 +132,23 @@ public class Database
         db.put(wordID.getBytes(), content);
     }
 
+    /**
+     * Delete the data with a specific key
+     * @param key the key want to delete
+     * @throws RocksDBException
+     */
     public void delEntry(String key) throws RocksDBException {
         db.remove(key.getBytes());
     }
 
+    /**
+     * Check if the page need update
+     * @param URL the url used to check
+     * @param lastModDay the last modified day of url
+     * @param page_ID_Bi the database contain page and page id
+     * @return true if need update otherwise false
+     * @throws RocksDBException
+     */
     public boolean needUpdate(String URL, String lastModDay, Database page_ID_Bi) throws RocksDBException{
         String pageID = page_ID_Bi.IdBiConversion(URL);
         byte[] content = db.get(pageID.getBytes());
@@ -109,6 +159,10 @@ public class Database
         }
     }
 
+    /**
+     * Used for test
+     * @throws RocksDBException
+     */
     public static void printAll() throws RocksDBException
     {
         Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
@@ -149,6 +203,9 @@ public class Database
 
     }
 
+    /**
+     * @return the rocksdb object
+     */
     public RocksDB getDb(){
         return db;
     }
