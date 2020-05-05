@@ -1,0 +1,189 @@
+2020/05/05-10:34:04.669618 b58 RocksDB version: 5.17.2
+2020/05/05-10:34:04.669727 b58 Git sha rocksdb_build_git_sha:@f438b98e552010613cff8684a7d84191ed785148@
+2020/05/05-10:34:04.669756 b58 Compile date Nov 27 2018
+2020/05/05-10:34:04.669778 b58 DB SUMMARY
+2020/05/05-10:34:04.669946 b58 SST files in src/main/DB/PageID_Links dir, Total Num: 0, files: 
+2020/05/05-10:34:04.669975 b58 Write Ahead Log file in src/main/DB/PageID_Links: 
+2020/05/05-10:34:04.669997 b58                         Options.error_if_exists: 0
+2020/05/05-10:34:04.670017 b58                       Options.create_if_missing: 1
+2020/05/05-10:34:04.670038 b58                         Options.paranoid_checks: 1
+2020/05/05-10:34:04.670059 b58                                     Options.env: 00000280AC5C3B70
+2020/05/05-10:34:04.670218 b58                                Options.info_log: 00000280AD5D5010
+2020/05/05-10:34:04.670237 b58                Options.max_file_opening_threads: 16
+2020/05/05-10:34:04.670247 b58                              Options.statistics: 0000000000000000
+2020/05/05-10:34:04.670256 b58                               Options.use_fsync: 0
+2020/05/05-10:34:04.670266 b58                       Options.max_log_file_size: 0
+2020/05/05-10:34:04.670281 b58                  Options.max_manifest_file_size: 1073741824
+2020/05/05-10:34:04.670290 b58                   Options.log_file_time_to_roll: 0
+2020/05/05-10:34:04.670299 b58                       Options.keep_log_file_num: 1000
+2020/05/05-10:34:04.670309 b58                    Options.recycle_log_file_num: 0
+2020/05/05-10:34:04.670320 b58                         Options.allow_fallocate: 1
+2020/05/05-10:34:04.670329 b58                        Options.allow_mmap_reads: 0
+2020/05/05-10:34:04.670338 b58                       Options.allow_mmap_writes: 0
+2020/05/05-10:34:04.670348 b58                        Options.use_direct_reads: 0
+2020/05/05-10:34:04.670357 b58                        Options.use_direct_io_for_flush_and_compaction: 0
+2020/05/05-10:34:04.670367 b58          Options.create_missing_column_families: 0
+2020/05/05-10:34:04.670376 b58                              Options.db_log_dir: 
+2020/05/05-10:34:04.670386 b58                                 Options.wal_dir: src/main/DB/PageID_Links
+2020/05/05-10:34:04.670396 b58                Options.table_cache_numshardbits: 6
+2020/05/05-10:34:04.670407 b58                      Options.max_subcompactions: 1
+2020/05/05-10:34:04.670418 b58                  Options.max_background_flushes: -1
+2020/05/05-10:34:04.670428 b58                         Options.WAL_ttl_seconds: 0
+2020/05/05-10:34:04.670437 b58                       Options.WAL_size_limit_MB: 0
+2020/05/05-10:34:04.670446 b58             Options.manifest_preallocation_size: 4194304
+2020/05/05-10:34:04.670456 b58                     Options.is_fd_close_on_exec: 1
+2020/05/05-10:34:04.670466 b58                   Options.advise_random_on_open: 1
+2020/05/05-10:34:04.670475 b58                    Options.db_write_buffer_size: 0
+2020/05/05-10:34:04.670484 b58                    Options.write_buffer_manager: 00000280ACC61C10
+2020/05/05-10:34:04.670494 b58         Options.access_hint_on_compaction_start: 1
+2020/05/05-10:34:04.670504 b58  Options.new_table_reader_for_compaction_inputs: 0
+2020/05/05-10:34:04.670513 b58           Options.random_access_max_buffer_size: 1048576
+2020/05/05-10:34:04.670523 b58                      Options.use_adaptive_mutex: 0
+2020/05/05-10:34:04.670532 b58                            Options.rate_limiter: 0000000000000000
+2020/05/05-10:34:04.670542 b58     Options.sst_file_manager.rate_bytes_per_sec: 0
+2020/05/05-10:34:04.670552 b58                       Options.wal_recovery_mode: 2
+2020/05/05-10:34:04.670561 b58                  Options.enable_thread_tracking: 0
+2020/05/05-10:34:04.670571 b58                  Options.enable_pipelined_write: 0
+2020/05/05-10:34:04.670580 b58         Options.allow_concurrent_memtable_write: 1
+2020/05/05-10:34:04.670589 b58      Options.enable_write_thread_adaptive_yield: 1
+2020/05/05-10:34:04.670599 b58             Options.write_thread_max_yield_usec: 100
+2020/05/05-10:34:04.670649 b58            Options.write_thread_slow_yield_usec: 3
+2020/05/05-10:34:04.670659 b58                               Options.row_cache: None
+2020/05/05-10:34:04.670665 b58                              Options.wal_filter: None
+2020/05/05-10:34:04.670672 b58             Options.avoid_flush_during_recovery: 0
+2020/05/05-10:34:04.670678 b58             Options.allow_ingest_behind: 0
+2020/05/05-10:34:04.670684 b58             Options.preserve_deletes: 0
+2020/05/05-10:34:04.670690 b58             Options.two_write_queues: 0
+2020/05/05-10:34:04.670695 b58             Options.manual_wal_flush: 0
+2020/05/05-10:34:04.670701 b58             Options.max_background_jobs: 2
+2020/05/05-10:34:04.670707 b58             Options.max_background_compactions: -1
+2020/05/05-10:34:04.670713 b58             Options.avoid_flush_during_shutdown: 0
+2020/05/05-10:34:04.670719 b58           Options.writable_file_max_buffer_size: 1048576
+2020/05/05-10:34:04.670726 b58             Options.delayed_write_rate : 16777216
+2020/05/05-10:34:04.670732 b58             Options.max_total_wal_size: 0
+2020/05/05-10:34:04.670738 b58             Options.delete_obsolete_files_period_micros: 21600000000
+2020/05/05-10:34:04.670744 b58                   Options.stats_dump_period_sec: 600
+2020/05/05-10:34:04.670750 b58                          Options.max_open_files: -1
+2020/05/05-10:34:04.670756 b58                          Options.bytes_per_sync: 0
+2020/05/05-10:34:04.670762 b58                      Options.wal_bytes_per_sync: 0
+2020/05/05-10:34:04.670768 b58       Options.compaction_readahead_size: 0
+2020/05/05-10:34:04.670774 b58 Compression algorithms supported:
+2020/05/05-10:34:04.670781 b58 	kZSTD supported: 0
+2020/05/05-10:34:04.670787 b58 	kSnappyCompression supported: 0
+2020/05/05-10:34:04.670793 b58 	kBZip2Compression supported: 0
+2020/05/05-10:34:04.670798 b58 	kZlibCompression supported: 0
+2020/05/05-10:34:04.670804 b58 	kLZ4Compression supported: 0
+2020/05/05-10:34:04.670810 b58 	kXpressCompression supported: 0
+2020/05/05-10:34:04.670815 b58 	kLZ4HCCompression supported: 0
+2020/05/05-10:34:04.670821 b58 	kZSTDNotFinalCompression supported: 0
+2020/05/05-10:34:04.670830 b58 Fast CRC32 supported: Supported on x86
+2020/05/05-10:34:04.671424 b58 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:230] Creating manifest 1 
+2020/05/05-10:34:04.688362 b58 [c:\users\aretter\code\rocksdb\db\version_set.cc:3406] Recovering from manifest file: MANIFEST-000001
+2020/05/05-10:34:04.688794 b58 [c:\users\aretter\code\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2020/05/05-10:34:04.688813 b58               Options.comparator: leveldb.BytewiseComparator
+2020/05/05-10:34:04.688820 b58           Options.merge_operator: None
+2020/05/05-10:34:04.688826 b58        Options.compaction_filter: None
+2020/05/05-10:34:04.688832 b58        Options.compaction_filter_factory: None
+2020/05/05-10:34:04.688838 b58         Options.memtable_factory: SkipListFactory
+2020/05/05-10:34:04.688844 b58            Options.table_factory: BlockBasedTable
+2020/05/05-10:34:04.688890 b58            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000280ACAFBEF0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 00000280AD679120
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2020/05/05-10:34:04.688939 b58        Options.write_buffer_size: 67108864
+2020/05/05-10:34:04.688948 b58  Options.max_write_buffer_number: 2
+2020/05/05-10:34:04.688955 b58          Options.compression: NoCompression
+2020/05/05-10:34:04.688961 b58                  Options.bottommost_compression: Disabled
+2020/05/05-10:34:04.688967 b58       Options.prefix_extractor: nullptr
+2020/05/05-10:34:04.688973 b58   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2020/05/05-10:34:04.688979 b58             Options.num_levels: 7
+2020/05/05-10:34:04.688985 b58        Options.min_write_buffer_number_to_merge: 1
+2020/05/05-10:34:04.688991 b58     Options.max_write_buffer_number_to_maintain: 0
+2020/05/05-10:34:04.688997 b58            Options.bottommost_compression_opts.window_bits: -14
+2020/05/05-10:34:04.689004 b58                  Options.bottommost_compression_opts.level: 32767
+2020/05/05-10:34:04.689010 b58               Options.bottommost_compression_opts.strategy: 0
+2020/05/05-10:34:04.689016 b58         Options.bottommost_compression_opts.max_dict_bytes: 0
+2020/05/05-10:34:04.689023 b58         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2020/05/05-10:34:04.689029 b58                  Options.bottommost_compression_opts.enabled: false
+2020/05/05-10:34:04.689036 b58            Options.compression_opts.window_bits: -14
+2020/05/05-10:34:04.689042 b58                  Options.compression_opts.level: 32767
+2020/05/05-10:34:04.689048 b58               Options.compression_opts.strategy: 0
+2020/05/05-10:34:04.689054 b58         Options.compression_opts.max_dict_bytes: 0
+2020/05/05-10:34:04.689060 b58         Options.compression_opts.zstd_max_train_bytes: 0
+2020/05/05-10:34:04.689066 b58                  Options.compression_opts.enabled: false
+2020/05/05-10:34:04.689072 b58      Options.level0_file_num_compaction_trigger: 4
+2020/05/05-10:34:04.689079 b58          Options.level0_slowdown_writes_trigger: 20
+2020/05/05-10:34:04.689085 b58              Options.level0_stop_writes_trigger: 36
+2020/05/05-10:34:04.689091 b58                   Options.target_file_size_base: 67108864
+2020/05/05-10:34:04.689097 b58             Options.target_file_size_multiplier: 1
+2020/05/05-10:34:04.689103 b58                Options.max_bytes_for_level_base: 268435456
+2020/05/05-10:34:04.689109 b58 Options.level_compaction_dynamic_level_bytes: 0
+2020/05/05-10:34:04.689115 b58          Options.max_bytes_for_level_multiplier: 10.000000
+2020/05/05-10:34:04.689123 b58 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2020/05/05-10:34:04.689129 b58 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2020/05/05-10:34:04.689135 b58 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2020/05/05-10:34:04.689141 b58 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2020/05/05-10:34:04.689148 b58 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2020/05/05-10:34:04.689154 b58 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2020/05/05-10:34:04.689160 b58 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2020/05/05-10:34:04.689166 b58       Options.max_sequential_skip_in_iterations: 8
+2020/05/05-10:34:04.689172 b58                    Options.max_compaction_bytes: 1677721600
+2020/05/05-10:34:04.689178 b58                        Options.arena_block_size: 8388608
+2020/05/05-10:34:04.689185 b58   Options.soft_pending_compaction_bytes_limit: 68719476736
+2020/05/05-10:34:04.689191 b58   Options.hard_pending_compaction_bytes_limit: 274877906944
+2020/05/05-10:34:04.689197 b58       Options.rate_limit_delay_max_milliseconds: 100
+2020/05/05-10:34:04.689203 b58                Options.disable_auto_compactions: 0
+2020/05/05-10:34:04.689211 b58                        Options.compaction_style: kCompactionStyleLevel
+2020/05/05-10:34:04.689218 b58                          Options.compaction_pri: kByCompensatedSize
+2020/05/05-10:34:04.689224 b58 Options.compaction_options_universal.size_ratio: 1
+2020/05/05-10:34:04.689231 b58 Options.compaction_options_universal.min_merge_width: 2
+2020/05/05-10:34:04.689237 b58 Options.compaction_options_universal.max_merge_width: 4294967295
+2020/05/05-10:34:04.689244 b58 Options.compaction_options_universal.max_size_amplification_percent: 200
+2020/05/05-10:34:04.689252 b58 Options.compaction_options_universal.compression_size_percent: -1
+2020/05/05-10:34:04.689259 b58 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2020/05/05-10:34:04.689265 b58 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2020/05/05-10:34:04.689272 b58 Options.compaction_options_fifo.allow_compaction: 0
+2020/05/05-10:34:04.689278 b58 Options.compaction_options_fifo.ttl: 0
+2020/05/05-10:34:04.689284 b58                   Options.table_properties_collectors: 
+2020/05/05-10:34:04.689290 b58                   Options.inplace_update_support: 0
+2020/05/05-10:34:04.689296 b58                 Options.inplace_update_num_locks: 10000
+2020/05/05-10:34:04.689302 b58               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2020/05/05-10:34:04.689309 b58   Options.memtable_huge_page_size: 0
+2020/05/05-10:34:04.689315 b58                           Options.bloom_locality: 0
+2020/05/05-10:34:04.689321 b58                    Options.max_successive_merges: 0
+2020/05/05-10:34:04.689327 b58                Options.optimize_filters_for_hits: 0
+2020/05/05-10:34:04.689333 b58                Options.paranoid_file_checks: 0
+2020/05/05-10:34:04.689339 b58                Options.force_consistency_checks: 0
+2020/05/05-10:34:04.689345 b58                Options.report_bg_io_stats: 0
+2020/05/05-10:34:04.689351 b58                               Options.ttl: 0
+2020/05/05-10:34:04.691243 b58 [c:\users\aretter\code\rocksdb\db\version_set.cc:3610] Recovered from manifest file:src/main/DB/PageID_Links/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2020/05/05-10:34:04.691268 b58 [c:\users\aretter\code\rocksdb\db\version_set.cc:3618] Column family [default] (ID 0), log number is 0
+2020/05/05-10:34:04.699547 b58 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1287] DB pointer 00000280AD6FCAE0

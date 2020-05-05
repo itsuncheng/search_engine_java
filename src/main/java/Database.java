@@ -53,9 +53,8 @@ public class Database
         db.put(pageInfo.getPageID().getBytes(), content.getBytes());
     }
 
-    public void addLinks(PageInfo pageInfo) throws RocksDBException
+    public void addLinks(PageInfo pageInfo, Database page_ID_Bi) throws RocksDBException
     {
-        Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
         // change link to pageID
         // same type of link separated by , and child links and parent links are separated by a space
         String content = "";
@@ -71,12 +70,11 @@ public class Database
 
     }
 
-    public void addKeywordFreq(PageInfo pageInfo) throws RocksDBException
+    public void addKeywordFreq(PageInfo pageInfo, Database word_ID_Bi) throws RocksDBException
     {
         // change the keyword to wordID
         // keyword and its frequency are separated by ,
         // different set of keyword are separated by a space
-        Database word_ID_Bi = DbTypeEnum.getDbtypeEnum("Word_ID_Bi").getDatabase();
         String content = "";
         Map<String, Integer> keywordFreq = pageInfo.getKeywordFreq();
         for (String key : keywordFreq.keySet()) {
@@ -101,31 +99,29 @@ public class Database
         db.remove(key.getBytes());
     }
 
-    public static void printAll(RocksDB pageFile, RocksDB wordFile, RocksDB linkFile) throws RocksDBException
+    public static void printAll(RocksDB pageFile, RocksDB linkFile, RocksDB wordFile, Database word_ID_Bi, Database page_ID_Bi) throws RocksDBException
     {
 
         try {
-            Database word_ID_Bi = DbTypeEnum.getDbtypeEnum("Word_ID_Bi").getDatabase();
-            Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
             File file = new File("src/main/spider_result.txt");
             PrintWriter pw = new PrintWriter(file);
 
             RocksIterator iter = pageFile.newIterator();
             for(iter.seekToFirst(); iter.isValid(); iter.next()) {
                 String[] info = new String(iter.value()).split(",");
-                String output = "Page title: " + info[0] + "\nURL: " + new String(iter.key()) + "\nLast modification date: " + info[1]
+                String output = "Page title: " + info[0] + "\nURL: " + new String(page_ID_Bi.getDb().get(iter.key())) + "\nLast modification date: " + info[1]
                         + ", size of page: " + info[2] + "\n";
                 // words
-                String[] content = new String(wordFile.get(iter.key())).split(" ");
-                for (String s : content) {
+                String content = new String(wordFile.get(iter.key()));
+                for (String s : content.split(" ")) {
                     String[] key_value = s.split(",");
-                    output+= word_ID_Bi.IdBiConversion(key_value[0])+","+ key_value[1]+" ";
+                    output+= new String(word_ID_Bi.getDb().get(key_value[0].getBytes()))+","+ key_value[1]+" ";
                 }
                 output += "\n";
                 // children links
-                String[] links = new String(linkFile.get(iter.key())).split(" ");
-                for (String s : links[0].split(",")) {
-                    output += page_ID_Bi.IdBiConversion(s) + "\n";
+                String links = new String(linkFile.get(iter.key()));
+                for (String s : links.split(" ")[0].split(",")) {
+                    output += new String(page_ID_Bi.getDb().get(s.getBytes())) + "\n";
                 }
                 pw.write(output);
                 pw.write("-------------------------------------------------------------------------------------------" +
@@ -138,8 +134,7 @@ public class Database
 
     }
 
-    public boolean needUpdate(String URL, String lastModDay) throws RocksDBException{
-        Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
+    public boolean needUpdate(String URL, String lastModDay, Database page_ID_Bi) throws RocksDBException{
         String pageID = page_ID_Bi.IdBiConversion(URL);
         byte[] content = db.get(pageID.getBytes());
         if (content == null) return false;

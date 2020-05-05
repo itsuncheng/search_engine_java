@@ -1,0 +1,196 @@
+2020/05/05-12:29:12.430466 8a4 RocksDB version: 5.17.2
+2020/05/05-12:29:12.430574 8a4 Git sha rocksdb_build_git_sha:@f438b98e552010613cff8684a7d84191ed785148@
+2020/05/05-12:29:12.430607 8a4 Compile date Nov 27 2018
+2020/05/05-12:29:12.430628 8a4 DB SUMMARY
+2020/05/05-12:29:12.431637 8a4 CURRENT file:  CURRENT
+2020/05/05-12:29:12.431689 8a4 IDENTITY file:  IDENTITY
+2020/05/05-12:29:12.431804 8a4 MANIFEST file:  MANIFEST-000014 size: 86 Bytes
+2020/05/05-12:29:12.431838 8a4 SST files in src/main/DB/PageID_PageInfo dir, Total Num: 1, files: 000007.sst 
+2020/05/05-12:29:12.431870 8a4 Write Ahead Log file in src/main/DB/PageID_PageInfo: 000015.log size: 3126 ; 
+2020/05/05-12:29:12.431898 8a4                         Options.error_if_exists: 0
+2020/05/05-12:29:12.432757 8a4                       Options.create_if_missing: 1
+2020/05/05-12:29:12.432804 8a4                         Options.paranoid_checks: 1
+2020/05/05-12:29:12.432815 8a4                                     Options.env: 00000155320AB400
+2020/05/05-12:29:12.432828 8a4                                Options.info_log: 0000015532759EE0
+2020/05/05-12:29:12.432844 8a4                Options.max_file_opening_threads: 16
+2020/05/05-12:29:12.432853 8a4                              Options.statistics: 0000000000000000
+2020/05/05-12:29:12.432864 8a4                               Options.use_fsync: 0
+2020/05/05-12:29:12.432875 8a4                       Options.max_log_file_size: 0
+2020/05/05-12:29:12.432884 8a4                  Options.max_manifest_file_size: 1073741824
+2020/05/05-12:29:12.432893 8a4                   Options.log_file_time_to_roll: 0
+2020/05/05-12:29:12.432902 8a4                       Options.keep_log_file_num: 1000
+2020/05/05-12:29:12.432911 8a4                    Options.recycle_log_file_num: 0
+2020/05/05-12:29:12.432919 8a4                         Options.allow_fallocate: 1
+2020/05/05-12:29:12.432929 8a4                        Options.allow_mmap_reads: 0
+2020/05/05-12:29:12.432938 8a4                       Options.allow_mmap_writes: 0
+2020/05/05-12:29:12.432948 8a4                        Options.use_direct_reads: 0
+2020/05/05-12:29:12.432957 8a4                        Options.use_direct_io_for_flush_and_compaction: 0
+2020/05/05-12:29:12.432965 8a4          Options.create_missing_column_families: 0
+2020/05/05-12:29:12.432974 8a4                              Options.db_log_dir: 
+2020/05/05-12:29:12.432983 8a4                                 Options.wal_dir: src/main/DB/PageID_PageInfo
+2020/05/05-12:29:12.432993 8a4                Options.table_cache_numshardbits: 6
+2020/05/05-12:29:12.433003 8a4                      Options.max_subcompactions: 1
+2020/05/05-12:29:12.433013 8a4                  Options.max_background_flushes: -1
+2020/05/05-12:29:12.433023 8a4                         Options.WAL_ttl_seconds: 0
+2020/05/05-12:29:12.433032 8a4                       Options.WAL_size_limit_MB: 0
+2020/05/05-12:29:12.433041 8a4             Options.manifest_preallocation_size: 4194304
+2020/05/05-12:29:12.433051 8a4                     Options.is_fd_close_on_exec: 1
+2020/05/05-12:29:12.433060 8a4                   Options.advise_random_on_open: 1
+2020/05/05-12:29:12.433070 8a4                    Options.db_write_buffer_size: 0
+2020/05/05-12:29:12.433082 8a4                    Options.write_buffer_manager: 00000155328068B0
+2020/05/05-12:29:12.433093 8a4         Options.access_hint_on_compaction_start: 1
+2020/05/05-12:29:12.433103 8a4  Options.new_table_reader_for_compaction_inputs: 0
+2020/05/05-12:29:12.433114 8a4           Options.random_access_max_buffer_size: 1048576
+2020/05/05-12:29:12.433124 8a4                      Options.use_adaptive_mutex: 0
+2020/05/05-12:29:12.433134 8a4                            Options.rate_limiter: 0000000000000000
+2020/05/05-12:29:12.433146 8a4     Options.sst_file_manager.rate_bytes_per_sec: 0
+2020/05/05-12:29:12.433156 8a4                       Options.wal_recovery_mode: 2
+2020/05/05-12:29:12.433168 8a4                  Options.enable_thread_tracking: 0
+2020/05/05-12:29:12.433176 8a4                  Options.enable_pipelined_write: 0
+2020/05/05-12:29:12.433186 8a4         Options.allow_concurrent_memtable_write: 1
+2020/05/05-12:29:12.433274 8a4      Options.enable_write_thread_adaptive_yield: 1
+2020/05/05-12:29:12.433293 8a4             Options.write_thread_max_yield_usec: 100
+2020/05/05-12:29:12.433303 8a4            Options.write_thread_slow_yield_usec: 3
+2020/05/05-12:29:12.433311 8a4                               Options.row_cache: None
+2020/05/05-12:29:12.433321 8a4                              Options.wal_filter: None
+2020/05/05-12:29:12.433331 8a4             Options.avoid_flush_during_recovery: 0
+2020/05/05-12:29:12.433340 8a4             Options.allow_ingest_behind: 0
+2020/05/05-12:29:12.433349 8a4             Options.preserve_deletes: 0
+2020/05/05-12:29:12.433357 8a4             Options.two_write_queues: 0
+2020/05/05-12:29:12.433366 8a4             Options.manual_wal_flush: 0
+2020/05/05-12:29:12.433376 8a4             Options.max_background_jobs: 2
+2020/05/05-12:29:12.433385 8a4             Options.max_background_compactions: -1
+2020/05/05-12:29:12.433395 8a4             Options.avoid_flush_during_shutdown: 0
+2020/05/05-12:29:12.433405 8a4           Options.writable_file_max_buffer_size: 1048576
+2020/05/05-12:29:12.433414 8a4             Options.delayed_write_rate : 16777216
+2020/05/05-12:29:12.433422 8a4             Options.max_total_wal_size: 0
+2020/05/05-12:29:12.433432 8a4             Options.delete_obsolete_files_period_micros: 21600000000
+2020/05/05-12:29:12.433451 8a4                   Options.stats_dump_period_sec: 600
+2020/05/05-12:29:12.433460 8a4                          Options.max_open_files: -1
+2020/05/05-12:29:12.433469 8a4                          Options.bytes_per_sync: 0
+2020/05/05-12:29:12.433478 8a4                      Options.wal_bytes_per_sync: 0
+2020/05/05-12:29:12.433488 8a4       Options.compaction_readahead_size: 0
+2020/05/05-12:29:12.433498 8a4 Compression algorithms supported:
+2020/05/05-12:29:12.433508 8a4 	kZSTD supported: 0
+2020/05/05-12:29:12.433519 8a4 	kSnappyCompression supported: 0
+2020/05/05-12:29:12.433529 8a4 	kBZip2Compression supported: 0
+2020/05/05-12:29:12.433540 8a4 	kZlibCompression supported: 0
+2020/05/05-12:29:12.433548 8a4 	kLZ4Compression supported: 0
+2020/05/05-12:29:12.433557 8a4 	kXpressCompression supported: 0
+2020/05/05-12:29:12.433564 8a4 	kLZ4HCCompression supported: 0
+2020/05/05-12:29:12.433573 8a4 	kZSTDNotFinalCompression supported: 0
+2020/05/05-12:29:12.433591 8a4 Fast CRC32 supported: Supported on x86
+2020/05/05-12:29:12.502433 8a4 [c:\users\aretter\code\rocksdb\db\version_set.cc:3406] Recovering from manifest file: MANIFEST-000014
+2020/05/05-12:29:12.502626 8a4 [c:\users\aretter\code\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2020/05/05-12:29:12.502643 8a4               Options.comparator: leveldb.BytewiseComparator
+2020/05/05-12:29:12.502653 8a4           Options.merge_operator: None
+2020/05/05-12:29:12.502662 8a4        Options.compaction_filter: None
+2020/05/05-12:29:12.502670 8a4        Options.compaction_filter_factory: None
+2020/05/05-12:29:12.502680 8a4         Options.memtable_factory: SkipListFactory
+2020/05/05-12:29:12.502689 8a4            Options.table_factory: BlockBasedTable
+2020/05/05-12:29:12.502749 8a4            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000155327D26B0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000015532808EA0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2020/05/05-12:29:12.502915 8a4        Options.write_buffer_size: 67108864
+2020/05/05-12:29:12.502936 8a4  Options.max_write_buffer_number: 2
+2020/05/05-12:29:12.502947 8a4          Options.compression: NoCompression
+2020/05/05-12:29:12.502955 8a4                  Options.bottommost_compression: Disabled
+2020/05/05-12:29:12.502963 8a4       Options.prefix_extractor: nullptr
+2020/05/05-12:29:12.502972 8a4   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2020/05/05-12:29:12.502980 8a4             Options.num_levels: 7
+2020/05/05-12:29:12.502988 8a4        Options.min_write_buffer_number_to_merge: 1
+2020/05/05-12:29:12.502996 8a4     Options.max_write_buffer_number_to_maintain: 0
+2020/05/05-12:29:12.503004 8a4            Options.bottommost_compression_opts.window_bits: -14
+2020/05/05-12:29:12.503013 8a4                  Options.bottommost_compression_opts.level: 32767
+2020/05/05-12:29:12.503021 8a4               Options.bottommost_compression_opts.strategy: 0
+2020/05/05-12:29:12.503030 8a4         Options.bottommost_compression_opts.max_dict_bytes: 0
+2020/05/05-12:29:12.503039 8a4         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2020/05/05-12:29:12.503048 8a4                  Options.bottommost_compression_opts.enabled: false
+2020/05/05-12:29:12.503057 8a4            Options.compression_opts.window_bits: -14
+2020/05/05-12:29:12.503066 8a4                  Options.compression_opts.level: 32767
+2020/05/05-12:29:12.503075 8a4               Options.compression_opts.strategy: 0
+2020/05/05-12:29:12.503083 8a4         Options.compression_opts.max_dict_bytes: 0
+2020/05/05-12:29:12.503092 8a4         Options.compression_opts.zstd_max_train_bytes: 0
+2020/05/05-12:29:12.503101 8a4                  Options.compression_opts.enabled: false
+2020/05/05-12:29:12.503110 8a4      Options.level0_file_num_compaction_trigger: 4
+2020/05/05-12:29:12.503119 8a4          Options.level0_slowdown_writes_trigger: 20
+2020/05/05-12:29:12.503127 8a4              Options.level0_stop_writes_trigger: 36
+2020/05/05-12:29:12.503136 8a4                   Options.target_file_size_base: 67108864
+2020/05/05-12:29:12.503145 8a4             Options.target_file_size_multiplier: 1
+2020/05/05-12:29:12.503154 8a4                Options.max_bytes_for_level_base: 268435456
+2020/05/05-12:29:12.503163 8a4 Options.level_compaction_dynamic_level_bytes: 0
+2020/05/05-12:29:12.503172 8a4          Options.max_bytes_for_level_multiplier: 10.000000
+2020/05/05-12:29:12.503184 8a4 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2020/05/05-12:29:12.503193 8a4 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2020/05/05-12:29:12.503202 8a4 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2020/05/05-12:29:12.503210 8a4 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2020/05/05-12:29:12.503219 8a4 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2020/05/05-12:29:12.503227 8a4 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2020/05/05-12:29:12.503236 8a4 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2020/05/05-12:29:12.503247 8a4       Options.max_sequential_skip_in_iterations: 8
+2020/05/05-12:29:12.503508 8a4                    Options.max_compaction_bytes: 1677721600
+2020/05/05-12:29:12.503524 8a4                        Options.arena_block_size: 8388608
+2020/05/05-12:29:12.503534 8a4   Options.soft_pending_compaction_bytes_limit: 68719476736
+2020/05/05-12:29:12.503544 8a4   Options.hard_pending_compaction_bytes_limit: 274877906944
+2020/05/05-12:29:12.503554 8a4       Options.rate_limit_delay_max_milliseconds: 100
+2020/05/05-12:29:12.503564 8a4                Options.disable_auto_compactions: 0
+2020/05/05-12:29:12.503579 8a4                        Options.compaction_style: kCompactionStyleLevel
+2020/05/05-12:29:12.503590 8a4                          Options.compaction_pri: kByCompensatedSize
+2020/05/05-12:29:12.503600 8a4 Options.compaction_options_universal.size_ratio: 1
+2020/05/05-12:29:12.503609 8a4 Options.compaction_options_universal.min_merge_width: 2
+2020/05/05-12:29:12.503642 8a4 Options.compaction_options_universal.max_merge_width: 4294967295
+2020/05/05-12:29:12.503655 8a4 Options.compaction_options_universal.max_size_amplification_percent: 200
+2020/05/05-12:29:12.503665 8a4 Options.compaction_options_universal.compression_size_percent: -1
+2020/05/05-12:29:12.503675 8a4 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2020/05/05-12:29:12.503685 8a4 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2020/05/05-12:29:12.503694 8a4 Options.compaction_options_fifo.allow_compaction: 0
+2020/05/05-12:29:12.503704 8a4 Options.compaction_options_fifo.ttl: 0
+2020/05/05-12:29:12.503713 8a4                   Options.table_properties_collectors: 
+2020/05/05-12:29:12.503723 8a4                   Options.inplace_update_support: 0
+2020/05/05-12:29:12.503732 8a4                 Options.inplace_update_num_locks: 10000
+2020/05/05-12:29:12.503742 8a4               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2020/05/05-12:29:12.503753 8a4   Options.memtable_huge_page_size: 0
+2020/05/05-12:29:12.503762 8a4                           Options.bloom_locality: 0
+2020/05/05-12:29:12.503772 8a4                    Options.max_successive_merges: 0
+2020/05/05-12:29:12.503781 8a4                Options.optimize_filters_for_hits: 0
+2020/05/05-12:29:12.503790 8a4                Options.paranoid_file_checks: 0
+2020/05/05-12:29:12.503799 8a4                Options.force_consistency_checks: 0
+2020/05/05-12:29:12.503808 8a4                Options.report_bg_io_stats: 0
+2020/05/05-12:29:12.503818 8a4                               Options.ttl: 0
+2020/05/05-12:29:12.544777 8a4 [c:\users\aretter\code\rocksdb\db\version_set.cc:3610] Recovered from manifest file:src/main/DB/PageID_PageInfo/MANIFEST-000014 succeeded,manifest_file_number is 14, next_file_number is 16, last_sequence is 31, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2020/05/05-12:29:12.544816 8a4 [c:\users\aretter\code\rocksdb\db\version_set.cc:3618] Column family [default] (ID 0), log number is 13
+2020/05/05-12:29:12.545371 8a4 EVENT_LOG_v1 {"time_micros": 1588652952545332, "job": 1, "event": "recovery_started", "log_files": [15]}
+2020/05/05-12:29:12.545403 8a4 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:561] Recovering log #15 mode 2
+2020/05/05-12:29:12.554500 8a4 EVENT_LOG_v1 {"time_micros": 1588652952554460, "cf_name": "default", "job": 1, "event": "table_file_creation", "file_number": 16, "file_size": 3419, "table_properties": {"data_size": 2765, "index_size": 28, "filter_size": 0, "raw_key_size": 369, "raw_average_key_size": 11, "raw_value_size": 2297, "raw_average_value_size": 69, "num_data_blocks": 1, "num_entries": 33, "filter_policy_name": "", "kDeletedKeys": "2", "kMergeOperands": "0"}}
+2020/05/05-12:29:12.555058 8a4 [c:\users\aretter\code\rocksdb\db\version_set.cc:2936] Creating manifest 17
+2020/05/05-12:29:12.586686 8a4 EVENT_LOG_v1 {"time_micros": 1588652952586670, "job": 1, "event": "recovery_finished"}
+2020/05/05-12:29:12.659049 8a4 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1287] DB pointer 0000015532832230

@@ -1,4 +1,5 @@
 import org.htmlparser.util.ParserException;
+import org.rocksdb.RocksDB;
 import org.rocksdb.RocksDBException;
 
 import java.util.HashMap;
@@ -6,6 +7,15 @@ import java.util.Map;
 import java.util.Vector;
 
 public class Indexer {
+    public Database titleInvertedFile = new Database("src/main/DB/TitleInvertedFile");
+    public Database bodyInvertedFile = new Database("src/main/DB/BodyInvertedFile");
+    public Database word_ID_Bi = new Database("src/main/DB/Word_ID_Bi");
+    public Database page_ID_Bi = new Database("src/main/DB/Page_ID_Bi");
+    public Database pageID_PageInfo = new Database("src/main/DB/PageID_PageInfo");
+    public Database pageID_Links = new Database("src/main/DB/PageID_Links");
+    public Database forwardIndex = new Database("src/main/DB/ForwardIndex");
+
+
     private Crawler crawler;
     private StopStem stopStem;
     private Vector<String> visited;
@@ -33,10 +43,9 @@ public class Indexer {
 
     private void BFS(String rootURL, int numOfPage){
         try{
-            Database pageID_PageInfo = DbTypeEnum.getDbtypeEnum("PageID_PageInfo").getDatabase();
             // index first root url first
             String firstInWaitlist = rootURL;
-            if(pageID_PageInfo.needUpdate(firstInWaitlist, crawler.getLastModDay())){
+            if(pageID_PageInfo.needUpdate(firstInWaitlist, crawler.getLastModDay(), page_ID_Bi)){
                 pageID_PageInfo.delEntry(firstInWaitlist);
             }
             visited.add(firstInWaitlist);
@@ -58,7 +67,7 @@ public class Indexer {
                 }
                 //update db
                 crawler = new Crawler(firstInWaitlist);
-                if(pageID_PageInfo.needUpdate(firstInWaitlist, crawler.getLastModDay())){
+                if(pageID_PageInfo.needUpdate(firstInWaitlist, crawler.getLastModDay(), page_ID_Bi)){
                     pageID_PageInfo.delEntry(firstInWaitlist);
                 }
                 //successful extract information from a link
@@ -80,13 +89,6 @@ public class Indexer {
 
     public void indexing(String URL, Vector<String> childLink){
         try{
-            Database titleInvertedFile = DbTypeEnum.getDbtypeEnum("TitleInvertedFile").getDatabase();
-            Database bodyInvertedFile = DbTypeEnum.getDbtypeEnum("BodyInvertedFile").getDatabase();
-            Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
-            Database pageID_PageInfo = DbTypeEnum.getDbtypeEnum("PageID_PageInfo").getDatabase();
-            Database pageID_Links = DbTypeEnum.getDbtypeEnum("PageID_Links").getDatabase();
-            Database forwardIndex = DbTypeEnum.getDbtypeEnum("ForwardIndex").getDatabase();
-
             // initialize page information data structure
             String title = crawler.getPageTitle();
             String pageID = page_ID_Bi.IdBiConversion(URL);
@@ -101,8 +103,8 @@ public class Indexer {
             // add body words to database
             indexWord(pageID, crawler.getPageBody(), bodyInvertedFile, pageInfo);
             pageID_PageInfo.addBasicPageInfo(pageInfo);
-            pageID_Links.addLinks(pageInfo);
-            forwardIndex.addKeywordFreq(pageInfo);
+            pageID_Links.addLinks(pageInfo, page_ID_Bi);
+            forwardIndex.addKeywordFreq(pageInfo, word_ID_Bi);
             pages.add(pageInfo);
 
         }catch(ParserException pe){
@@ -113,7 +115,6 @@ public class Indexer {
     }
     // index word and add keyword to pageInfo
     public void indexWord(String pageID, String words, Database dbfile, PageInfo pageInfo) throws RocksDBException {
-        Database word_ID_Bi = DbTypeEnum.getDbtypeEnum("Word_ID_Bi").getDatabase();
         String[] wordList = words.trim().split(" ");
         String result;
         for (int i = 0; i < wordList.length; i++) {
@@ -146,11 +147,7 @@ public class Indexer {
     public static void main(String[] args) {
         try{
             Indexer in = new Indexer("http://www.cse.ust.hk", 30);
-            Database pageID_PageInfo = new Database("src/main/DB/PageID_PageInfo");
-            Database pageID_Links = new Database("src/main/DB/PageID_Links");
-            Database forwardIndex = new Database("src/main/DB/ForwardIndex");
-
-            Database.printAll(pageID_PageInfo.getDb(), pageID_Links.getDb(), forwardIndex.getDb());
+            Database.printAll(in.pageID_PageInfo.getDb(), in.pageID_Links.getDb(), in.forwardIndex.getDb(), in.word_ID_Bi, in.page_ID_Bi);
         }catch (RocksDBException re){
             re.printStackTrace();
         }
