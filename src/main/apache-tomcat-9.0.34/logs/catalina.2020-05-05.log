@@ -354,3 +354,43 @@
 05-May-2020 18:24:44.015 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 05-May-2020 18:24:44.040 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 05-May-2020 18:24:44.043 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-May-2020 18:27:37.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.34
+05-May-2020 18:27:37.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2020 12:02:52 UTC
+05-May-2020 18:27:37.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.34.0
+05-May-2020 18:27:37.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-May-2020 18:27:37.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+05-May-2020 18:27:37.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-May-2020 18:27:37.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home
+05-May-2020 18:27:37.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.1+13-LTS
+05-May-2020 18:27:37.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-May-2020 18:27:37.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34
+05-May-2020 18:27:37.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34
+05-May-2020 18:27:37.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-May-2020 18:27:37.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-May-2020 18:27:37.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-May-2020 18:27:37.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34/conf/logging.properties
+05-May-2020 18:27:37.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2020 18:27:37.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2020 18:27:37.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2020 18:27:37.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2020 18:27:37.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-May-2020 18:27:37.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34
+05-May-2020 18:27:37.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34
+05-May-2020 18:27:37.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34/temp
+05-May-2020 18:27:37.242 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/raymondcheng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-May-2020 18:27:37.505 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-May-2020 18:27:37.536 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [494] milliseconds
+05-May-2020 18:27:37.576 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-May-2020 18:27:37.576 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.34]
+05-May-2020 18:27:37.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34/webapps/docs]
+05-May-2020 18:27:37.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34/webapps/docs] has finished in [208] ms
+05-May-2020 18:27:37.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34/webapps/manager]
+05-May-2020 18:27:37.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34/webapps/manager] has finished in [33] ms
+05-May-2020 18:27:37.827 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34/webapps/examples]
+05-May-2020 18:27:38.039 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34/webapps/examples] has finished in [213] ms
+05-May-2020 18:27:38.039 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34/webapps/ROOT]
+05-May-2020 18:27:38.063 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34/webapps/ROOT] has finished in [24] ms
+05-May-2020 18:27:38.063 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34/webapps/host-manager]
+05-May-2020 18:27:38.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/raymondcheng/Documents/HKUST/Year 2/2020 Spring/COMP 4321/Project/COMP4321_project/src/main/apache-tomcat-9.0.34/webapps/host-manager] has finished in [19] ms
+05-May-2020 18:27:38.088 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-May-2020 18:27:38.096 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [560] milliseconds
