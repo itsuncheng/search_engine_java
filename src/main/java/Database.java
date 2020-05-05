@@ -117,7 +117,7 @@ public class Database
     /**
      * record pageID and position y in order to perform phase search
      * @param wordID the word id started from 1
-     * @param pageID the word id started from 1
+     * @param pageID the page id started from 1
      * @param y the position of a word in a page after stemming
      * @throws RocksDBException
      */
@@ -127,7 +127,16 @@ public class Database
         if (content == null) {
             content = (pageID + "," + y).getBytes();
         } else {
-            content = (new String(content) + " " + pageID + "," + y).getBytes();
+            String value = new String(content);
+            if (value.contains(" "+pageID+",")) {// check contain page id or not
+                for (String s : value.split(" ")) {
+                    if (s.startsWith(pageID)) {
+                        value.replace(s,s+","+y); //add position directly after origin word id and its position
+                        content = value.getBytes();
+                    }
+                }
+            }else
+                content = (value + " " + pageID + "," + y).getBytes();// directly add
         }
         db.put(wordID.getBytes(), content);
     }
