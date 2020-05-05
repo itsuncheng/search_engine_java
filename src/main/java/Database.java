@@ -142,6 +142,25 @@ public class Database
     }
 
     /**
+     * Delete a page id from
+     * @param pageID page id to be deleted
+     */
+    public void deletePageIDForWord(String pageID){
+        RocksIterator iter = db.newIterator();
+        String value;
+        for(iter.seekToFirst(); iter.isValid(); iter.next()) {
+            value = new String(iter.value());
+            if (value.contains(" "+pageID+",")) {
+                for (String s : value.split(" ")) {
+                    if (s.startsWith(pageID)) {
+                        value.replace(" "+s,""); //delete the page id segment
+                    }
+                }
+            }
+        }
+    }
+
+    /**
      * Delete the data with a specific key
      * @param key the key want to delete
      * @throws RocksDBException

@@ -51,8 +51,8 @@ public class Indexer {
             // index first root url first
             String firstInWaitlist = rootURL;
             if(pageID_PageInfo.needUpdate(firstInWaitlist, crawler.getLastModDay(), page_ID_Bi)){
-                pageID_PageInfo.delEntry(firstInWaitlist);
-
+                String pageID = page_ID_Bi.IdBiConversion(firstInWaitlist);
+                deleteIndex(pageID);
             }
             visited.add(firstInWaitlist);
             Vector<String> childLink = crawler.extractLinks();
@@ -74,7 +74,8 @@ public class Indexer {
                 //update db
                 crawler = new Crawler(firstInWaitlist);
                 if(pageID_PageInfo.needUpdate(firstInWaitlist, crawler.getLastModDay(), page_ID_Bi)){
-                    pageID_PageInfo.delEntry(firstInWaitlist);
+                    String pageID = page_ID_Bi.IdBiConversion(firstInWaitlist);
+                    deleteIndex(pageID);
                 }
                 //successful extract information from a link
                 childLink = crawler.extractLinks();
@@ -161,8 +162,12 @@ public class Indexer {
      * Delete the page id (key) which want to update
      * @param pageID the page id to be delete
      */
-    public void deleteIndex(String pageID){
-
+    public void deleteIndex(String pageID) throws RocksDBException{
+        DbTypeEnum.getDbtypeEnum("ForwardIndex").getDatabase().delEntry(pageID);
+        Database titleInvertedFile = DbTypeEnum.getDbtypeEnum("TitleInvertedFile").getDatabase();
+        Database bodyInvertedFile = DbTypeEnum.getDbtypeEnum("BodyInvertedFile").getDatabase();
+        titleInvertedFile.deletePageIDForWord(pageID);
+        bodyInvertedFile.deletePageIDForWord(pageID);
     }
 
     /**
