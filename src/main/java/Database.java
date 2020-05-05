@@ -203,27 +203,34 @@ public class Database
             File file = new File("src/main/spider_result.txt");
             PrintWriter pw = new PrintWriter(file);
 
-            RocksIterator iter = pageID_PageInfo.getDb().newIterator();
+            RocksIterator iter = pageID_PageInfo.db.newIterator();
             for(iter.seekToFirst(); iter.isValid(); iter.next()) {
                 String[] info = new String(iter.value()).split(",");
-                String output = "Page title: " + info[0] + "\nURL: " + new String(page_ID_Bi.getDb().get(iter.key())) + "\nLast modification date: " + info[1]
+                String output = "Page title: " + info[0] + "\nURL: " + new String(page_ID_Bi.db.get(iter.key())) + "\nLast modification date: " + info[1]
                         + ", size of page: " + info[2] + "\n";
                 // words
-                String content = new String(forwardIndex.getDb().get(iter.key()));
-                for (String s : content.split(" ")) {
-                    String[] key_value = s.split(",");
-                    output+= new String(word_ID_Bi.getDb().get(key_value[0].getBytes()))+","+ key_value[1]+" ";
-                }
+//                String content = new String(forwardIndex.db.get(iter.key()));
+//                for (String s : content.split(" ")) {
+//                    String[] key_value = s.split(",");
+//                    output+= new String(word_ID_Bi.db.get(key_value[0].getBytes()))+","+ key_value[1]+" ";
+//                }
+                String result = Database.getTopN_keyword(new String(page_ID_Bi.db.get(iter.key())),10);
+                output += result;
                 output += "\n";
                 // children links
-                String links = new String(pageID_Links.getDb().get(iter.key()));
+                String links = new String(pageID_Links.db.get(iter.key()));
                 for (String s : links.split(" ")[0].split(",")) {
-                    output += new String(page_ID_Bi.getDb().get(s.getBytes())) + "\n";
+                    output += new String(page_ID_Bi.db.get(s.getBytes())) + "\n";
                 }
                 pw.write(output);
                 pw.write("-------------------------------------------------------------------------------------------" +
                         "--------------------------------------------\n");
             }
+            Vector<String> stemKeyword = Database.getStemKeyword();
+            for (String s : stemKeyword) {
+                pw.write(s+"\t");
+            }
+            pw.write("\n");
             pw.close();
         }catch (IOException ie){
             ie.printStackTrace();
@@ -232,10 +239,69 @@ public class Database
     }
 
     /**
-     * @return the rocksdb object
+     * Get the stored stemmed keyword
+     * @return the stored stemmed keyword
      */
-    public RocksDB getDb(){
-        return db;
+    public static Vector<String> getStemKeyword(){
+        Database word_ID_Bi = DbTypeEnum.getDbtypeEnum("Word_ID_Bi").getDatabase();
+        Vector<String> stringVector = new Vector<String>();
+        try {
+            int numOfKeyword = Integer.parseInt(new String(word_ID_Bi.db.get("#".getBytes())));
+            for (int i = 0; i < numOfKeyword; i++) {
+                stringVector.add(new String(word_ID_Bi.db.get(String.valueOf(i).getBytes())));
+            }
+        }catch (RocksDBException re){
+            re.printStackTrace();
+        }
+        return stringVector;
     }
 
+    /**
+     * Get the top N of the most frequency keyword
+     * @param url the url based on
+     * @param num the number of most frequency keyword (order matter -> same frequency then choose early meet)
+     * @return string with format "keyword1,frewuency1 keyword2 frequency2 ..."
+     */
+    public static String getTopN_keyword(String url, int num){
+        Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
+        Database forwardIndex = DbTypeEnum.getDbtypeEnum("ForwardIndex").getDatabase();
+        List<String> keywords = new ArrayList<String>();
+        // initial keyword's frequency to compare
+        List<Integer> freq = new ArrayList<Integer>();
+        for (int i = 0; i < num; i++) {
+            freq.add(0);
+        }
+        try {
+            byte[] pageID = page_ID_Bi.db.get(url.getBytes());
+            String content = new String(forwardIndex.db.get(pageID));
+            for (String s : content.split(" ")) {// use selection sort for top N
+                String[] key_freq = s.split(",");
+                for (int i = freq.size() - 1; i >= 0; i--) {
+                    if (Integer.parseInt(key_freq[1]) <= freq.get(i)) {
+                        if (i == freq.size() - 1) break;
+                        else{ // smaller than or equal to the frequency of keywords with index i
+                            keywords.add(i+1,key_freq[0]);
+                            keywords.remove(num); // keep max number of keywords be num
+                            freq.add(i+1,Integer.parseInt(key_freq[1]));
+                            freq.remove(num);// keep max number of keywords be num
+                        }
+                    }
+                    if (i == 0){ // largest frequency
+                        keywords.add(0,key_freq[0]);
+                        keywords.remove(num);// keep max number of keywords be num
+                        freq.add(0,Integer.parseInt(key_freq[1]));
+                        freq.remove(num);// keep max number of keywords be num
+                    }
+                }
+            }
+        }catch (RocksDBException re){
+            re.printStackTrace();
+        }
+        String result = "";
+        for (int i = 0; i < num; i++) {
+            result += keywords.get(i) + "," + freq.get(i)+" ";
+        }
+
+        return result;
+    }
 }
