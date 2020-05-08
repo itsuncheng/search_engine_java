@@ -1,6 +1,5 @@
 import java.util.Vector;
 import java.net.URL;
-
 import org.htmlparser.beans.StringBean;
 import org.htmlparser.NodeFilter;
 import org.htmlparser.Parser;
@@ -8,20 +7,24 @@ import org.htmlparser.filters.NodeClassFilter;
 import org.htmlparser.tags.TitleTag;
 import org.htmlparser.util.NodeList;
 import org.htmlparser.util.ParserException;
-import java.util.StringTokenizer;
 import java.util.regex.Pattern;
-
 import org.htmlparser.beans.LinkBean;
 
 
-
+/**
+ * A class used to crawl
+ */
 public class Crawler
 {
     private String url;
     private Parser parser;
 
-    //    private InvertedIndex index;
-    Crawler(String _url){
+
+    /**
+     * Constructor
+     * @param _url the url to be crawl
+     */
+    public Crawler(String _url){
         url = _url;
         try{
             parser = new Parser(url);
@@ -29,38 +32,13 @@ public class Crawler
             pe.printStackTrace();
         }
 
-
-//        try
-//        {
-//            // a static method that loads the RocksDB C++ library.
-//            RocksDB.loadLibrary();
-//            // modify the path to your database
-//            String path = "./spider_result.txt";
-//            index = new InvertedIndex(path);
-//        }
-//        catch(RocksDBException e)
-//        {
-//            System.err.println(e.toString());
-//        }
-
     }
-    public Vector<String> extractWords() throws ParserException
 
-    {
-        // extract words in url and return them
-        // use StringTokenizer to tokenize the result from StringBean
-        Vector<String> result = new Vector<String>();
-        StringBean bean = new StringBean();
-        bean.setURL(url);
-        bean.setLinks(false);
-        String contents = bean.getStrings();
-        StringTokenizer st = new StringTokenizer(contents);
-        while (st.hasMoreTokens()) {
-            result.add(st.nextToken());
-        }
-        return result;
-
-    }
+    /**
+     * Get all the links in specific page
+     * @return links in the page
+     * @throws ParserException
+     */
     public Vector<String> extractLinks() throws ParserException
 
     {
@@ -76,6 +54,11 @@ public class Crawler
 
     }
 
+    /**
+     * Get the page title (lower case)
+     * @return the page title
+     * @throws ParserException
+     */
     public String getPageTitle() throws ParserException
     {
         String result = null;
@@ -86,17 +69,27 @@ public class Crawler
         return result.toLowerCase();
     }
 
+    /**
+     * Get the page body content (lower case)
+     * @return the page body content
+     * @throws ParserException
+     */
     public String getPageBody() throws ParserException
     {
         StringBean bean = new StringBean();
         bean.setURL(url);
         bean.setLinks(false);
         String contents = bean.getStrings().substring(getPageTitle().length());
-        contents = Pattern.compile("[\\W\\d]").matcher(contents).replaceAll(" ");
-        contents = Pattern.compile("\\s+").matcher(contents).replaceAll(" ");
+        contents = Pattern.compile("[\\W\\d]").matcher(contents).replaceAll(" ");// eliminate the special char and number
+        contents = Pattern.compile("\\s+").matcher(contents).replaceAll(" ");// eliminate empty char
         return contents.toLowerCase();
     }
 
+    /**
+     * Get the last modified day
+     * @return the last modified day
+     * @throws ParserException
+     */
     public String getLastModDay() throws ParserException
     {
     	String lastMod = parser.getConnection().getHeaderField("last-modified");
@@ -106,6 +99,11 @@ public class Crawler
         return lastMod;
     }
 
+    /**
+     * Get the page size
+     * @return the size of page
+     * @throws ParserException
+     */
     public int getSizeOfPage() throws ParserException
     {
     	int size = parser.getConnection().getContentLength();
