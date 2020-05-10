@@ -1,3 +1,5 @@
+package code;
+
 import org.rocksdb.RocksDB;
 import org.rocksdb.Options;
 import org.rocksdb.RocksDBException;
@@ -303,5 +305,13 @@ public class Database
         }
 
         return result;
+    }
+
+    /**
+     * get the control of RocksDB
+     * @return the RocksDB
+     */
+    public RocksDB getDb() {
+        return db;
     }
 }

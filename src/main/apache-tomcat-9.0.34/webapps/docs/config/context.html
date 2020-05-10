@@ -1027,14 +1027,14 @@
   ...
   &lt;Resource name="jdbc/EmployeeDB" auth="Container"
             type="javax.sql.DataSource"
-     description="Employees Database for HR Applications"/&gt;
+     description="Employees code.Database for HR Applications"/&gt;
   ...
 &lt;/Context&gt;</code></pre></div>
 
     <p>This is equivalent to the inclusion of the following element in the
     web application deployment descriptor (<code>/WEB-INF/web.xml</code>):</p>
 <div class="codeBox"><pre><code>&lt;resource-ref&gt;
-  &lt;description&gt;Employees Database for HR Applications&lt;/description&gt;
+  &lt;description&gt;Employees code.Database for HR Applications&lt;/description&gt;
   &lt;res-ref-name&gt;jdbc/EmployeeDB&lt;/res-ref-name&gt;
   &lt;res-ref-type&gt;javax.sql.DataSource&lt;/res-ref-type&gt;
   &lt;res-auth&gt;Container&lt;/res-auth&gt;

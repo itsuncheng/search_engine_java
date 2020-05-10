@@ -1,3 +1,5 @@
+package code;
+
 import java.util.Vector;
 import java.net.URL;
 import org.htmlparser.beans.StringBean;
@@ -127,7 +129,7 @@ public class Crawler
         	System.out.println(crawler.getLastModDay());
         	System.out.println(crawler.getSizeOfPage());
 //            for (String link : crawler.extractLinks()) {
-//                crawler = new Crawler(link);
+//                crawler = new code.Crawler(link);
 //                System.out.println(crawler.getPageBody());
 //            }
 //            System.out.println(crawler.getLastModDay());

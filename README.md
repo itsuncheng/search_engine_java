@@ -2,6 +2,6 @@
 
 This Java project is managed by Maven so it's best to use a Maven to setup this project. It is preferred to use an IDE to make the execution process much easier.
 
-Once you setup the project, you can directly compile and execute the ``com.comp4321.dao.Indexer.java`` file. By running the test program ``com.comp4321.dao.Indexer.java``, you will build up the spider that can fetch the webpages which can then be indexed, and will also output the ``spider_result.txt`` from the saved files in the database.
+Once you setup the project, you can directly compile and execute the ``com.comp4321.dao.code.Indexer.java`` file. By running the test program ``com.comp4321.dao.code.Indexer.java``, you will build up the spider that can fetch the webpages which can then be indexed, and will also output the ``spider_result.txt`` from the saved files in the database.
 
-The ``com.comp4321.util.Crawler.java`` file contains the com.comp4321.util.Crawler class, a dependency for the com.comp4321.dao.Indexer class in ``com.comp4321.dao.Indexer.java``.
+The ``com.comp4321.util.code.Crawler.java`` file contains the com.comp4321.util.code.Crawler class, a dependency for the com.comp4321.dao.code.Indexer class in ``com.comp4321.dao.code.Indexer.java``.

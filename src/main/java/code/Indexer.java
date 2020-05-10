@@ -1,3 +1,5 @@
+package code;
+
 import org.htmlparser.util.ParserException;
 import org.rocksdb.RocksDBException;
 
