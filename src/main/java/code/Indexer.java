@@ -1,3 +1,5 @@
+package code;
+
 import org.htmlparser.util.ParserException;
 import org.rocksdb.RocksDBException;
 
@@ -31,12 +33,7 @@ public class Indexer {
         //crawling
         BFS(rootURL, numOfPage);
         //add parent link
-        for (PageInfo page : pages) {
-            String[] link = parentLinks.get(page.getUrl()).split(",");
-            for (String l : link) {
-                page.addParentLink(l);
-            }
-        }
+        addParentLink();
     }
 
     /**
@@ -123,7 +120,7 @@ public class Indexer {
             // add body words to database
             indexWord(pageID, crawler.getPageBody(), bodyInvertedFile, pageInfo);
             pageID_PageInfo.addBasicPageInfo(pageInfo);
-            pageID_Links.addLinks(pageInfo, page_ID_Bi);
+            pageID_Links.addLinks(pageInfo, page_ID_Bi,0);
             forwardIndex.addKeywordFreq(pageInfo, word_ID_Bi);
             pages.add(pageInfo);
 
@@ -187,6 +184,26 @@ public class Indexer {
                 }
                 parentLinks.put(cl,parentLink);
             }
+        }
+    }
+
+
+    /**
+     * Add parent link to related page in database
+     */
+    private void addParentLink(){
+        Database pageID_Links = DbTypeEnum.getDbtypeEnum("PageID_Links").getDatabase();
+        Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
+        try {
+            for (PageInfo page : pages) {
+                String[] link = parentLinks.get(page.getUrl()).split(",");
+                for (String l : link) {
+                    page.addParentLink(l);
+                }
+                pageID_Links.addLinks(page, page_ID_Bi,1);
+            }
+        }catch (RocksDBException re){
+            re.printStackTrace();
         }
     }
 

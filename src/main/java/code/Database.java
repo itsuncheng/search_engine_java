@@ -1,3 +1,5 @@
+package code;
+
 import org.rocksdb.RocksDB;
 import org.rocksdb.Options;
 import org.rocksdb.RocksDBException;
@@ -76,22 +78,27 @@ public class Database
      * Add links (including child link and parent link)
      * @param pageInfo the class with contain the basic page information
      * @param page_ID_Bi the database saved page and page id
+     * @param type if equals to 0 then add child links, if equals to 1 then add parent links
      * @throws RocksDBException
      */
-    public void addLinks(PageInfo pageInfo, Database page_ID_Bi) throws RocksDBException
+    public void addLinks(PageInfo pageInfo, Database page_ID_Bi, int type) throws RocksDBException
     {
         // change link to pageID
         // same type of link separated by , and child links and parent links are separated by a space
-        String content = "";
-        for (String s:pageInfo.getChildLink()){
-            content += page_ID_Bi.IdBiConversion(s)+",";
+        if(type == 0) {//add child links
+            String content = "";
+            for (String s : pageInfo.getChildLink()) {
+                content += page_ID_Bi.IdBiConversion(s) + ",";
+            }
+            content += " ";
         }
-        content+=" ";
-
-        for (String s : pageInfo.getParentLink()) {
-            content += page_ID_Bi.IdBiConversion(s)+",";
+        if (type == 1 ){//add parent links
+            String content = new String(page_ID_Bi.getDb().get(pageInfo.getPageID().getBytes()));
+            for (String s : pageInfo.getParentLink()) {
+                content += page_ID_Bi.IdBiConversion(s)+",";
+            }
+            db.put(pageInfo.getPageID().getBytes(), content.getBytes());
         }
-        db.put(pageInfo.getPageID().getBytes(), content.getBytes());
 
     }
 
@@ -281,16 +288,16 @@ public class Database
                         if (i == freq.size() - 1) break;
                         else{ // smaller than or equal to the frequency of keywords with index i
                             keywords.add(i+1,key_freq[0]);
-                            keywords.remove(num); // keep max number of keywords be num
+                            keywords.remove(num-1); // keep max number of keywords be num
                             freq.add(i+1,Integer.parseInt(key_freq[1]));
-                            freq.remove(num);// keep max number of keywords be num
+                            freq.remove(num-1);// keep max number of keywords be num
                         }
                     }
                     if (i == 0){ // largest frequency
                         keywords.add(0,key_freq[0]);
-                        keywords.remove(num);// keep max number of keywords be num
+                        keywords.remove(num-1);// keep max number of keywords be num
                         freq.add(0,Integer.parseInt(key_freq[1]));
-                        freq.remove(num);// keep max number of keywords be num
+                        freq.remove(num-1);// keep max number of keywords be num
                     }
                 }
             }
@@ -303,5 +310,13 @@ public class Database
         }
 
         return result;
+    }
+
+    /**
+     * get the control of RocksDB
+     * @return the RocksDB
+     */
+    public RocksDB getDb() {
+        return db;
     }
 }

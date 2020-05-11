@@ -2812,7 +2812,7 @@
         <mime-type>application/oda</mime-type>
     </mime-mapping>
     <mime-mapping>
-        <!-- OpenDocument Database -->
+        <!-- OpenDocument code.Database -->
         <extension>odb</extension>
         <mime-type>application/vnd.oasis.opendocument.database</mime-type>
     </mime-mapping>

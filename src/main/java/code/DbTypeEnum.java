@@ -1,3 +1,5 @@
+package code;
+
 /**
  * A enum class to manage databases
  */
