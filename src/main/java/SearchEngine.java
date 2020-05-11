@@ -467,15 +467,36 @@ public class SearchEngine {
      * @return pageInfo - a string contains page title, URL, last modification date and page size
      * @throws RocksDBException
      */
-    public static String pageId_to_pageInfo(String pageId) throws RocksDBException{
+    public static String pageId_to_pageInfo(String pageId, Double score) throws RocksDBException{
         // Database needed
-        Database pageID_PageInfo = DbTypeEnum.getDbtypeEnum("PageID_PageInfo").getDatabase();
         Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
+        Database word_ID_Bi = DbTypeEnum.getDbtypeEnum("Word_ID_Bi").getDatabase();
+        Database pageID_PageInfo = DbTypeEnum.getDbtypeEnum("PageID_PageInfo").getDatabase();
+        Database pageID_Links = DbTypeEnum.getDbtypeEnum("PageID_Links").getDatabase();
+        Database forwardIndex = DbTypeEnum.getDbtypeEnum("ForwardIndex").getDatabase();
 
         String content = new String(pageID_PageInfo.getDb().get(pageId.getBytes()));
         String[] info = content.split(",");
-        String output = "Page title: " + info[0] + "\nURL: " + new String(page_ID_Bi.getDb().get(pageId.getBytes())) + "\nLast modification date: " + info[1]
-                + " " + info[2] + " \nsize of page: " + info[3] + "\n";
+        String output = "Score: " + score.toString() + "\n" + "Page title: " + info[0] + "\nURL: " + new String(page_ID_Bi.getDb().get(pageId.getBytes())) + "\nLast modification date: " + info[1]
+                + " " + info[2] + ", size of page: " + info[3] + "\n";
+        // top N keywords
+        String result = Database.getTopN_keyword(new String(page_ID_Bi.getDb().get(pageId.getBytes())),10);
+        output += result;
+        output += "\n";
+
+        // parent links
+        output += "Parent links:\n";
+        String links = new String(pageID_Links.getDb().get(pageId.getBytes()));
+        for (String s : links.split(" ")[1].split(",")) {
+            output += new String(page_ID_Bi.getDb().get(s.getBytes())) + "\n";
+        }
+
+        // children links
+        output += "Children links:\n";
+        links = new String(pageID_Links.getDb().get(pageId.getBytes()));
+        for (String s : links.split(" ")[0].split(",")) {
+            output += new String(page_ID_Bi.getDb().get(s.getBytes())) + "\n";
+        }
         return output;
     }
 
