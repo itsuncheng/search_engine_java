@@ -412,13 +412,15 @@ public class SearchEngine {
             }
             else weightMap = phrase_search(t);
 
-            for(Map.Entry<String, Double> entry : weightMap.entrySet()){
-                String pageID = entry.getKey();
-                Double weight = sumWeightMap.get(pageID);
-                if(weight == null) weight = 0.0;
-                weight += entry.getValue();
-                //update sum up weight map
-                sumWeightMap.put(pageID, weight);
+            if(weightMap != null) {
+                for (Map.Entry<String, Double> entry : weightMap.entrySet()) {
+                    String pageID = entry.getKey();
+                    Double weight = sumWeightMap.get(pageID);
+                    if (weight == null) weight = 0.0;
+                    weight += entry.getValue();
+                    //update sum up weight map
+                    sumWeightMap.put(pageID, weight);
+                }
             }
         }
 
