@@ -207,7 +207,7 @@ public class Database
             for(iter.seekToFirst(); iter.isValid(); iter.next()) {
                 String[] info = new String(iter.value()).split(",");
                 String output = "Page title: " + info[0] + "\nURL: " + new String(page_ID_Bi.db.get(iter.key())) + "\nLast modification date: " + info[1]
-                        + ", size of page: " + info[2] + "\n";
+                        + " " + info[2] + ", size of page: " + info[3] + "\n";
                 // words
 //                String content = new String(forwardIndex.db.get(iter.key()));
 //                for (String s : content.split(" ")) {
