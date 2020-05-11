@@ -1,7 +1,8 @@
 Page title: department of computer science and engineering - hkust
 URL: http://www.cse.ust.hk
-Last modification date: Tue, size of page:  05 May 2020 13:39:33 GMT
-projects,2 videos,1 instagram,2 via,2 robot,2 enrichment,2 precipitation,2 music,2 graduate,2 recruiting,2 understanding,6 welcome,2 events,4 pinpoint,3 temporal,2 employers,2 models,2 apr,2 crowdsourcing,2 devices,2 preference,3 received,2 community,2 analysis,3 quality,2 kong,2 mission,2 reserved,2 xunlei,2 science,6 creating,2 reality,2 processing,2 programs,2 postgraduates,4 ahead,1 students,1 industry,4 hkust,16 departments,1 sep,2 st,2 set,2 bdi,2 jobs,1 visualizing,2 predictive,5 seekers,2 staff,4 medicine,2 kenneth,2 people,4 fast,2 june,1 partners,2 undergraduate,4 publications,3 thu,1 november,3 jun,2 joint,2 engagement,2 excellence,1 modulation,2 approximate,2 panoramic,3 developed,2 research,15 dr,4 faculty,7 analytics,2 view,3 school,2 contact,4 programming,2 wong,2 query,2 remedy,2 engineering,8 finding,5 nowcasting,2 mainland,1 users,3 assurance,2 vision,3 labs,2 blockchain,2 forge,2 updated,1 mood,2 destination,2 vehicles,2 privacy,2 placements,2 learning,12 augmented,3 life,1 intranet,1 common,2 human,2 postponed,2 news,7 sensing,2 practical,2 previous,1 securing,2 raymond,2 honorary,2 technology,4 forum,2 china,3 leung,2 vulnerabilities,2 realm,2 location,2 applications,4 career,2 copyright,2 software,3 fair,2 stepping,2 mon,2 april,4 forums,6 optimization,2 centers,2 outbreak,1 spatial,2 mapping,1 images,2 lives,2 testing,3 contract,3 admissions,2 facilitating,3 hong,2 tackling,2 city,2 teaching,1 local,2 smart,4 mention,2 overseas,2 alumni,10 computer,4 library,1 world,2 rights,2 map,1 chatbot,2 facebook,4 transformation,2 spatiotemporal,3 future,2 machine,6 fake,2 facilities,2 robo,3 quick,2 feb,2 covid,1 data,7 autonomous,2 serve,2 lab,2 synthesize,2 platforms,2 academic,1 links,2 sitemap,2 contest,2 workshop,2 profiles,1 towards,3 real,2 core,2 careers,2 professor,2 directions,1 spotlights,1 job,4 youtube,2 code,3 student,2 university,3 coda,3 generator,3 linkedin,2 simpler,2 network,2 computing,2 september,1 award,1 postgraduate,4 workshops,6 department,2 lawyer,3 february,2 sat,1 wechat,2 academics,3 follow,2 openings,2 cse,4 activities,2 pg,2 interaction,2 locations,2 undergraduates,2 
+Last modification date: Mon, size of page:  11 May 2020 09:39:39 GMT
+research,17 hkust,14 learning,12 alumni,10 engineering,8 faculty,7 news,7 data,7 understanding,6 science,6 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -41,46 +42,50 @@ https://www.cse.ust.hk/ug/admissions/
 https://www.cse.ust.hk/pg/admissions/
 https://www.cse.ust.hk/pg/admissions/recruiting/
 https://www.cse.ust.hk/pg/ourgraduates/
-https://www.techinasia.com/weseer-smarter-censorship-china
 http://epublish.ust.hk/cgi-bin/eng/story.php?id=96&amp;catid=97&amp;keycode=88b7aae0ae45ddb0e6e000ee2682721a&amp;token=17b43a00aeb0f8f8f08df16ae664909f
 https://pgnews.ust.hk/feb-2017-feature-stories-part-2
 https://www.chinadailyhk.com/articles/14/65/28/1541125674562.html?newsId=52460
 https://www.scmp.com/presented/business/topics/hkust-25th-anniversary/article/1884178/creating-predictive-future-big-data
+https://www.techinasia.com/weseer-smarter-censorship-china
 https://www.cse.ust.hk/#spotlight-slides
+https://www.cse.ust.hk/event/RTF2020/
 https://www.cse.ust.hk/event/BDICareerFair2020/
 https://www.cse.ust.hk/event/RIAF2020/
 https://calendar.ust.hk/events/local-programming-contest-2019
-https://www.cse.ust.hk/event/XunleiWorkshop2019/
 https://www.cse.ust.hk/News/events.html
 https://uce.ust.hk/web/teaching/award_2019.html
 https://seng.ust.hk/news/20200418/three-hkust-computer-science-engineering-alumni-forge-careers-overseas
 https://seng.ust.hk/news/20200402/autonomous-vehicles-developed-hkust-engineering-professor-serve-community-during
-https://www.cse.ust.hk/pg/research/projects/mxj/hri/
-https://www.cse.ust.hk/pg/research/projects/raywong/findyourfavorite/
-https://www.cse.ust.hk/pg/research/projects/horner/mmm/
-https://www.cse.ust.hk/pg/research/projects/charlesz/pinpoint/
-https://www.cse.ust.hk/pg/research/projects/scc/castle/
-https://www.cse.ust.hk/pg/research/projects/yqsong/robo-lawyer/
-https://www.cse.ust.hk/pg/research/projects/dyyeung/ml-ed/
-https://www.cse.ust.hk/pg/research/projects/cqf/lsi/
-https://www.cse.ust.hk/pg/research/projects/lzhang/aipano/
-https://www.cse.ust.hk/pg/research/projects/dyyeung/ml-hko/
-https://www.cse.ust.hk/pg/research/projects/yike/aqp/
-https://www.cse.ust.hk/pg/research/projects/gchan/lst/
-https://www.cse.ust.hk/pg/research/projects/kaichen/coda/
 https://www.cse.ust.hk/pg/research/projects/leichen/stc/
+https://www.cse.ust.hk/pg/research/projects/dyyeung/ml-ed/
+https://www.cse.ust.hk/pg/research/projects/horner/mmm/
+https://www.cse.ust.hk/pg/research/projects/lzhang/aipano/
+https://www.cse.ust.hk/pg/research/projects/kaichen/coda/
+https://www.cse.ust.hk/pg/research/projects/cqf/lsi/
+https://www.cse.ust.hk/pg/research/projects/gchan/lst/
+https://www.cse.ust.hk/pg/research/projects/dyyeung/ml-hko/
 https://www.cse.ust.hk/pg/research/projects/qianzh/sds/
+https://www.cse.ust.hk/pg/research/projects/mxj/hri/
+https://www.cse.ust.hk/pg/research/projects/charlesz/pinpoint/
+https://www.cse.ust.hk/pg/research/projects/yike/aqp/
+https://www.cse.ust.hk/pg/research/projects/scc/castle/
+https://www.cse.ust.hk/pg/research/projects/raywong/findyourfavorite/
+https://www.cse.ust.hk/pg/research/projects/yqsong/robo-lawyer/
 https://www.ust.hk/privacy-policy
 https://www.cse.ust.hk/admin/sitemap/
 https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+https://www.ust.hk/academics/list
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: cse intranet | hkust cse
 URL: https://www.cse.ust.hk/admin/intranet/
-Last modification date: Tue, size of page:  05 May 2020 13:41:33 GMT
-quick,1 copyright,2 projects,2 mail,1 asterisk,1 itsc,1 instagram,2 lab,1 research,8 required,1 faculty,5 enrichment,2 ug,1 guides,1 school,2 academic,1 graduate,2 contact,4 recruiting,2 centers,2 links,1 connection,1 welcome,2 events,2 sitemap,2 marked,1 employers,1 profiles,1 admissions,2 engineering,2 quality,2 kong,2 assurance,2 hong,2 vision,2 mission,2 system,2 directions,1 labs,2 reserved,2 outside,1 science,2 myportal,1 exchange,1 job,3 updated,1 youtube,2 note,1 postgraduates,3 access,2 university,3 policies,1 privacy,2 industry,1 placements,2 teaching,1 linkedin,2 life,1 network,1 intranet,6 alumni,3 computing,2 library,1 postgraduate,4 web,1 rights,2 hkust,6 departments,1 map,1 news,3 committee,1 jobs,1 facebook,2 seekers,1 academics,2 staff,3 technology,2 follow,2 people,2 openings,2 cs,2 schedule,1 fast,2 cse,7 partners,1 vpn,1 service,1 pg,3 undergraduates,1 facilities,2 webmail,1 user,2 outlook,1 facility,1 undergraduate,4 
+Last modification date: Mon, size of page:  11 May 2020 09:40:10 GMT
+research,8 cse,7 intranet,6 hkust,6 faculty,5 contact,4 postgraduate,4 undergraduate,4 job,3 postgraduates,3 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -136,11 +141,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: hkust engineering | hkust school of engineering
 URL: https://www.seng.ust.hk/
-Last modification date: Mon, size of page:  04 May 2020 08:02:35 GMT
-shyy,1 electronics,1 lun,1 numerous,1 recognized,1 videos,2 offer,1 contributions,3 energy,3 successfully,1 disinfectant,1 devised,1 impact,2 engineers,1 carriers,1 community,3 am,1 epitopes,1 advancement,1 chemical,3 reserved,2 science,10 greatly,1 dean,2 antimicrobial,1 hoi,1 robotics,3 virus,4 dollar,1 search,3 communications,3 systems,5 civil,2 hkust,30 term,2 departments,5 develops,2 innovation,2 chip,1 ambassadors,1 learn,13 awarded,1 ming,1 jobs,4 benefited,1 staff,4 food,1 taught,4 meet,3 days,1 information,4 quarantine,1 kwok,1 aging,3 aerospace,2 publications,2 screening,1 microelectronics,3 pandemic,2 developed,5 faculty,10 analytics,3 gary,1 contact,3 aspirations,1 prospective,3 info,1 richard,1 journey,1 ustransit,1 fuels,1 mainland,1 vision,3 candidates,1 materials,3 slaying,2 tackle,1 yeung,1 exchange,1 lasting,1 mountains,1 inbound,1 yue,2 title,6 directory,1 content,1 tang,1 society,3 related,1 provides,1 patrick,2 kyoto,1 identify,1 asia,1 ambit,1 label,1 versatile,1 tangible,1 home,2 forum,1 existing,1 environment,2 china,1 realm,1 comprehensive,1 ching,1 president,2 named,2 copyright,2 education,1 called,1 advanced,4 mechanical,2 division,3 centers,2 outbreak,2 easily,1 action,2 usually,1 passengers,1 period,1 fiber,1 surface,1 researchers,3 microbial,1 intelligence,4 hong,3 system,3 winner,1 field,2 schools,2 halting,1 messages,1 biological,3 sars,2 aid,1 champion,1 women,1 crystal,1 jr,1 skip,1 protection,2 air,2 subscription,1 sequences,1 matter,1 thinking,3 local,2 healthcare,3 library,2 world,1 recharge,1 rights,2 electronic,4 map,3 counseling,1 reaps,1 health,2 entrepreneurship,5 trigger,2 menu,2 multimedia,1 future,1 internship,1 improvements,1 shed,1 covid,15 fuel,1 recognition,1 main,1 autonomous,6 serve,1 photos,2 solution,3 academic,1 international,1 communication,2 sitemap,2 border,1 matthew,1 lau,2 cities,3 ideas,1 sustainability,4 rankings,4 professor,7 directions,1 inventions,3 scientists,1 submodule,2 minibus,1 student,2 footer,1 university,6 financial,1 media,5 units,1 lcd,1 semiconductors,1 effective,1 times,1 hetero,1 leadership,3 design,6 inventing,1 department,2 fight,2 highly,1 coating,3 immune,2 academics,2 coronavirus,1 mtpc,2 control,1 hksar,1 transport,1 exactly,1 compound,1 industrial,3 awards,3 strategic,3 led,4 fighting,2 bank,1 leveraging,1 press,2 promises,1 events,2 breaking,1 app,1 based,1 environmental,2 spray,2 distinguish,1 kong,3 secondary,1 mission,3 offering,1 creating,1 reality,1 sweeping,1 safeguard,1 cup,1 shared,1 integrative,2 students,6 global,3 industry,1 believe,1 battery,1 prize,2 kei,2 serving,1 shares,1 current,3 found,1 glance,2 ias,1 takes,1 email,1 genetic,1 detection,1 impacted,1 decision,3 amid,1 services,1 team,3 people,2 releases,2 automated,1 innovated,1 watch,2 inspire,1 undergraduate,4 optical,3 contacts,1 generations,1 offices,1 developing,1 enhancement,1 research,22 presentation,1 school,2 scholarships,1 liu,1 results,1 mckay,1 studying,1 campus,1 outreach,1 engineering,32 develop,2 bold,1 significant,1 sharing,1 elected,1 technologies,1 sing,1 support,1 speeding,1 figures,3 breakthrough,1 aspects,1 description,5 vehicles,2 admin,1 privacy,2 tirelessly,1 learning,1 video,1 updates,1 life,2 speed,1 smarter,1 lasers,1 wellness,1 organic,1 news,7 prestigious,1 overview,2 delivery,2 emitting,1 hours,1 wan,1 recently,1 technology,8 spraying,1 contamination,1 artificial,4 vaccine,2 silicon,2 disciplines,1 infrastructure,3 recipient,1 time,1 osa,2 fencing,2 milliseconds,1 abreast,1 reach,1 oled,2 competition,1 multi,1 holonyak,1 officials,1 connection,1 purifiers,2 teams,1 roads,1 reduced,1 imagination,1 light,3 diode,1 broadcast,1 study,9 signature,1 fever,2 range,1 teaching,1 trails,1 smart,6 vehicle,1 alumni,6 geo,2 nick,1 computer,8 blaze,1 wei,1 categories,1 rechargeable,2 explore,1 efficient,1 chair,1 display,3 centre,1 incremental,1 prof,10 agenda,1 fraction,1 help,3 highlights,2 evolving,1 liquid,3 fellow,2 exists,1 advancing,1 chan,1 travel,1 economic,1 levels,1 data,3 friendly,1 robots,2 fang,1 multidisciplinary,1 development,1 visible,1 king,1 minutes,1 profiles,2 continents,1 taskforce,1 efforts,2 ground,1 seng,8 epitaxy,1 microdisplays,1 disinfection,3 scientific,1 contribute,1 scale,1 integrated,1 east,1 award,1 postgraduate,8 public,2 car,1 billion,1 designed,3 applying,1 move,2 subscribe,1 electric,1 resources,2 follow,2 spread,1 response,3 front,1 
+Last modification date: Wed, size of page:  06 May 2020 03:30:32 GMT
+engineering,32 hkust,30 research,22 covid,15 learn,13 science,10 faculty,10 prof,10 study,9 technology,8 
+child links:
 https://seng.ust.hk/#main-content
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
@@ -239,11 +268,41 @@ https://www.facebook.com/hkustengineering
 https://www.instagram.com/hkustengineering
 https://www.linkedin.com/school/11966
 https://www.youtube.com/user/sengpr
+
+parent links:
+http://www.cse.ust.hk
+https://www.ust.hk/news
+https://www.ust.hk/academics/list
+https://www.ust.hk/lifehkust
+https://www.ust.hk/map-directions
+https://www.ust.hk/about-hkust
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.ust.hk/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: site search | hkust cse
 URL: https://www.cse.ust.hk/admin/search/
-Last modification date: Tue, size of page:  05 May 2020 13:42:17 GMT
-quick,1 copyright,2 projects,2 instagram,2 research,8 faculty,4 enrichment,2 school,2 academic,1 graduate,2 contact,4 recruiting,2 centers,2 links,1 welcome,2 events,2 sitemap,2 employers,1 profiles,1 admissions,2 engineering,2 quality,2 kong,2 assurance,2 hong,2 vision,2 mission,2 directions,1 labs,2 reserved,2 science,2 job,3 updated,1 youtube,2 postgraduates,3 university,3 privacy,2 industry,1 placements,2 linkedin,2 life,1 intranet,1 alumni,3 search,2 computing,2 library,1 postgraduate,4 rights,2 hkust,5 departments,1 map,1 news,3 jobs,1 facebook,2 seekers,1 academics,2 staff,3 technology,2 follow,2 people,2 openings,2 site,2 fast,2 cse,3 partners,1 pg,2 undergraduates,1 facilities,2 undergraduate,4 
+Last modification date: Mon, size of page:  11 May 2020 09:40:17 GMT
+research,8 hkust,5 faculty,4 contact,4 postgraduate,4 undergraduate,4 job,3 postgraduates,3 university,3 alumni,3 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -289,11 +348,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: home | the hong kong university of science and technology
 URL: https://www.ust.hk/
-Last modification date: Tue, size of page:  05 May 2020 13:42:22 GMT
-offer,2 graduate,5 understanding,1 bay,3 sorts,1 knowledge,10 gaining,1 promoting,2 neuroscience,2 impact,2 socializing,1 community,6 interdisciplinary,7 population,3 senior,2 cultural,1 advancement,2 reserved,2 science,16 myportal,2 institute,10 happening,2 nascent,1 amenities,1 sustainable,3 chapters,1 infinite,1 robotics,2 balanced,1 civic,1 minds,2 search,3 advertisements,1 humanities,5 systems,2 hkust,54 targeted,1 departments,4 close,1 foot,1 connect,1 policy,8 hand,1 innovation,3 short_end_month,1 website,2 hardships,1 business,5 sets,1 learn,2 endeavors,2 staff,2 trendence,1 meet,1 publicize,1 spin,1 exciting,1 information,6 quarantine,1 aging,3 sweet,1 novel,1 publications,2 addressing,4 evidence,1 collaborations,1 pandemic,1 faculty,4 fitness,4 scholarship,2 contact,2 club,5 creativity,1 info,3 educational,1 journey,1 benevolent,1 consent,1 mainland,1 profound,1 vision,2 materials,2 success,2 tackle,1 exchange,3 scholars,1 short_start_month,2 fok,5 visiting,2 applied,1 pursuits,1 directory,2 content,2 society,1 human,3 live,1 eng,2 living,5 practical,1 home,2 special,1 ying,5 gz,1 china,1 management,5 copyright,2 education,6 hk,1 breadth,1 fulfill,1 advanced,7 focus,4 nationalities,1 changing,1 approach,1 scholarly,2 aspire,2 guidelines,4 portal,2 businesses,1 sky,1 shape,1 cookie,1 researchers,3 understand,1 tomorrow,2 classroom,1 spearhead,1 hong,5 conservation,3 bringing,1 million,1 schools,2 employability,1 analyze,1 continuing,2 aid,2 breeding,2 wider,1 aim,1 skip,1 thinking,4 summer,2 world,10 library,2 top,2 encourage,1 rights,2 leisure,1 map,2 twenty,2 change,1 health,1 entrepreneurship,11 positive,2 opportunities,2 century,2 multimedia,2 discovery,1 future,1 facilities,2 governance,2 possibilities,1 covid,7 equally,1 main,1 office,7 autonomous,2 serve,2 insatiable,1 edge,1 solution,1 academic,9 ust,2 chronic,3 sitemap,2 traffic,1 frontiers,1 settings,1 read,1 principled,1 ideas,1 admission,2 sustainability,2 short_start_day,2 personalize,1 careers,1 rankings,3 rigorous,1 inventions,2 complexities,1 scientists,1 improve,1 nd,1 ideation,2 announcements,2 colorful,1 converging,1 student,9 university,10 financial,3 mental,1 media,3 times,1 leadership,2 design,2 short_end_day,1 row,1 physical,1 execution,2 sports,2 social,10 cross,1 academics,4 foremost,1 entrepreneurial,6 control,4 due,1 genomic,1 perspectives,1 activities,3 awards,2 harness,1 expanding,1 psychological,1 strategic,2 accessibility,2 maintain,1 taste,2 expertise,1 professional,2 skills,3 maximize,1 companies,1 breakthroughs,1 blending,1 brand,2 events,3 based,1 browsing,1 vibrant,1 qs,1 environmental,1 dining,1 exchanges,1 diseases,3 kong,5 accept,1 mission,3 envelope,1 unique,1 difference,1 volunteerism,1 programs,13 housing,2 participated,1 overcome,1 students,8 fundamental,1 global,16 giving,1 acquire,1 cookies,3 visionary,1 variety,1 actively,1 ias,5 multifaceted,1 arts,2 emerging,3 limits,1 key,1 apps,2 calendar,2 st,1 decision,1 amid,1 transportation,1 residential,1 th,1 ranking,1 technological,2 undergraduate,6 story,2 insurance,2 administration,2 research,20 awareness,1 school,25 continue,1 donate,1 sector,1 courses,4 unlock,1 campus,5 outreach,3 solutions,1 engineering,6 develop,4 secrets,1 forge,1 solve,3 region,1 support,1 figures,2 eventsvisitgivingalumnicareers,1 graduates,1 privacy,2 learning,2 surroundings,1 jockey,5 life,10 button,1 wellness,1 news,10 wide,1 apply,1 effectively,1 center,2 start,2 technology,7 lifestyle,4 manage,1 urban,2 fund,1 infrastructure,2 healthy,1 catering,1 time,2 milestones,2 applications,1 fencing,1 abreast,1 reach,1 confronting,1 entrepreneurs,1 program,4 issues,2 beyond,1 required,1 universities,2 faq,2 options,1 sight,1 plan,2 item,7 natural,3 lending,1 admissions,12 push,2 creative,1 innovative,2 provide,2 institutes,2 force,1 classrooms,1 study,6 smart,1 unknown,1 alumni,1 geo,1 lot,1 partnerships,3 web,2 clicking,1 explore,1 deepening,1 help,1 site,2 depth,1 evolving,1 discoveries,1 culture,2 cutting,1 economic,1 snail,1 door,1 data,2 guangzhou,2 leaders,3 fosters,1 experience,2 create,1 potential,1 connections,2 development,1 multidisciplinary,1 curiosity,1 crisis,1 goes,2 profiles,2 history,1 disciplinary,1 transfer,4 outside,1 ground,2 critical,2 challenges,6 unveil,1 scientific,1 contribute,1 affiliated,1 tung,5 textbooks,1 public,9 postgraduate,4 scaly,1 stories,2 resources,6 approaches,1 startups,1 follow,3 matters,1 build,2 administrative,2 visit,1 category,1 
+Last modification date: Mon, size of page:  11 May 2020 09:40:21 GMT
+hkust,41 school,25 research,19 global,16 science,15 programs,13 entrepreneurship,12 admissions,12 knowledge,10 institute,10 
+child links:
 https://www.ust.hk/#main-content
 https://www.ust.hk/#
 https://www.ust.hk/student
@@ -366,10 +449,10 @@ https://www.ust.hk/about/rankings
 https://www.ust.hk/senior-adm
 https://publications.ust.hk/HKUST-GUANGZHOU/
 https://www.ust.hk/news/institutional-advancement
+https://www.ust.hk/newsentrepreneurship/slash-career-alternate-path-success
+https://www.ust.hk/news/entrepreneurship
 https://w5.ab.ust.hk/jsdm/donation_form?projectId=N03
 https://www.ust.hk/news/announcements
-https://www.ust.hk/newsresearch-and-innovation/hkust-researchers-unlock-genomic-secrets-scaly-foot-snail
-https://www.ust.hk/news/research-and-innovation
 https://covid19info.ust.hk/
 https://www.ust.hk/taxonomy/term/3010
 https://www.ust.hk/vprd.ust.hk/Research-Focus/Advanced-Materials
@@ -420,19 +503,8 @@ https://sight.ust.hk/
 https://www.ust.hk/news/research-and-innovation/hkust-researchers-develop-smart-geo-fencing-technology-home-quarantine
 https://www.ust.hk/news/entrepreneurship/time-matters-volunteerism
 https://www.ust.hk/news/community-and-sustainability/sweet-solution-global-crisis
-https://www.ust.hk/news/entrepreneurship/hkust-sets-hk50-million-fund-support-startups
 https://calendar.ust.hk/
 https://www.ust.hk/global-connections
-https://www.instagram.com/p/B_mjZF_BVfz/
-https://www.instagram.com/p/B_j9o_DBjc4/
-https://www.instagram.com/p/B_VBx8XBWqI/
-https://www.instagram.com/p/B_MwtDmBvq-/
-https://www.instagram.com/p/B_FKGKrBi5G/
-https://www.instagram.com/p/B_CikPYh4lI/
-https://www.instagram.com/p/B-9SE2bB9kN/
-https://www.instagram.com/p/B-25i00hD0d/
-https://www.instagram.com/p/B-wZq46B1xp/
-https://www.instagram.com/p/B-t36iPhxv-/
 https://www.seng.ust.hk/
 http://www.bm.ust.hk
 http://www.ipo.ust.hk/en/home/
@@ -458,11 +530,42 @@ https://www.linkedin.com/school/hkust
 https://www.instagram.com/hkust/
 https://www.youtube.com/user/HKUST
 https://www.ust.hk/sites/default/files/menu_icons/IMG_5246.JPG
+
+parent links:
+http://www.cse.ust.hk
+https://www.ust.hk/news
+https://www.ust.hk/academics/list
+https://www.ust.hk/lifehkust
+https://library.ust.hk/
+https://www.ust.hk/map-directions
+https://www.ust.hk/about-hkust
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.ust.hk/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: department of computer science and engineering - hkust
 URL: https://www.cse.ust.hk/
-Last modification date: Tue, size of page:  05 May 2020 13:42:26 GMT
-projects,2 videos,1 instagram,2 via,2 robot,2 enrichment,2 precipitation,2 music,2 graduate,2 recruiting,2 understanding,6 welcome,2 events,4 pinpoint,3 temporal,2 employers,2 models,2 apr,2 crowdsourcing,2 devices,2 preference,3 received,2 community,2 analysis,3 quality,2 kong,2 mission,2 reserved,2 xunlei,2 science,6 creating,2 reality,2 processing,2 programs,2 postgraduates,4 ahead,1 students,1 industry,4 hkust,16 departments,1 sep,2 st,2 set,2 bdi,2 jobs,1 predictive,5 visualizing,2 seekers,2 staff,4 medicine,2 kenneth,2 people,4 fast,2 june,1 partners,2 undergraduate,4 publications,3 thu,1 november,3 jun,2 joint,2 engagement,2 excellence,1 modulation,2 approximate,2 panoramic,3 developed,2 research,15 dr,4 faculty,7 analytics,2 view,3 school,2 contact,4 programming,2 wong,2 query,2 remedy,2 engineering,8 finding,5 nowcasting,2 mainland,1 users,3 assurance,2 vision,3 labs,2 blockchain,2 forge,2 updated,1 mood,2 destination,2 vehicles,2 privacy,2 placements,2 learning,12 augmented,3 life,1 intranet,1 common,2 human,2 postponed,2 news,7 sensing,2 practical,2 previous,1 securing,2 raymond,2 honorary,2 technology,4 forum,2 china,3 leung,2 vulnerabilities,2 realm,2 location,2 applications,4 career,2 copyright,2 software,3 fair,2 stepping,2 mon,2 april,4 forums,6 optimization,2 centers,2 outbreak,1 spatial,2 mapping,1 images,2 lives,2 testing,3 contract,3 admissions,2 facilitating,3 hong,2 tackling,2 city,2 teaching,1 local,2 smart,4 mention,2 overseas,2 alumni,10 computer,4 library,1 world,2 rights,2 map,1 chatbot,2 facebook,4 transformation,2 spatiotemporal,3 future,2 machine,6 fake,2 facilities,2 robo,3 quick,2 feb,2 covid,1 data,7 autonomous,2 serve,2 lab,2 synthesize,2 platforms,2 academic,1 links,2 sitemap,2 contest,2 workshop,2 profiles,1 real,2 towards,3 core,2 careers,2 professor,2 directions,1 spotlights,1 job,4 youtube,2 code,3 student,2 university,3 coda,3 generator,3 linkedin,2 simpler,2 network,2 computing,2 september,1 award,1 postgraduate,4 workshops,6 department,2 lawyer,3 february,2 sat,1 wechat,2 academics,3 follow,2 openings,2 cse,4 activities,2 pg,2 interaction,2 locations,2 undergraduates,2 
+Last modification date: Mon, size of page:  11 May 2020 09:40:24 GMT
+research,17 hkust,14 learning,12 alumni,10 engineering,8 faculty,7 news,7 data,7 understanding,6 science,6 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -502,46 +605,70 @@ https://www.cse.ust.hk/ug/admissions/
 https://www.cse.ust.hk/pg/admissions/
 https://www.cse.ust.hk/pg/admissions/recruiting/
 https://www.cse.ust.hk/pg/ourgraduates/
-http://epublish.ust.hk/cgi-bin/eng/story.php?id=96&amp;catid=97&amp;keycode=88b7aae0ae45ddb0e6e000ee2682721a&amp;token=17b43a00aeb0f8f8f08df16ae664909f
-https://www.scmp.com/presented/business/topics/hkust-25th-anniversary/article/1884178/creating-predictive-future-big-data
 https://pgnews.ust.hk/feb-2017-feature-stories-part-2
+https://www.scmp.com/presented/business/topics/hkust-25th-anniversary/article/1884178/creating-predictive-future-big-data
+http://epublish.ust.hk/cgi-bin/eng/story.php?id=96&amp;catid=97&amp;keycode=88b7aae0ae45ddb0e6e000ee2682721a&amp;token=17b43a00aeb0f8f8f08df16ae664909f
 https://www.techinasia.com/weseer-smarter-censorship-china
 https://www.chinadailyhk.com/articles/14/65/28/1541125674562.html?newsId=52460
 https://www.cse.ust.hk/#spotlight-slides
+https://www.cse.ust.hk/event/RTF2020/
 https://www.cse.ust.hk/event/BDICareerFair2020/
 https://www.cse.ust.hk/event/RIAF2020/
 https://calendar.ust.hk/events/local-programming-contest-2019
-https://www.cse.ust.hk/event/XunleiWorkshop2019/
 https://www.cse.ust.hk/News/events.html
 https://uce.ust.hk/web/teaching/award_2019.html
 https://seng.ust.hk/news/20200418/three-hkust-computer-science-engineering-alumni-forge-careers-overseas
 https://seng.ust.hk/news/20200402/autonomous-vehicles-developed-hkust-engineering-professor-serve-community-during
+https://www.cse.ust.hk/pg/research/projects/dyyeung/ml-hko/
+https://www.cse.ust.hk/pg/research/projects/horner/mmm/
+https://www.cse.ust.hk/pg/research/projects/yike/aqp/
+https://www.cse.ust.hk/pg/research/projects/yqsong/robo-lawyer/
+https://www.cse.ust.hk/pg/research/projects/dyyeung/ml-ed/
+https://www.cse.ust.hk/pg/research/projects/kaichen/coda/
+https://www.cse.ust.hk/pg/research/projects/mxj/hri/
+https://www.cse.ust.hk/pg/research/projects/leichen/stc/
+https://www.cse.ust.hk/pg/research/projects/gchan/lst/
+https://www.cse.ust.hk/pg/research/projects/charlesz/pinpoint/
 https://www.cse.ust.hk/pg/research/projects/scc/castle/
 https://www.cse.ust.hk/pg/research/projects/lzhang/aipano/
-https://www.cse.ust.hk/pg/research/projects/leichen/stc/
-https://www.cse.ust.hk/pg/research/projects/yike/aqp/
-https://www.cse.ust.hk/pg/research/projects/cqf/lsi/
-https://www.cse.ust.hk/pg/research/projects/dyyeung/ml-hko/
-https://www.cse.ust.hk/pg/research/projects/yqsong/robo-lawyer/
 https://www.cse.ust.hk/pg/research/projects/qianzh/sds/
-https://www.cse.ust.hk/pg/research/projects/gchan/lst/
-https://www.cse.ust.hk/pg/research/projects/kaichen/coda/
-https://www.cse.ust.hk/pg/research/projects/horner/mmm/
-https://www.cse.ust.hk/pg/research/projects/charlesz/pinpoint/
-https://www.cse.ust.hk/pg/research/projects/dyyeung/ml-ed/
-https://www.cse.ust.hk/pg/research/projects/mxj/hri/
 https://www.cse.ust.hk/pg/research/projects/raywong/findyourfavorite/
+https://www.cse.ust.hk/pg/research/projects/cqf/lsi/
 https://www.ust.hk/privacy-policy
 https://www.cse.ust.hk/admin/sitemap/
 https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: department of computer science and engineering - hkust
 URL: https://www.cse.ust.hk/#
-Last modification date: Tue, size of page:  05 May 2020 13:42:29 GMT
-projects,2 videos,1 instagram,2 via,2 robot,2 enrichment,2 precipitation,2 music,2 graduate,2 recruiting,2 understanding,6 welcome,2 events,4 pinpoint,3 temporal,2 employers,2 models,2 apr,2 crowdsourcing,2 devices,2 preference,3 received,2 community,2 analysis,3 quality,2 kong,2 mission,2 reserved,2 xunlei,2 science,6 creating,2 reality,2 processing,2 programs,2 postgraduates,4 ahead,1 students,1 industry,4 hkust,16 departments,1 sep,2 st,2 set,2 bdi,2 jobs,1 predictive,5 visualizing,2 seekers,2 staff,4 medicine,2 kenneth,2 people,4 fast,2 june,1 partners,2 undergraduate,4 publications,3 thu,1 november,3 jun,2 joint,2 engagement,2 excellence,1 modulation,2 approximate,2 panoramic,3 developed,2 research,15 dr,4 faculty,7 analytics,2 view,3 school,2 contact,4 programming,2 wong,2 query,2 remedy,2 engineering,8 finding,5 nowcasting,2 mainland,1 users,3 assurance,2 vision,3 labs,2 blockchain,2 forge,2 updated,1 mood,2 destination,2 vehicles,2 privacy,2 placements,2 learning,12 augmented,3 life,1 intranet,1 common,2 human,2 postponed,2 news,7 sensing,2 practical,2 previous,1 securing,2 raymond,2 honorary,2 technology,4 forum,2 china,3 leung,2 vulnerabilities,2 realm,2 location,2 applications,4 career,2 copyright,2 software,3 fair,2 stepping,2 mon,2 april,4 forums,6 optimization,2 centers,2 outbreak,1 spatial,2 mapping,1 images,2 lives,2 contract,3 testing,3 admissions,2 facilitating,3 hong,2 tackling,2 city,2 teaching,1 local,2 smart,4 mention,2 overseas,2 alumni,10 computer,4 library,1 world,2 rights,2 map,1 chatbot,2 facebook,4 transformation,2 spatiotemporal,3 future,2 machine,6 fake,2 facilities,2 robo,3 quick,2 feb,2 covid,1 data,7 autonomous,2 serve,2 lab,2 synthesize,2 platforms,2 academic,1 links,2 sitemap,2 contest,2 workshop,2 profiles,1 towards,3 real,2 core,2 careers,2 professor,2 directions,1 spotlights,1 job,4 youtube,2 code,3 student,2 university,3 coda,3 generator,3 linkedin,2 simpler,2 network,2 computing,2 september,1 award,1 postgraduate,4 workshops,6 department,2 lawyer,3 february,2 sat,1 wechat,2 academics,3 follow,2 openings,2 cse,4 activities,2 pg,2 interaction,2 locations,2 undergraduates,2 
+Last modification date: Mon, size of page:  11 May 2020 09:40:25 GMT
+research,17 hkust,14 learning,12 alumni,10 engineering,8 faculty,7 news,7 data,7 understanding,6 science,6 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -581,46 +708,52 @@ https://www.cse.ust.hk/ug/admissions/
 https://www.cse.ust.hk/pg/admissions/
 https://www.cse.ust.hk/pg/admissions/recruiting/
 https://www.cse.ust.hk/pg/ourgraduates/
-https://www.chinadailyhk.com/articles/14/65/28/1541125674562.html?newsId=52460
-https://www.scmp.com/presented/business/topics/hkust-25th-anniversary/article/1884178/creating-predictive-future-big-data
 https://www.techinasia.com/weseer-smarter-censorship-china
+https://www.scmp.com/presented/business/topics/hkust-25th-anniversary/article/1884178/creating-predictive-future-big-data
 http://epublish.ust.hk/cgi-bin/eng/story.php?id=96&amp;catid=97&amp;keycode=88b7aae0ae45ddb0e6e000ee2682721a&amp;token=17b43a00aeb0f8f8f08df16ae664909f
 https://pgnews.ust.hk/feb-2017-feature-stories-part-2
+https://www.chinadailyhk.com/articles/14/65/28/1541125674562.html?newsId=52460
 https://www.cse.ust.hk/#spotlight-slides
+https://www.cse.ust.hk/event/RTF2020/
 https://www.cse.ust.hk/event/BDICareerFair2020/
 https://www.cse.ust.hk/event/RIAF2020/
 https://calendar.ust.hk/events/local-programming-contest-2019
-https://www.cse.ust.hk/event/XunleiWorkshop2019/
 https://www.cse.ust.hk/News/events.html
 https://uce.ust.hk/web/teaching/award_2019.html
 https://seng.ust.hk/news/20200418/three-hkust-computer-science-engineering-alumni-forge-careers-overseas
 https://seng.ust.hk/news/20200402/autonomous-vehicles-developed-hkust-engineering-professor-serve-community-during
-https://www.cse.ust.hk/pg/research/projects/leichen/stc/
-https://www.cse.ust.hk/pg/research/projects/gchan/lst/
-https://www.cse.ust.hk/pg/research/projects/qianzh/sds/
-https://www.cse.ust.hk/pg/research/projects/yqsong/robo-lawyer/
 https://www.cse.ust.hk/pg/research/projects/charlesz/pinpoint/
+https://www.cse.ust.hk/pg/research/projects/qianzh/sds/
 https://www.cse.ust.hk/pg/research/projects/mxj/hri/
-https://www.cse.ust.hk/pg/research/projects/kaichen/coda/
+https://www.cse.ust.hk/pg/research/projects/horner/mmm/
+https://www.cse.ust.hk/pg/research/projects/yqsong/robo-lawyer/
 https://www.cse.ust.hk/pg/research/projects/raywong/findyourfavorite/
-https://www.cse.ust.hk/pg/research/projects/cqf/lsi/
-https://www.cse.ust.hk/pg/research/projects/dyyeung/ml-hko/
+https://www.cse.ust.hk/pg/research/projects/lzhang/aipano/
+https://www.cse.ust.hk/pg/research/projects/kaichen/coda/
+https://www.cse.ust.hk/pg/research/projects/gchan/lst/
+https://www.cse.ust.hk/pg/research/projects/leichen/stc/
 https://www.cse.ust.hk/pg/research/projects/yike/aqp/
 https://www.cse.ust.hk/pg/research/projects/dyyeung/ml-ed/
+https://www.cse.ust.hk/pg/research/projects/cqf/lsi/
 https://www.cse.ust.hk/pg/research/projects/scc/castle/
-https://www.cse.ust.hk/pg/research/projects/horner/mmm/
-https://www.cse.ust.hk/pg/research/projects/lzhang/aipano/
+https://www.cse.ust.hk/pg/research/projects/dyyeung/ml-hko/
 https://www.ust.hk/privacy-policy
 https://www.cse.ust.hk/admin/sitemap/
 https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: undergraduate programs | hkust cse
 URL: https://www.cse.ust.hk/ug/
-Last modification date: Tue, size of page:  05 May 2020 13:42:31 GMT
-copyright,2 projects,2 education,1 arro,1 luo,1 program,12 instagram,2 degrees,1 required,1 offer,1 enrichment,2 beng,4 navigation,2 graduate,3 recruiting,2 faq,3 centers,2 broad,1 welcome,2 events,2 bba,2 employers,1 comp,4 double,1 admissions,2 received,1 community,1 interdisciplinary,1 quality,2 intelligence,1 intention,1 kong,2 hong,2 mission,2 bsc,3 reserved,2 science,9 qiong,1 registration,1 enquiry,1 programs,10 enroll,1 requires,1 advising,1 rr,1 postgraduates,3 independent,1 enrol,1 direct,1 students,10 industry,1 login,1 mention,1 overseas,1 alumni,4 computer,8 flexibility,2 library,1 dual,1 web,1 rights,2 hkust,7 wednesday,1 course,1 term,1 departments,2 deadline,1 map,1 business,3 jobs,1 facebook,2 seekers,1 staff,3 kenneth,1 withdrawal,1 procedure,1 team,1 wishing,1 people,2 declaration,1 dsct,1 site,1 fast,2 bdt,1 partners,1 additionally,1 information,2 facilities,2 complete,2 undergraduate,9 calculation,1 gga,1 quick,1 joint,1 data,2 minor,11 declare,1 itsc,1 autonomous,1 serve,1 developed,1 deadlines,1 descriptions,2 research,8 honors,1 dr,3 faculty,4 interestd,1 spring,1 cosc,2 ug,2 major,4 school,2 academic,1 contact,4 links,2 details,1 sitemap,2 offers,2 cogbm,1 courses,4 coordinator,1 individual,1 level,1 below,1 typically,1 wong,1 profiles,1 degree,2 count,1 pay,1 please,2 engineering,7 list,2 assurance,2 vision,2 core,2 entry,1 careers,1 professor,1 directions,1 labs,2 forge,1 job,3 updated,1 youtube,2 cpgbm,1 catered,1 university,3 additional,1 vehicles,1 privacy,2 placements,2 linkedin,2 life,1 intranet,1 effective,1 computing,2 pursue,1 postgraduate,4 common,1 credits,1 provides,1 department,3 included,1 news,4 cpeg,1 requirements,3 february,1 academics,2 raymond,1 honorary,1 allowing,1 technology,6 follow,2 openings,2 special,1 schedule,1 cse,6 form,1 application,1 leung,1 refer,2 management,4 various,1 pg,2 fulfilling,1 rmbi,1 attention,1 risk,1 undergraduates,1 pm,1 
+Last modification date: Mon, size of page:  11 May 2020 09:40:27 GMT
+program,12 minor,11 programs,10 students,10 science,9 undergraduate,9 computer,8 research,8 hkust,7 engineering,7 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -691,11 +824,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: postgraduate programs | hkust cse
 URL: https://www.cse.ust.hk/pg/
-Last modification date: Tue, size of page:  05 May 2020 13:42:33 GMT
-quick,1 copyright,2 projects,2 data,1 catalog,2 program,4 instagram,2 research,9 dr,1 faculty,4 enrichment,2 navigation,2 school,2 academic,1 graduate,2 contact,4 recruiting,2 centers,2 links,1 welcome,2 events,2 sitemap,2 employers,1 comp,1 coordinator,1 profiles,1 admissions,2 engineering,2 philosophy,2 list,1 quality,2 kong,2 assurance,2 hong,2 vision,2 mission,2 faqs,1 directions,1 labs,2 reserved,2 science,4 enquiry,1 programs,6 job,3 mphil,1 updated,1 youtube,2 postgraduates,3 university,3 students,1 privacy,2 industry,1 placements,2 linkedin,2 life,1 intranet,1 alumni,3 computing,2 kai,1 library,1 postgraduate,6 rights,2 hkust,5 course,1 departments,1 map,1 news,3 chen,1 jobs,1 facebook,2 seekers,1 academics,2 staff,3 technology,4 follow,2 people,2 phd,1 openings,2 master,3 doctor,1 fast,2 bdt,1 cse,3 taught,1 partners,1 pg,5 information,1 undergraduates,1 facilities,2 msc,4 undergraduate,4 
+Last modification date: Mon, size of page:  11 May 2020 09:40:28 GMT
+research,9 programs,6 postgraduate,6 hkust,5 pg,5 program,4 faculty,4 contact,4 science,4 technology,4 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -749,11 +906,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: faculty intranet | hkust cse
 URL: https://www.cse.ust.hk/Restricted/
-Last modification date: Tue, size of page:  05 May 2020 13:42:35 GMT
-copyright,2 projects,2 hk,1 asterisk,1 instagram,2 logos,3 required,1 enrichment,2 graduate,2 recruiting,2 centers,2 connection,1 welcome,2 meeting,1 events,2 employers,1 idrive,1 bookshelf,1 admissions,2 quality,2 kong,2 hong,2 planning,1 mission,2 system,5 reserved,2 science,2 cseform,1 postgraduates,3 access,3 industry,1 alumni,3 library,1 systems,1 web,1 rights,2 hkust,8 departments,1 map,1 jobs,1 facebook,2 seekers,1 staff,5 people,2 fast,2 partners,1 information,1 facilities,2 undergraduate,4 quick,1 booking,1 mail,1 project,1 itsc,1 research,8 faculty,7 school,2 academic,1 leave,1 contact,4 ust,1 links,1 sitemap,2 marked,1 resource,1 profiles,1 engineering,2 sent,1 assurance,2 vision,2 directions,1 labs,2 outside,1 final,1 exchange,1 job,4 updated,1 youtube,2 note,2 student,1 university,3 admin,2 privacy,2 placements,2 linkedin,2 life,1 network,1 intranet,4 computing,2 postgraduate,4 news,3 academics,2 technology,2 follow,2 openings,2 cse,10 application,2 management,2 vpn,1 restricted,1 service,1 pg,2 online,1 personnel,1 undergraduates,1 webmail,1 user,1 outlook,1 
+Last modification date: Mon, size of page:  11 May 2020 09:40:29 GMT
+cse,10 hkust,8 research,8 faculty,7 system,5 staff,5 undergraduate,4 contact,4 job,4 intranet,4 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -815,11 +996,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: alumni | hkust cse
 URL: https://www.cse.ust.hk/admin/people/alumni/
-Last modification date: Tue, size of page:  05 May 2020 13:42:37 GMT
-quick,1 developments,1 copyright,2 projects,2 instagram,2 research,8 building,1 faculty,4 platforms,1 enrichment,2 navigation,2 academia,1 school,2 academic,1 graduate,4 contact,4 recruiting,2 centers,2 links,1 communication,1 welcome,2 events,2 sitemap,2 delivering,1 employers,1 dedicated,1 profiles,1 admissions,2 engineering,3 quality,2 kong,3 assurance,2 hong,3 relevant,1 vision,2 mission,2 directions,1 labs,2 reserved,2 science,4 creating,1 programs,1 job,3 updated,1 youtube,2 postgraduates,3 university,4 privacy,2 industry,2 placements,3 linkedin,2 updates,1 life,1 founding,1 alumni,8 intranet,1 computing,2 computer,1 library,1 world,1 postgraduate,4 ties,1 themselves,1 rights,2 hkust,6 departments,1 department,2 map,1 close,1 regular,1 affairs,1 news,3 established,1 jobs,1 facebook,2 seekers,1 academics,2 staff,3 technology,3 follow,2 people,2 openings,2 fast,2 cse,5 partners,1 pg,2 organizations,1 undergraduates,1 facilities,2 organizing,1 undergraduate,4 statistics,1 
+Last modification date: Mon, size of page:  11 May 2020 09:40:30 GMT
+research,8 alumni,8 hkust,6 cse,5 faculty,4 graduate,4 contact,4 science,4 university,4 postgraduate,4 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -867,11 +1072,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: news | the hong kong university of science and technology
 URL: https://www.ust.hk/news
-Last modification date: Tue, size of page:  05 May 2020 13:39:50 GMT
-expanding,1 strategic,2 accessibility,2 taste,2 fighting,1 offer,1 graduate,4 bay,3 brand,2 events,2 knowledge,4 browsing,1 using,1 diseases,2 community,4 interdisciplinary,5 kong,9 population,2 accept,1 senior,2 mission,2 advancement,2 reserved,2 science,16 offering,1 difference,1 volunteerism,1 myportal,2 institute,8 programs,8 sustainable,3 students,4 global,4 giving,1 virus,1 cookies,3 minds,1 search,3 advertisements,1 humanities,4 hkust,36 targeted,1 ezone,1 ias,4 departments,4 arts,3 close,1 foot,1 develops,1 policy,4 hand,1 apps,2 innovation,6 calendar,2 website,2 business,7 learn,1 endeavors,1 staff,2 amid,1 people,2 information,2 quarantine,1 aging,2 technological,2 undergraduate,4 story,2 publications,2 insurance,2 addressing,2 screening,1 featured,1 tv,3 becoming,1 administration,2 pandemic,1 research,17 faculty,4 post,1 school,22 fitness,2 continue,1 scholarship,2 contact,2 club,4 talk,1 creativity,1 info,1 unlock,1 campus,6 outreach,2 engineering,5 develop,2 consent,1 secrets,1 vision,2 success,2 slaying,1 driverless,1 exchange,2 fok,4 visiting,2 figures,2 eventsvisitgivingalumnicareers,1 vehicles,1 privacy,2 learning,1 jockey,4 directory,2 content,2 life,5 button,1 eng,2 news,11 coverage,1 delivery,1 sensing,1 living,4 technology,9 lifestyle,2 home,2 ying,4 urban,2 management,6 infrastructure,2 time,1 milestones,2 fencing,1 stem,1 career,1 copyright,2 education,4 advanced,4 focus,2 program,2 changing,1 scholarly,2 internationalization,1 balance,1 faq,2 guidelines,4 purifiers,1 plan,2 sky,1 partnership,1 natural,2 lending,1 cookie,1 researchers,7 admissions,6 microbial,1 safeguarding,1 hong,9 conservation,2 system,1 schools,2 analyze,1 institutes,2 aid,2 browse,1 study,4 gender,1 fever,1 skip,1 teaching,1 air,1 smart,3 anti,1 alumni,1 geo,1 world,1 library,2 web,2 rights,2 kg,1 map,2 clicking,1 twenty,2 efficient,1 topics,1 health,1 entrepreneurship,6 opportunities,2 help,1 century,2 multimedia,2 site,2 culture,2 governance,2 snail,1 covid,6 guangzhou,2 recognition,2 main,1 office,6 serve,1 experience,1 stands,1 solution,1 major,1 academic,6 ust,2 robots,1 international,1 chronic,2 cable,1 sitemap,2 traffic,1 frontiers,1 settings,1 development,6 read,1 tree,1 profiles,2 sustainability,3 affected,1 personalize,1 careers,1 rankings,2 transfer,2 inventions,3 ideation,2 announcements,2 converging,1 student,9 challenges,2 university,10 financial,2 media,4 tung,4 award,1 public,5 postgraduate,2 ready,1 leadership,4 scaly,1 fight,1 execution,2 stories,3 coating,1 social,6 academics,2 resources,4 entrepreneurial,6 control,3 follow,2 performance,1 breadcrumb,1 matters,1 genomic,1 activities,2 awards,2 bonding,2 administrative,2 visit,1 category,1 
+Last modification date: Mon, size of page:  11 May 2020 09:39:43 GMT
+hkust,37 school,22 science,17 research,17 news,11 university,10 technology,9 student,9 kong,8 institute,8 
+child links:
 https://www.ust.hk/news#main-content
 https://www.ust.hk/news#
 https://www.ust.hk/student
@@ -951,17 +1180,17 @@ https://www.ust.hk/news/recognition/hkust-business-school-stands-out-gender-bala
 https://www.ust.hk/news/recognition
 https://publications.ust.hk/HKUST-GUANGZHOU/
 https://www.ust.hk/news/institutional-advancement
-https://www.ust.hk/news/thought-leadership/virus-slaying-air-purifiers-delivery-robots-how-hkust-inventions-are
-https://www.ust.hk/news/thought-leadership
+https://www.ust.hk/newsentrepreneurship/slash-career-alternate-path-success
+https://www.ust.hk/news/entrepreneurship
 https://www.ust.hk/news/community-and-sustainability/using-sensing-technology-sustainable-tree-management
 https://www.ust.hk/news/community-and-sustainability
 https://w5.ab.ust.hk/jsdm/donation_form?projectId=N03
 https://www.ust.hk/news/announcements
-https://seng.ust.hk/news/20200402/autonomous-vehicles-developed-hkust-engineering-professor-serve-community-during
+https://www.ust.hk/news/thought-leadership/virus-slaying-air-purifiers-delivery-robots-how-hkust-inventions-are
+https://www.ust.hk/news/thought-leadership
 https://www.ust.hk/news/student-development-and-bonding/becoming-career-ready
 https://www.ust.hk/news/student-development-and-bonding
-https://www.ust.hk/news/entrepreneurship/time-matters-volunteerism
-https://www.ust.hk/news/entrepreneurship
+https://seng.ust.hk/news/20200402/autonomous-vehicles-developed-hkust-engineering-professor-serve-community-during
 https://www.ust.hk/news/arts-and-creativity
 https://www.ust.hk/news/greater-bay-development
 https://www.ust.hk/news/internationalization-and-partnership
@@ -976,8 +1205,8 @@ https://www.ust.hk/news/topic/international
 https://www.ust.hk/news/topic/education
 https://www.ust.hk/news/topic/business
 https://www.ust.hk/news/topic/student-development
-https://www.ust.hk/news/topic/campus-life
 https://www.ust.hk/news/topic/award
+https://www.ust.hk/news/topic/campus-life
 https://www.ust.hk/news/2020
 https://www.ust.hk/news/2019
 https://www.ust.hk/news/2018
@@ -999,12 +1228,12 @@ https://www.ust.hk/news/2003
 https://www.ust.hk/news/2002
 https://www.ust.hk/news/2001
 https://www.ust.hk/news/2000
+https://phys.org/news/2020-04-approach-inequalities.html
+https://www.sciencedaily.com/releases/2020/04/200428112522.htm
+https://news.mingpao.com/pns/體育/article/20200426/s00015/1587839886435/伙科大合作防疫-花兩天噴塗層消毒
+https://www.eurekalert.org/pub_releases/2020-04/hkuo-hsd042220.php
 https://news.now.com/home/local/player?newsId=388180
 https://ezone.ulifestyle.com.hk/article/2619419/【新冠肺炎】科大研發無人車助送菜到封城疫區！每轉運載%20750kg%20物資
-https://skypost.ulifestyle.com.hk/article/2618161/【新冠肺炎】科大殺菌塗層可抗病毒%20嶼巴為近140巴士消毒
-http://www.hkopentv.com/#/videopage/BW02375
-https://news.now.com/home/local/player?newsId=387557&amp;refer=Share
-http://cablenews.i-cable.com/ci/videopage/news/22601
 https://www.ust.hk/in-the-media
 https://www.seng.ust.hk/
 http://www.bm.ust.hk
@@ -1033,11 +1262,45 @@ https://www.linkedin.com/school/hkust
 https://www.instagram.com/hkust/
 https://www.youtube.com/user/HKUST
 https://www.ust.hk/sites/default/files/menu_icons/IMG_5246.JPG
+
+parent links:
+http://www.cse.ust.hk
+https://www.ust.hk/news
+https://www.ust.hk/academics/list
+https://www.ust.hk/lifehkust
+https://library.ust.hk/
+https://www.ust.hk/map-directions
+https://hkustcareers.ust.hk/
+https://facultyprofiles.ust.hk/
+https://www.ust.hk/about-hkust
+https://www.cse.ust.hk/admin/intranet/
+https://www.seng.ust.hk/
+https://www.cse.ust.hk/admin/search/
+https://www.ust.hk/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: job openings | hkust cse
 URL: https://www.cse.ust.hk/admin/recruitment/
-Last modification date: Tue, size of page:  05 May 2020 13:42:38 GMT
-quick,1 copyright,2 projects,2 instagram,2 research,8 associate,1 faculty,6 enrichment,2 navigation,2 school,2 academic,1 graduate,2 contact,4 recruiting,2 centers,2 links,1 welcome,2 events,2 sitemap,2 employers,1 profiles,1 admissions,2 positions,1 engineering,2 quality,2 kong,2 assurance,2 hong,2 vision,2 mission,2 directions,1 labs,2 reserved,2 science,2 job,5 updated,1 youtube,2 postgraduates,3 university,3 instructional,1 privacy,2 industry,1 placements,2 teaching,1 linkedin,2 life,1 intranet,1 alumni,3 computing,2 search,1 library,1 postgraduate,4 rights,2 hkust,5 departments,1 deadline,2 map,1 news,3 jobs,1 assistant,1 facebook,2 seekers,1 academics,2 staff,3 technology,2 follow,2 people,2 openings,4 fast,2 cse,3 partners,1 pg,2 undergraduates,1 facilities,2 undergraduate,4 
+Last modification date: Mon, size of page:  11 May 2020 09:40:31 GMT
+research,8 faculty,6 job,5 hkust,5 contact,4 postgraduate,4 openings,4 undergraduate,4 postgraduates,3 university,3 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -1085,11 +1348,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: information for employers &amp; industry partners | hkust cse
 URL: https://www.cse.ust.hk/admin/industry_collaboration/
-Last modification date: Tue, size of page:  05 May 2020 13:42:39 GMT
-quick,1 copyright,2 projects,3 program,1 instagram,2 research,8 faculty,4 enrichment,2 school,2 academic,1 graduate,3 contact,4 recruiting,2 centers,2 links,1 welcome,2 events,2 sitemap,2 employers,5 profiles,1 admissions,2 engineering,2 quality,2 kong,2 assurance,2 hong,2 vision,2 mission,2 re,1 directions,1 labs,2 reserved,2 science,2 final,1 job,3 updated,1 youtube,2 postgraduates,3 university,3 privacy,2 industry,4 placements,2 linkedin,2 life,1 intranet,1 alumni,3 computing,2 library,1 postgraduate,4 rights,2 &amp;,1 hkust,5 departments,1 map,1 news,3 op,1 jobs,2 facebook,2 seekers,1 academics,2 staff,3 technology,2 co,1 follow,2 people,2 openings,2 industrial,1 fast,2 cse,3 partners,4 pg,2 information,5 undergraduates,1 facilities,2 undergraduate,4 internship,1 
+Last modification date: Mon, size of page:  11 May 2020 09:40:33 GMT
+research,8 employers,5 hkust,5 information,5 faculty,4 contact,4 industry,4 postgraduate,4 partners,4 undergraduate,4 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -1138,11 +1425,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: welcome from head of department | hkust cse
 URL: https://www.cse.ust.hk/admin/welcome/
-Last modification date: Tue, size of page:  05 May 2020 13:42:41 GMT
-parent,1 copyright,2 projects,2 numerous,1 maintain,1 recognized,1 discipline,1 instagram,2 behalf,1 enrichment,2 beng,2 navigation,2 graduate,2 recruiting,2 centers,2 broad,1 welcome,6 events,2 goals,1 employers,1 admissions,2 version,1 jointly,2 quality,2 kong,3 hong,3 mission,3 spheres,1 bsc,2 provide,2 reserved,2 science,7 programs,2 math,1 choices,1 embodied,1 browse,1 postgraduates,3 students,4 range,1 industry,1 tools,1 alumni,4 computer,6 library,1 advancements,1 web,1 rights,2 hkust,7 electronic,1 departments,1 grown,1 map,1 popular,1 jobs,1 yan,2 facebook,2 founded,1 seekers,1 staff,5 people,2 prof,1 help,1 site,1 fast,2 bdt,1 partners,1 exciting,1 facilities,2 msc,2 undergraduate,6 essential,1 quick,1 data,1 excellence,1 centered,1 ece,1 source,1 research,11 dit,2 faculty,6 chinese,1 school,2 academic,1 contact,4 roughly,1 employer,1 links,1 administered,2 sitemap,2 level,1 widely,1 profiles,1 engineering,5 assurance,2 vision,3 driving,1 professor,1 directions,1 labs,2 scientists,1 techniques,1 principles,1 yeung,2 job,3 oriented,1 support,1 updated,1 youtube,2 mathematics,1 student,2 university,4 nearly,1 privacy,2 placements,2 statements,1 linkedin,2 life,1 head,4 intranet,1 computing,2 times,1 postgraduate,5 department,10 human,1 hear,1 news,3 move,1 comments,1 endeavor,1 academics,2 technology,4 follow,2 colleague,1 openings,2 cse,5 encouragement,1 pg,2 departmental,1 suggestions,1 undergraduates,1 
+Last modification date: Mon, size of page:  11 May 2020 09:40:34 GMT
+research,11 department,10 science,7 hkust,7 welcome,6 computer,6 undergraduate,6 faculty,6 staff,5 engineering,5 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -1190,11 +1501,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: mission and vision | hkust cse
 URL: https://www.cse.ust.hk/admin/mission/
-Last modification date: Tue, size of page:  05 May 2020 13:42:43 GMT
-prepare,2 expanding,1 projects,3 recognized,1 discipline,1 instagram,2 professional,3 skills,1 enrichment,2 graduate,3 recruiting,2 diverse,1 welcome,2 societies,1 events,2 knowledge,5 employers,1 based,1 excellent,2 impact,1 community,1 analysis,1 benefit,1 quality,2 kong,5 mission,5 graduating,1 reserved,2 science,11 rounded,1 programs,1 choices,1 providing,1 strong,3 postgraduates,3 activity,1 lifelong,1 students,4 fundamental,1 industry,5 promote,1 hkust,5 targeted,1 perspective,1 departments,1 develops,1 outstanding,1 jobs,1 seekers,1 staff,3 team,1 people,2 fast,2 partners,1 information,3 combined,1 undergraduate,5 individuals,1 research,17 faculty,5 post,1 school,2 contact,4 generalist,1 dynamic,1 courses,1 educational,1 engineering,10 develop,2 governmental,1 assurance,2 technologies,1 vision,5 labs,2 catalyst,1 demonstrate,1 region,1 updated,1 technical,1 regional,1 graduates,1 attract,1 privacy,2 placements,2 learning,3 life,1 intranet,1 society,2 news,3 effectively,1 transmit,1 agencies,1 technology,8 environment,2 china,2 disciplines,1 hub,1 service,1 applications,2 qualified,1 leader,1 practice,2 copyright,2 education,3 advanced,1 instill,1 navigation,2 hallmarks,1 terms,1 centers,2 broad,1 profession,1 admissions,2 classroom,1 philosophy,1 creative,2 hong,5 provide,4 field,1 theory,1 study,1 aim,1 teaching,1 local,1 alumni,3 competence,1 computer,10 library,1 government,3 world,1 partnerships,1 rights,2 map,1 means,1 facebook,2 consistent,1 ethical,1 produce,1 lead,1 discovery,1 facilities,2 communities,1 quick,1 prepared,1 pioneering,1 leaders,1 serve,1 body,2 academia,2 academic,3 worldwide,1 links,1 international,1 communication,1 sitemap,2 multidisciplinary,1 development,2 including,1 individual,1 profiles,1 particular,2 ideas,1 relevant,1 careers,2 transfer,1 directions,1 stimulating,1 specialist,1 job,3 youtube,2 student,1 university,3 scientific,1 contribute,1 statements,2 linkedin,2 computing,4 pursue,1 postgraduate,4 leadership,1 design,2 possessing,1 studies,1 department,1 highly,1 assisting,1 nature,1 confidence,1 implementation,1 academics,2 contributing,1 specific,1 follow,3 openings,2 industrial,1 cse,3 conduct,1 productive,1 various,1 pg,2 organizations,1 objectives,2 undergraduates,1 
+Last modification date: Mon, size of page:  11 May 2020 09:40:38 GMT
+research,17 science,11 engineering,10 computer,10 technology,8 knowledge,5 kong,5 mission,5 industry,5 hkust,5 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -1240,11 +1575,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: about cse | hkust cse
 URL: https://www.cse.ust.hk/admin/about/
-Last modification date: Tue, size of page:  05 May 2020 13:42:45 GMT
-play,1 prepare,1 copyright,2 projects,2 software,1 numerous,1 evolved,1 bring,1 discipline,1 instagram,2 revolution,2 degrees,1 advance,1 enrichment,2 beng,1 navigation,2 encouraged,1 graduate,2 advances,2 recruiting,2 centers,2 broad,1 educate,1 welcome,2 societies,1 events,2 knowledge,1 employers,1 lives,1 researchers,1 virtually,1 devices,1 past,1 impact,2 foundations,1 engineers,1 admissions,2 ordinary,1 quality,2 intelligence,1 kong,2 explicit,1 hong,2 mission,2 bsc,1 slow,1 field,1 reserved,2 plans,1 science,9 programs,3 pervasive,1 mphil,1 implicit,1 study,1 postgraduates,3 students,4 range,1 industry,2 tools,1 alumni,3 computer,12 library,1 web,1 systems,2 rights,2 hkust,6 departments,2 map,1 embedded,1 computers,4 affordable,1 witnessed,1 learn,1 topics,1 jobs,1 facebook,2 seekers,1 staff,3 people,2 opportunities,1 phd,1 lead,1 help,1 multimedia,1 fast,3 meet,1 partners,1 culture,2 exciting,1 assist,1 information,5 facilities,2 msc,1 workplace,1 undergraduate,4 interconnected,1 quick,1 data,1 environments,1 tailored,1 own,2 networking,2 graphics,1 research,9 faculty,4 disconnected,1 school,2 academic,1 contact,4 function,1 midst,1 links,1 potential,1 sitemap,2 offers,1 dedicated,1 courses,2 development,1 individual,1 created,1 profiles,1 engineering,4 assurance,2 technologies,3 literacy,1 vision,2 efforts,1 directions,1 labs,2 aside,1 job,3 region,1 updated,1 specialized,1 youtube,2 ubiquitous,1 deep,1 covering,1 beginning,1 challenges,1 university,4 professionals,1 privacy,2 placements,2 linkedin,2 life,2 interactions,2 integrated,1 intranet,1 computing,4 postgraduate,4 design,1 studies,1 department,1 human,1 live,1 highly,1 news,3 digital,3 move,1 living,1 nature,1 interconnection,1 academics,2 resources,1 realized,1 technology,5 requirement,1 follow,2 openings,2 structure,1 expensive,1 home,1 artificial,1 environment,1 industrial,1 cse,5 pg,2 interfacing,1 growth,1 undergraduates,1 applications,1 base,1 taking,1 
+Last modification date: Mon, size of page:  11 May 2020 09:40:39 GMT
+computer,12 science,9 research,9 hkust,6 information,5 technology,5 cse,5 students,4 computers,4 undergraduate,4 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -1290,11 +1649,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: fast facts | hkust cse
 URL: https://www.cse.ust.hk/admin/factsheet/
-Last modification date: Tue, size of page:  05 May 2020 13:42:46 GMT
-copyright,2 projects,2 education,2 software,1 peers,2 program,2 fair,1 instagram,2 enrichment,2 beng,4 navigation,2 universities,1 graduate,2 recruiting,2 centers,2 welcome,2 events,2 knowledge,1 bba,2 employers,1 qs,2 admissions,2 philosophy,2 quality,2 junior,1 intelligence,1 kong,2 senior,1 hong,2 mission,2 bsc,2 field,1 reserved,2 science,10 programs,2 postgraduates,3 students,1 industry,1 teaching,1 alumni,3 computer,10 library,1 dual,2 world,6 systems,1 rights,2 hkust,5 electronic,1 departments,2 map,1 mix,1 business,2 languages,1 jobs,1 facebook,2 representing,1 seekers,1 staff,3 people,2 phd,1 fast,4 th,4 regarded,1 partners,1 information,2 facilities,2 undergraduate,5 board,1 levels,1 quick,1 data,3 theoretical,1 subject,1 networking,1 graphics,1 experience,1 research,9 associate,1 faculty,10 earned,1 school,2 academic,1 contact,4 worldwide,2 links,1 programming,1 sitemap,2 level,1 profiles,1 degree,2 engineering,7 prestige,1 cybersecurity,1 assurance,2 vision,3 rankings,5 professor,3 directions,1 labs,2 job,3 updated,1 youtube,2 mathematics,1 university,7 according,2 privacy,2 placements,2 linkedin,2 life,1 renowned,1 intranet,1 computing,2 times,2 total,1 postgraduate,5 ranked,1 department,3 class,1 human,1 highly,1 news,3 assistant,1 academics,2 technology,5 follow,2 openings,2 master,3 doctor,1 artificial,1 cse,3 management,3 pg,2 interaction,1 undergraduates,1 credited,2 
+Last modification date: Mon, size of page:  11 May 2020 09:40:43 GMT
+science,10 computer,10 faculty,10 research,9 engineering,7 university,7 world,6 hkust,5 undergraduate,5 rankings,5 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -1342,11 +1725,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: news | hkust cse
 URL: https://www.cse.ust.hk/News/
-Last modification date: Tue, size of page:  05 May 2020 13:42:48 GMT
-patw,2 sigsoft,2 projects,2 delta,2 instagram,2 resolution,2 enrichment,2 lei,2 bank,1 ctf,2 graduate,4 recruiting,2 championship,2 runner,6 welcome,2 events,2 pearl,2 employers,1 based,2 gang,2 august,2 hosts,2 ai,9 july,4 received,18 community,2 quality,2 bronze,2 kong,4 mission,2 reserved,2 xunlei,2 science,6 mentions,2 institute,2 drive,2 cup,2 postgraduates,3 conference,2 influential,1 yepang,2 students,29 industry,6 global,3 honourable,2 gold,2 communications,2 hkust,21 hearing,2 samuel,2 departments,1 innovation,4 st,6 business,2 awarded,8 joined,2 jobs,1 seekers,1 staff,3 kenneth,2 amid,2 launch,2 team,4 people,2 march,3 qian,4 lips,2 fast,2 june,11 meet,2 th,3 partners,1 collaboration,3 quarantine,2 river,2 undergraduate,4 november,5 alumnus,4 becoming,2 joint,4 excellence,3 reader,2 icc,2 project,10 acm,4 developed,2 microsoft,2 pandemic,1 ieee,8 research,27 dr,24 faculty,21 lip,4 ug,4 school,4 cheuk,2 contact,4 scholarship,4 won,6 cheung,2 liu,4 aids,2 pan,4 programming,4 jiangchuan,2 chi,4 wong,2 engineering,9 develop,2 qiang,2 mainland,1 tsoi,2 assurance,2 elected,10 vision,2 labs,2 laboratory,4 shi,2 blockchain,1 forge,2 final,3 padmanabhan,2 scholars,1 region,2 updated,1 conflict,2 webank,2 vehicles,2 privacy,2 placements,2 summit,1 pakdd,2 life,1 intranet,1 common,2 iet,2 class,2 wu,2 news,7 asia,2 xiao,4 mobile,2 reading,2 raymond,2 honorary,2 technology,7 grand,1 home,2 forum,2 supervised,4 leung,2 china,5 yang,2 hui,2 fencing,2 president,2 applications,2 career,2 named,2 copyright,2 hk,2 canadian,2 rongxin,2 charles,1 competition,4 zhang,9 chanson,2 everbright,2 april,3 artifact,1 fan,2 navigation,2 centers,2 outbreak,1 natural,2 researchers,2 admissions,2 transactions,2 hong,4 winner,4 desmond,2 pwc,2 women,2 tong,2 teaching,3 smart,2 mention,2 overseas,2 alumni,9 geo,2 receiving,2 computer,2 europaea,2 library,1 top,2 mak,4 rights,2 wei,4 hkict,2 map,1 academy,2 editor,2 chair,2 facebook,2 qingkai,2 prof,16 phd,10 january,2 fellow,6 facilities,2 collegiate,2 robo,2 quick,1 covid,2 firebird,2 lionel,2 lili,4 autonomous,2 serve,2 hackaday,2 guangdong,2 ma,2 academia,2 academic,3 links,1 brian,4 tai,2 day,2 sitemap,2 contest,5 read,2 profiles,1 cybersecurity,1 zhou,1 establish,2 appointed,2 core,2 careers,2 professor,4 directions,1 hongming,2 jingguo,1 ng,2 october,2 ni,2 job,3 seng,2 krishnamurthy,2 youtube,2 student,10 challenges,1 university,3 tse,2 linkedin,2 banking,2 computing,3 kai,2 award,20 hku,2 september,3 postgraduate,5 paper,6 ready,2 xiaojuan,2 lawyer,2 chen,4 chief,2 february,2 shing,2 academics,23 fellowship,2 distinguished,4 follow,2 openings,2 tsinghua,2 cse,29 awards,6 pg,6 undergraduates,1 category,1 fyp,2 
+Last modification date: Mon, size of page:  11 May 2020 09:40:48 GMT
+students,29 cse,29 research,27 dr,24 academics,23 hkust,21 faculty,21 award,20 received,18 prof,16 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -1455,11 +1862,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: contact us | hkust cse
 URL: https://www.cse.ust.hk/admin/contact/
-Last modification date: Tue, size of page:  05 May 2020 13:42:51 GMT
-quick,1 copyright,2 projects,2 instagram,2 research,8 faculty,4 enrichment,2 navigation,2 school,2 academic,1 graduate,2 contact,6 recruiting,2 centers,2 links,1 tel,1 bay,1 fax,1 welcome,2 events,2 sitemap,2 employers,1 campus,1 profiles,1 admissions,2 engineering,3 water,1 quality,2 kong,4 assurance,2 hong,4 vision,2 mission,2 directions,2 labs,2 reserved,2 science,4 lift,1 job,3 updated,1 youtube,2 postgraduates,3 university,4 privacy,2 industry,1 placements,2 linkedin,2 life,1 intranet,1 alumni,3 kowloon,1 computing,2 computer,1 library,1 postgraduate,4 rights,2 hkust,6 departments,1 department,2 map,3 email,1 news,3 address,1 jobs,1 facebook,2 seekers,1 academics,2 staff,3 technology,3 follow,2 people,2 openings,2 fast,2 cse,4 partners,1 pg,2 location,1 undergraduates,1 facilities,2 undergraduate,4 
+Last modification date: Mon, size of page:  11 May 2020 09:40:49 GMT
+research,8 contact,6 hkust,6 faculty,4 kong,4 hong,4 science,4 university,4 postgraduate,4 cse,4 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -1509,11 +1940,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: faculty | hkust cse
 URL: https://www.cse.ust.hk/admin/people/faculty/
-Last modification date: Tue, size of page:  05 May 2020 13:43:05 GMT
-chatzopoulos,3 dekai,6 projects,2 lun,3 yuwing,3 ricci,6 luo,6 instagram,2 kccecia,3 lee,3 enrichment,2 lei,6 helen,3 scc,3 graduate,2 recruiting,2 qifeng,3 adjunct,12 welcome,2 events,2 mxj,3 knowledge,21 psander,3 employers,1 qu,3 scheng,3 cunsheng,3 quality,2 kong,2 senior,3 mission,2 hunkim,3 shueng,3 lzhang,3 wang,9 reserved,2 science,13 lamngok,3 ieong,3 rm,116 wing,12 zhengyou,6 helens,3 extn,1 postgraduates,3 cding,3 cktang,3 industry,1 bo,3 search,1 yike,3 systems,26 hkust,5 departments,1 flin,3 fred,3 email,1 languages,16 chin,3 ming,3 jobs,1 yan,3 seekers,1 photo,1 staff,3 yangqiu,3 gibson,6 yau,6 people,2 charlesz,3 shuai,3 qian,3 fast,2 brahim,3 partners,1 mordecai,3 mounir,3 information,20 kwok,3 isd,2 paul,3 papadias,3 undergraduate,4 fangzhen,3 dik,3 derick,3 graphics,27 papadopoulos,3 research,11 dit,3 dr,3 faculty,8 lin,3 gary,3 view,2 han,3 school,2 contact,4 cheung,3 tin,3 tim,3 liu,3 wood,3 pan,3 results,1 programming,16 csbb,3 info,1 shuaiw,3 chi,12 wong,3 engineering,30 qiang,3 andrew,3 leichen,3 tsoi,3 assurance,2 vision,29 labs,2 name,2 horner,6 yeung,6 cecia,3 updated,1 cyt,2 qyang,3 yqsong,3 huamin,6 privacy,2 placements,2 life,1 kim,3 dcab,3 intranet,1 tang,3 ding,3 arya,6 sunghun,3 kit,3 ting,9 timcheng,3 human,19 siu,6 wu,3 saikit,3 wai,3 news,3 muppala,6 sunil,3 raymond,3 dimitris,12 technology,2 artificial,31 mgmt,1 leung,3 kwang,3 management,20 fung,3 yang,3 cindy,3 qianzh,3 chuen,3 hui,6 bensaou,3 copyright,2 hk,189 education,9 software,17 dlee,3 charles,3 zhang,15 yi,3 wilfred,6 navigation,2 centers,2 text,1 yu,3 song,3 taow,3 lixin,3 rossiter,6 admissions,2 intelligence,31 hong,2 nevin,3 qiong,3 pascale,6 desmond,6 math,2 primary,8 gmail,6 tong,3 james,3 keung,3 alumni,3 computer,57 library,1 mak,6 jogesh,3 raywong,3 rights,2 ke,3 wei,3 map,1 bli,3 ki,3 quan,6 engg,1 chair,18 ngok,3 facebook,2 prog,1 lianwen,3 eelium,3 syst,1 emeritus,21 golin,6 chat,3 kwtleung,3 facilities,2 chan,9 li,6 tcpong,3 dipapado,3 roland,6 com,9 quick,1 achung,3 data,21 theoretical,11 lionel,3 ece,4 networking,27 appointment,8 shen,9 associate,54 huilei,3 ma,3 taicl,3 academic,1 kaichen,3 panhui,3 ust,189 lan,3 lam,6 links,1 brian,3 xin,3 tai,6 sitemap,2 tao,3 profiles,1 sort,1 cybersecurity,15 tencent,6 dyyeung,3 tony,3 professor,195 directions,1 hung,3 ng,3 cqf,3 position,3 ni,6 job,3 youtube,2 tongzhang,3 university,3 vincent,3 linkedin,2 jamesk,3 pong,3 chung,3 head,9 computing,2 kai,3 postgraduate,4 pedro,3 albert,3 xiaojuan,3 kan,3 weiwa,3 sai,3 david,3 lang,1 chen,9 gchan,3 assistant,36 lochovsky,3 shing,6 academics,2 lecturer,12 follow,2 openings,2 frederick,3 cse,178 chiew,3 sander,3 pg,2 interaction,19 cheng,6 undergraduates,1 hamdi,6 
+Last modification date: Mon, size of page:  11 May 2020 09:40:50 GMT
+professor,195 hk,189 ust,189 cse,178 rm,116 computer,57 associate,54 assistant,36 artificial,31 intelligence,31 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -1637,11 +2092,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: staff | hkust cse
 URL: https://www.cse.ust.hk/admin/people/staff/
-Last modification date: Tue, size of page:  05 May 2020 13:43:13 GMT
-copyright,2 projects,2 lun,1 ho,2 instagram,2 enrichment,2 ted,1 navigation,2 graduate,2 recruiting,2 centers,2 jimw,1 nam,1 yu,1 welcome,2 events,2 employers,1 isaac,1 admissions,2 csisaac,1 quality,2 kong,2 hong,2 mission,2 system,2 reserved,2 science,2 programs,1 csdee,1 cspeter,1 wing,1 sharonchiu,1 extn,4 betty,2 namkiu,1 postgraduates,3 angela,2 wallacem,1 daniellau,1 instructional,5 industry,1 teaching,4 dalton,2 cslily,1 alumni,3 library,1 secretary,1 peter,1 mak,1 ka,1 liza,1 noor,2 rights,2 hkust,5 departments,1 map,1 yin,1 csyckwok,1 website,1 kelvinchiu,1 manager,10 yiu,1 associates,1 tutors,2 jobs,1 kwong,1 facebook,2 seekers,1 staff,7 yau,1 people,2 cs,1 fast,2 partners,1 isa,1 connie,1 kwok,1 facilities,2 chan,4 undergraduate,4 chiu,2 sharon,1 quick,1 lo,1 mail,4 officer,8 administration,7 brenda,1 renfrew,1 cstak,1 lmkia,1 research,8 associate,3 shek,1 faculty,4 nickoshek,1 ma,1 school,2 hiu,1 lai,1 academic,2 contact,4 tik,1 csbrenda,1 md,1 tin,1 shauna,1 lam,1 links,1 communication,5 sitemap,2 tak,1 ssri,1 lau,3 tam,1 assistants,1 hilda,1 development,1 winnie,2 outreach,1 wong,2 profiles,1 engineering,2 wwkwong,1 tutor,3 assurance,2 daniel,1 vision,2 directions,1 labs,2 name,4 position,4 job,3 updated,1 que,1 youtube,2 technical,2 university,3 tse,1 privacy,2 placements,2 vincent,1 dominic,2 linkedin,2 tung,1 jacquelinec,1 chung,1 life,1 intranet,1 choi,1 kin,1 computing,2 kai,1 postgraduate,4 kiu,1 kit,1 jacqueline,1 wai,2 news,3 spaeth,2 vincentchoi,1 cswclau,1 assistant,16 academics,2 cshilda,1 technology,2 follow,2 openings,2 henry,2 ying,1 cse,3 administrative,1 pg,2 lily,1 undergraduates,1 visit,2 vanessa,1 homepage,1 
+Last modification date: Mon, size of page:  11 May 2020 09:40:55 GMT
+assistant,16 manager,10 officer,8 research,8 staff,7 administration,7 instructional,5 hkust,5 communication,5 extn,4 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -1698,11 +2177,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: academic departments | the hong kong university of science and technology
 URL: https://www.ust.hk/academics/list
-Last modification date: Tue, size of page:  05 May 2020 13:40:03 GMT
-german,2 pollution,2 branch,6 resolution,2 building,2 robot,2 offer,1 graduate,6 acoustics,2 manufacturing,2 bay,2 investing,2 cemar,2 knowledge,4 energy,6 crowdsourcing,2 neuroscience,4 bdbi,2 ai,2 engineers,2 community,4 analysis,4 interdisciplinary,7 population,2 senior,2 cdr,2 advancement,2 chemical,2 reserved,2 xunlei,2 science,31 plant,2 myportal,2 institute,44 treatment,2 southern,2 sustainable,2 singlab,2 robotics,4 search,3 advertisements,1 humanities,9 systems,10 civil,2 hkust,86 targeted,1 national,4 departments,7 close,1 policy,8 innovation,10 chemistry,2 website,2 business,15 bdi,2 staff,2 medicine,2 information,8 aging,2 aerospace,2 isd,2 characterization,3 publications,2 addressing,2 aerodynamics,2 language,4 faculty,4 aemf,2 analytics,2 dt,2 chinese,8 tanoto,2 fitness,2 scholarship,2 contact,2 club,6 info,1 dji,2 ei,2 consent,1 cnerc,2 vision,2 dmsf,2 materials,7 success,2 exchange,2 fok,8 visiting,2 analytical,2 applied,2 bgi,2 semiconductor,2 cil,2 directory,2 content,2 molecular,4 scut,2 fpd,2 human,6 eng,2 biosciences,2 digital,4 living,4 home,1 ying,8 environment,6 material,2 china,6 management,12 family,2 biotechnology,2 copyright,2 education,6 advanced,10 focus,2 mechanical,2 geotechnical,2 bio,4 finetex,2 scholarly,2 division,12 william,2 supplies,2 guidelines,4 spatial,2 photonics,2 cookie,1 fabrication,2 testing,2 metal,2 metamaterials,2 intelligence,8 heavy,2 hong,11 conservation,2 system,4 schools,2 envf,2 analyze,1 biological,2 siat,2 aid,2 skip,1 cell,2 products,2 healthcare,2 mae,2 library,2 rights,2 electronic,4 shenzhen,2 map,2 twenty,2 product,2 asian,2 health,6 entrepreneurship,6 opportunities,2 computation,2 kaisa,2 century,2 multimedia,2 future,2 machine,2 governance,2 internship,2 covid,2 main,1 networking,2 office,9 autonomous,2 serve,1 lab,20 guangdong,2 radio,2 automation,2 academic,9 ust,2 berc,2 chronic,2 sitemap,2 traffic,1 settings,1 read,1 cities,2 cybersecurity,2 sustainability,2 personalize,1 nff,2 careers,1 rankings,2 driving,2 civl,2 inventions,2 dream,2 ideation,2 code,2 student,8 university,5 financial,2 quantum,2 media,6 leadership,2 design,8 department,32 optoelectronics,2 execution,2 initiative,2 social,15 academics,3 entrepreneurial,6 control,5 foshan,2 intelligent,2 super,2 huawei,2 industrial,4 breadcrumb,1 cse,2 activities,2 awards,2 reconstruction,2 strategy,2 strategic,2 accessibility,2 taste,2 led,2 nie,2 supply,2 identification,2 brand,2 events,1 temporal,2 element,2 browsing,1 environmental,6 diseases,2 kong,11 accept,1 mission,2 cognitive,2 vislab,2 animal,2 processing,4 programs,11 mcpf,3 hltc,2 integrative,2 students,4 fundamental,2 global,10 industry,2 giving,1 marine,2 cookies,3 ias,8 thompson,2 arts,2 emerging,2 key,4 apps,2 calendar,2 decision,2 services,2 marketing,4 rfid,2 technological,2 undergraduate,4 story,2 symlab,2 insurance,2 engagement,4 joint,28 castle,2 administration,2 accounting,2 enhancement,2 research,62 frequency,2 atc,2 school,30 continue,1 caire,2 sino,4 cenwit,2 campus,6 outreach,2 ieda,2 engineering,31 imaging,2 technologies,6 ocean,6 laboratory,26 blockchain,2 centrifuge,2 polymer,2 figures,2 eventsvisitgivingalumnicareers,1 webank,2 privacy,2 learning,4 iei,2 commerce,2 jockey,6 nanosystem,2 life,8 button,1 central,6 news,8 green,2 center,100 mong,2 technology,27 lifestyle,2 ssci,2 artificial,4 urban,2 infrastructure,2 milestones,2 finance,2 stem,2 lma,2 software,2 reasoning,2 gce,2 tissue,2 program,2 gcf,2 displays,2 preparation,3 faq,2 sight,2 plan,2 restoration,2 circuits,2 biology,2 natural,2 icdc,2 epigenomics,2 admissions,6 naver,2 institutes,2 care,2 study,6 linguistics,2 south,4 reliability,2 bright,4 smart,2 alumni,1 computer,6 web,2 physics,4 clicking,1 academy,2 chain,2 display,2 centre,2 brain,2 site,2 culture,2 facility,23 economic,4 statistics,2 data,8 ece,2 guangzhou,8 experience,1 glassblowing,2 development,2 xiaoi,2 profiles,2 spade,2 water,2 market,2 core,2 transfer,2 abfye,2 seng,2 challenges,2 mathematics,2 tongyi,2 line,2 scientific,2 tung,8 integrated,4 operations,2 public,8 postgraduate,2 atmospheric,2 studies,6 ina,2 stories,2 didi,2 cbe,2 wechat,2 resources,4 concentration,2 follow,2 macau,2 economics,2 administrative,2 interaction,2 wireless,4 visit,1 
+Last modification date: Mon, size of page:  11 May 2020 09:39:48 GMT
+center,100 hkust,86 research,62 institute,44 department,32 science,31 engineering,31 school,30 joint,28 technology,27 
+child links:
 https://www.ust.hk/academics/list#main-content
 https://www.ust.hk/academics/list#
 https://www.ust.hk/student
@@ -1923,11 +2426,45 @@ https://www.linkedin.com/school/hkust
 https://www.instagram.com/hkust/
 https://www.youtube.com/user/HKUST
 https://www.ust.hk/sites/default/files/menu_icons/IMG_5246.JPG
+
+parent links:
+http://www.cse.ust.hk
+https://www.ust.hk/news
+https://www.ust.hk/academics/list
+https://www.ust.hk/lifehkust
+https://library.ust.hk/
+https://www.ust.hk/map-directions
+https://hkustcareers.ust.hk/
+https://facultyprofiles.ust.hk/
+https://www.ust.hk/about-hkust
+https://www.cse.ust.hk/admin/intranet/
+https://www.seng.ust.hk/
+https://www.cse.ust.hk/admin/search/
+https://www.ust.hk/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: postgraduate students | hkust cse
 URL: https://www.cse.ust.hk/admin/people/pg/
-Last modification date: Tue, size of page:  05 May 2020 13:43:15 GMT
-projects,2 upload,2 luo,1 bai,1 instagram,2 jae,1 enrichment,2 lei,1 graduate,2 recruiting,2 zheng,2 ymaay,1 niu,1 zeng,3 welcome,2 events,2 wehong,1 employers,1 xshuaa,1 yjinas,1 personal,1 ziming,1 quality,2 yilun,1 kong,2 mission,2 wang,3 reserved,2 science,2 yhara,1 xinhuan,1 postgraduates,3 students,4 industry,1 sun,3 mtwongaf,1 xuyang,1 search,1 hkust,5 tuan,1 peng,1 departments,1 email,1 jobs,1 mingfei,1 yan,1 seekers,1 staff,3 people,2 xbaiad,1 yuan,1 fast,2 partners,1 information,1 undergraduate,4 javad,1 ywanggq,1 research,8 faculty,4 zpengab,1 wentao,1 wzhangcb,1 xueyang,1 zengqiang,1 jbkim,1 school,2 contact,5 yiqing,1 hao,1 won,1 liu,1 hyunjung,1 results,1 kwak,1 xyouaa,1 wong,1 engineering,2 assurance,2 vision,2 labs,2 shi,1 name,1 dsunae,1 updated,1 vu,1 zlict,1 shu,1 sabyasachi,1 inasu,1 jgc,1 xwuba,1 yishuo,1 privacy,2 placements,2 llibb,1 life,1 kim,1 intranet,1 yun,1 kit,1 ting,1 hara,1 yzhangee,1 shichao,1 wu,3 news,3 chamani,1 yuxiang,1 technology,2 awuac,1 zhe,1 publish,2 jierong,1 anand,1 sdiaoaa,1 copyright,2 program,1 zhang,5 jin,1 xiaotian,1 navigation,2 aicaa,1 hkwak,1 slicd,1 centers,2 yzhanggd,1 yu,1 yusen,1 saumya,1 wenchao,1 gaoxiong,1 admissions,2 agree,1 loading,1 lipeng,1 hong,3 wlibs,1 mphil,5 yluoav,1 wuqi,1 yuki,1 yzhanghw,1 alumni,3 hxinaa,1 library,1 rights,2 zniu,1 qshiaa,1 wei,1 lwangay,1 qiu,1 diao,1 map,1 jwangdh,1 ghareh,1 hweiad,1 meng,1 xliucr,1 facebook,2 qingkai,1 phd,45 yongqi,1 url,1 serkan,1 wxieaj,1 facilities,2 li,4 yushan,1 skumyol,1 quick,1 yqiuac,1 mail,1 boum,1 xia,1 ma,1 xie,1 academic,1 lam,1 links,2 xin,2 sitemap,2 mxiaag,1 profiles,1 jincheng,1 dong,1 msunag,1 ysunbc,1 directions,1 zhenhui,1 eui,1 job,3 youtube,2 jyubh,1 university,3 kumyol,1 zyanad,1 huan,1 linkedin,2 yzengal,1 computing,2 postgraduate,8 anh,1 tavu,1 yilei,1 zzhangei,1 ziqian,1 chittilappilly,1 aoyu,1 zzengae,1 academics,2 shizhe,1 abadhan,2 zwual,1 follow,2 yung,1 openings,2 cse,3 pg,4 kylambd,1 undergraduates,1 
+Last modification date: Mon, size of page:  11 May 2020 09:40:56 GMT
+phd,45 research,8 postgraduate,8 hkust,5 contact,5 zhang,5 mphil,5 students,4 undergraduate,4 faculty,4 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -1996,11 +2533,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: research areas | hkust cse
 URL: https://www.cse.ust.hk/pg/research/areas/
-Last modification date: Tue, size of page:  05 May 2020 13:43:17 GMT
-chatzopoulos,3 dekai,2 projects,2 lun,3 luo,4 empirical,2 instagram,2 lee,3 conducting,1 advance,1 robot,1 enrichment,2 lei,4 locally,1 music,1 graduate,2 retrieval,2 recruiting,2 strengthen,1 draws,1 understanding,2 qifeng,2 exhibit,1 welcome,2 events,2 temporal,1 knowledge,7 employers,1 databases,2 seamless,1 crowdsourcing,1 stc,1 qu,5 devices,1 ai,4 cunsheng,2 community,1 empowering,1 analysis,7 quality,2 kong,3 planning,1 mission,2 wang,5 vislab,1 reserved,2 science,6 processing,5 reality,3 institute,1 wing,1 greatly,1 complexity,1 postgraduates,3 hltc,1 singlab,1 robotics,1 fundamental,1 industry,1 networks,2 bo,3 moment,1 sec,2 coding,2 se,2 search,1 systems,7 variety,1 hkust,8 departments,1 behavior,1 computers,3 develops,1 key,1 emerging,1 innovation,1 languages,3 decision,1 ming,2 bdi,1 jobs,1 yan,2 structures,1 seekers,1 staff,3 yangqiu,1 people,2 shuai,2 accelerated,1 designing,1 concurrency,1 qian,4 fast,2 th,2 stage,1 brahim,2 partners,1 speech,1 mordecai,1 information,8 kwok,1 geometry,2 papadias,3 undergraduate,4 db,2 symlab,1 visualization,3 medical,2 joint,1 castle,1 fangzhen,2 dik,3 language,5 graphics,7 papadopoulos,1 research,22 dit,2 faculty,5 lin,2 dt,1 gary,4 school,2 contact,4 cheung,2 liu,2 tim,1 pan,4 protocols,1 programming,7 inherent,1 computational,4 image,5 chi,4 wong,4 solutions,1 cryptography,4 engineering,7 qiang,1 develop,1 graph,1 andrew,1 assurance,2 technologies,3 vision,11 vg,2 labs,9 blockchain,1 laboratory,2 leads,1 horner,1 yeung,2 updated,1 internet,1 virtual,1 mass,1 affective,1 huamin,5 privacy,4 placements,2 learning,6 video,1 augmented,2 commerce,1 representation,1 life,1 kim,2 primarily,1 hci,3 intranet,1 tang,2 malicious,1 ding,2 society,1 graphs,1 sunghun,2 arya,1 engine,1 ting,2 debugging,1 human,8 wu,2 siu,1 covers,2 news,3 digital,1 muppala,2 wide,1 sunil,1 center,2 mobile,1 raymond,4 technology,5 dimitris,7 existing,1 artificial,4 china,1 management,3 yang,1 realm,1 talents,1 hui,4 chuen,2 applications,5 base,1 bensaou,2 copyright,2 education,2 software,7 fulfill,1 reasoning,2 interactive,2 charles,3 zhang,15 program,1 welfare,1 repository,2 revolution,1 yi,3 wilfred,3 navigation,2 centers,9 text,1 spatial,2 tasks,2 hardware,1 song,1 images,1 arising,1 testing,2 understand,1 distributed,1 admissions,2 classified,1 loading,1 resistance,1 intelligence,4 hong,3 system,3 following,1 integration,3 driven,3 nevin,3 qiong,4 theory,5 algorithms,2 tong,5 linguistics,1 methods,1 james,1 keung,2 focuses,4 tools,1 local,1 pictures,1 healthcare,1 alumni,3 computer,20 library,1 world,3 modalities,1 stream,1 mak,1 jogesh,2 rights,2 ke,3 wei,2 map,1 established,1 synthesis,1 include,3 subareas,8 quan,2 efficient,1 topics,2 facebook,2 machine,3 golin,1 cutting,2 facilities,2 chan,4 li,3 voice,1 quick,1 data,14 theoretical,3 environments,1 recognition,1 networking,11 sustained,1 lab,4 centralized,1 cloud,1 edge,2 looks,1 major,3 ma,4 academic,1 emphasis,1 lan,2 create,1 links,1 brian,1 tai,2 intensive,1 verification,2 sitemap,2 biometric,1 development,1 tao,1 profiles,1 follows,1 equipment,1 ideas,1 includes,1 particular,1 mining,3 real,1 cybersecurity,4 heart,1 relevant,1 directions,1 techniques,4 ne,2 ng,3 sensor,1 job,3 youtube,2 solving,1 critical,1 university,3 values,1 determines,1 affiliated,7 media,1 linkedin,2 pong,2 chung,3 integrated,1 effective,1 computing,4 security,5 database,3 kai,2 postgraduate,4 parallel,2 pedro,2 albert,3 design,2 xiaojuan,4 studies,2 threats,1 department,1 physical,1 chen,8 aims,2 initiative,1 motion,1 social,1 performing,1 wechat,1 shing,2 academics,2 control,1 approaches,2 follow,2 openings,2 intelligent,1 huawei,1 cyber,2 cse,3 application,2 chiew,2 sander,2 pg,2 interaction,6 challenge,2 investigation,1 reconstruction,1 wireless,1 cheng,2 undergraduates,1 user,1 
+Last modification date: Mon, size of page:  11 May 2020 09:40:58 GMT
+research,22 computer,20 zhang,15 data,14 vision,11 networking,11 labs,9 centers,9 hkust,8 information,8 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -2104,11 +2665,35 @@ https://www.facebook.com/hkust/
 https://www.instagram.com/hkust/
 https://www.youtube.com/channel/UC1Gky4HCpEOK5EmoUj6zhGg
 https://www.linkedin.com/company/department-of-computer-science-and-engineering-the-hong-kong-university-of-science-and-technology
+
+parent links:
+http://www.cse.ust.hk
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: life@hkust | the hong kong university of science and technology
 URL: https://www.ust.hk/lifehkust
-Last modification date: Tue, size of page:  05 May 2020 13:40:26 GMT
-psychological,1 strategic,2 accessibility,2 maintain,1 taste,2 skills,1 offer,1 music,1 graduate,4 leveraging,1 diverse,1 bay,2 brand,2 events,1 knowledge,5 promoting,1 browsing,1 vibrant,1 dining,1 diseases,2 engineers,1 personal,1 socializing,1 community,5 interdisciplinary,4 kong,3 population,2 accept,1 senior,2 mission,2 advancement,2 reserved,2 science,12 rounded,1 reality,1 myportal,2 institute,8 happening,1 programs,9 amenities,1 sustainable,3 housing,2 students,5 global,4 giving,1 balanced,1 civic,1 cookies,3 intimacy,1 search,3 advertisements,1 humanities,4 integral,1 hkust,30 targeted,1 ias,4 departments,4 arts,6 close,1 connect,1 policy,4 apps,2 calendar,2 mind,1 art,1 website,2 business,4 learn,3 staff,2 transportation,1 residential,1 meet,1 information,2 aging,2 technological,2 undergraduate,4 story,2 publications,2 essential,1 insurance,2 addressing,2 becoming,1 administration,2 available,1 research,10 faculty,4 awareness,1 school,20 fitness,4 continue,1 scholarship,2 contact,2 club,4 creativity,3 info,1 educational,1 unlock,1 campus,7 outreach,4 engineering,5 develop,1 benevolent,1 consent,1 vision,2 success,2 exchange,2 fok,4 visiting,2 figures,2 eventsvisitgivingalumnicareers,1 privacy,2 learning,2 surroundings,1 jockey,4 directory,2 content,2 life,14 miles,1 button,1 wellness,2 live,1 eng,2 news,10 types,1 living,6 embrace,1 apply,1 effectively,1 center,1 technology,3 lifestyle,4 home,1 manage,1 special,1 ying,4 urban,2 management,4 infrastructure,2 healthy,1 catering,1 time,1 milestones,2 taking,1 forming,1 career,1 copyright,2 education,2 advanced,4 focus,2 program,2 beyond,1 scholarly,2 fullest,1 balance,1 faq,2 sight,1 guidelines,4 plan,2 natural,3 lives,1 cookie,1 admissions,6 classroom,1 imagination,2 thousands,1 hong,3 enriches,1 conservation,2 schools,2 analyze,1 institutes,2 style,1 classrooms,1 aid,2 women,1 wider,1 study,4 aim,1 alive,1 widen,1 skip,1 alumni,2 computer,1 world,1 library,2 partnerships,1 web,2 accommodate,1 rights,2 map,2 clicking,1 twenty,2 deepening,1 born,1 entrepreneurship,4 opportunities,2 century,2 multimedia,2 site,2 culture,4 facilities,2 governance,2 covid,2 nourishes,1 own,1 guangzhou,2 main,1 office,6 serve,2 body,1 experience,1 stimulates,1 academic,6 ust,2 chronic,2 sitemap,2 traffic,1 settings,1 development,6 read,1 goes,2 profiles,2 maintaining,1 inner,1 personalize,1 careers,1 rankings,2 transfer,2 inventions,2 outside,1 ideation,2 colorful,1 seng,1 student,21 challenges,2 university,4 financial,2 media,2 tung,4 textbooks,1 life@hkust,1 public,5 postgraduate,2 array,1 ready,1 leadership,2 execution,2 stories,3 sports,3 social,6 academics,2 resources,5 entrepreneurial,6 control,3 follow,2 horizons,1 breadcrumb,1 build,1 activities,5 awards,2 bonding,4 administrative,2 organizations,2 visit,1 coming,1 
+Last modification date: Mon, size of page:  11 May 2020 09:39:52 GMT
+hkust,30 student,21 school,20 life,14 science,12 research,10 news,10 programs,9 institute,8 campus,7 
+child links:
 https://www.ust.hk/lifehkust#main-content
 https://www.ust.hk/lifehkust#
 https://www.ust.hk/student
@@ -2225,11 +2810,45 @@ https://www.linkedin.com/school/hkust
 https://www.instagram.com/hkust/
 https://www.youtube.com/user/HKUST
 https://www.ust.hk/sites/default/files/menu_icons/IMG_5246.JPG
+
+parent links:
+http://www.cse.ust.hk
+https://www.ust.hk/news
+https://www.ust.hk/academics/list
+https://www.ust.hk/lifehkust
+https://library.ust.hk/
+https://www.ust.hk/map-directions
+https://hkustcareers.ust.hk/
+https://facultyprofiles.ust.hk/
+https://www.ust.hk/about-hkust
+https://www.cse.ust.hk/admin/intranet/
+https://www.seng.ust.hk/
+https://www.cse.ust.hk/admin/search/
+https://www.ust.hk/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: hkust library
 URL: https://library.ust.hk/
-Last modification date: Tue, size of page:  05 May 2020 13:40:32 GMT
-achievements,1 projects,1 accessibility,1 videos,4 remote,1 lee,1 via,1 coaching,1 bay,1 events,2 goals,1 databases,5 based,1 qr,1 glimpses,1 past,1 reserves,1 kong,4 mission,1 reserved,2 plans,1 science,4 bridge,2 items,1 actions,1 archives,1 access,7 postgraduates,1 conference,1 noissn,1 scanning,3 document,2 students,1 kee,1 availability,1 search,12 rss,2 hkall,4 glance,1 hkust,19 departments,3 behavior,1 free,2 embedded,1 popular,1 computers,6 conferences,1 email,1 policy,3 art,1 business,1 learn,3 jobs,2 librarian,2 staff,4 services,5 people,1 printing,4 transportation,1 phraseauthortitlesubjectcall,1 readers,1 series,1 holds,1 information,5 paul,1 interview,1 apos,1 publications,1 engagement,1 reopened,1 becoming,3 wordpress,1 available,2 rules,2 inside,1 research,9 placing,1 faculty,3 lin,1 chinese,2 guides,11 catalogprimo,1 seals,1 rare,1 contact,2 ebooks,1 copying,1 details,1 talk,2 librarians,1 films,1 ensure,1 maps,1 campus,3 newsclipping,1 collection,6 scholar,2 users,1 vision,1 libqual,1 institutional,3 materials,1 proquest,2 name,2 page,1 support,5 whatsapp,1 loan,4 arrivals,2 session,1 classes,1 interlibrary,3 privacy,2 learning,4 video,1 papers,1 directory,1 content,3 life,2 kowloon,1 central,1 related,1 alert,1 responsible,1 mask,1 covers,1 news,5 powersearch,2 digital,1 delivery,2 hours,2 wide,1 winning,1 start,1 reilly,2 technology,4 special,3 vacancies,2 dataspace,2 china,1 management,2 service,1 departmental,1 venues,2 recalls,1 copyright,2 education,2 hk,1 software,2 catalog,2 program,1 repository,3 output,1 scholarly,1 collections,2 safety,2 games,2 action,1 ic,1 join,2 catalogues,1 id,1 plan,3 ig,1 cooperation,1 images,1 researchers,1 journals,4 hong,4 books,2 system,1 phone,1 exhibitions,1 impression,1 favorite,1 word,2 browse,1 study,6 wear,1 range,1 skip,1 teaching,6 commons,1 enabled,1 smart,3 alumni,3 streaming,2 library,33 rights,2 electronic,1 course,9 usbs,1 map,2 outcome,1 monday,1 facebook,2 renewals,1 help,1 site,1 highlights,2 instruction,2 discovery,1 audios,1 facilities,1 markers,1 shau,1 dimensions,1 statistics,2 booking,3 covid,1 data,2 subject,3 main,1 theses,1 blog,1 trial,2 space,6 nameinstructor,1 newsletters,2 zone,1 academic,2 coordinators,1 ust,1 xyz,1 publishers,1 create,1 antique,1 formcourse,1 including,1 spd,3 workshop,1 isbngenre,1 profiles,4 equipment,3 orcid,1 history,1 water,1 literacy,1 ejournals,1 careers,1 visitors,1 entry,1 directions,2 phrase,1 instructor,1 browzine,1 job,2 ezproxy,2 announcements,1 headsets,1 youtube,2 request,1 italks,1 week,1 university,8 policies,1 seal,1 linkedin,1 database,5 floors,1 award,1 reserve,3 workshops,3 floor,2 exhibition,1 lectures,1 academics,1 resources,9 dynasties,1 zoom,2 follow,1 various,1 online,2 borrowing,5 semester,1 wireless,1 undergraduates,1 visit,1 user,2 account,3 forms,1 
+Last modification date: Mon, size of page:  11 May 2020 09:39:55 GMT
+library,33 hkust,19 search,12 guides,11 research,9 course,9 resources,9 university,8 access,7 computers,6 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -2398,9 +3017,7 @@ https://lbbooking.ust.hk/
 http://hkall.julac.org
 https://library.ust.hk/blog/2020/02/24/actions-taken-for-your-safety/
 https://library.ust.hk/exhibitions/seal/?lang=cht&page=talk
-https://library.ust.hk/ce/index.php/event/6966/
 https://library.ust.hk/collections-resources/databases/special-free-access-db-covid-19/
-https://library.ust.hk/ce/index.php/event/6974/
 https://library.ust.hk/#!
 https://library.ust.hk/about-us/policies-and-rules/borrowing-policy/hold-renew-recall/
 https://library.ust.hk/services/facilities/copying-scanning-printing
@@ -2426,11 +3043,37 @@ https://library.ust.hk/about-us/policies-and-rules/privacy-policy/
 https://www.instagram.com/libraryathkust/
 https://www.linkedin.com/school/hkust/
 https://library.ust.hk/blog
+
+parent links:
+http://www.cse.ust.hk
+https://library.ust.hk/
+https://www.cse.ust.hk/admin/intranet/
+https://www.seng.ust.hk/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: visit | the hong kong university of science and technology
 URL: https://www.ust.hk/map-directions
-Last modification date: Tue, size of page:  05 May 2020 13:41:03 GMT
-fare,1 staying,1 outlets,1 scenic,1 stunning,1 tolls,1 via,1 offer,1 graduate,4 understanding,2 bay,7 near,1 knowledge,4 announcement,1 community,4 click,1 terminals,1 interdisciplinary,4 lion,1 population,2 airport,3 senior,2 route,1 advancement,2 stop,1 selection,1 left,1 reserved,2 science,11 myportal,2 institute,8 drive,1 southern,4 harbour,1 hang,6 sustainable,2 example,1 search,3 advertisements,1 humanities,4 hkust,41 targeted,1 departments,4 dear,1 close,1 policy,4 website,2 business,4 staff,3 leveraged,1 straight,2 thank,1 information,8 aging,2 novel,1 publications,2 addressing,2 taxis,2 questions,1 official,1 faculty,4 red,1 kung,4 post,1 fitness,2 leave,1 scholarship,2 contact,3 bird,1 club,4 tin,1 implement,1 tip,1 prospective,1 contributed,1 gifts,1 info,1 tiu,1 keng,1 check,1 consent,1 onto,1 vision,2 traditions,1 success,2 exchange,2 helps,1 leng,1 fok,4 visiting,2 directory,2 content,2 choi,6 kowloon,3 signs,6 sik,3 related,1 eng,2 notice,2 prince,1 living,4 asia,1 apparels,1 home,1 ying,5 china,1 approximately,3 management,4 armillary,1 avoid,2 tunnel,3 fountain,1 copyright,2 education,2 hk,3 advanced,4 considered,1 ho,3 focus,2 scholarly,2 easily,1 guidelines,4 tseung,1 reduce,1 cookie,1 crossing,2 hong,9 lung,2 exit,9 conservation,2 schools,2 kwun,1 analyze,1 aid,2 southeast,1 tong,1 city,3 bags,1 skip,1 retail,1 local,1 library,3 world,1 holders,1 sphere,1 rights,2 pristine,1 map,4 twenty,2 entrepreneurship,4 opportunities,2 century,2 multimedia,2 terminus,1 facilities,1 governance,2 covid,2 edward,1 main,3 office,6 serve,1 academic,6 ust,2 lam,3 logo,1 international,2 entrance,6 chronic,2 sitemap,2 traffic,1 settings,1 including,1 read,1 tate,1 charms,1 heart,1 personalize,1 careers,1 rankings,2 driving,1 inventions,2 ideation,2 minibus,8 inconvenience,1 drivingwalkingbicycling,1 parents,1 locate,1 student,6 university,13 financial,2 refurbishment,2 media,2 head,2 leadership,2 generous,1 roundabout,1 lane,1 direction,1 execution,2 sports,1 social,6 countryside,1 rates,1 academics,2 coronavirus,1 entrepreneurial,6 control,4 transport,1 occupies,1 outdoor,2 merchandise,1 breadcrumb,1 activities,2 awards,2 engage,1 acre,1 online,1 po,2 strategic,2 accessibility,2 taste,2 prev,4 registered,1 objective,1 exclusive,1 brand,2 events,1 interchange,2 browsing,1 mementos,1 remain,1 taxi,3 diseases,2 havens,1 kong,9 accept,1 mission,2 territories,1 unique,1 programs,8 circle,1 items,1 functional,1 access,1 students,6 shatin,1 global,4 giving,1 cookies,3 ias,4 operating,1 arts,2 popular,1 apps,2 calendar,2 store,1 julac,1 peninsula,1 closed,1 technological,2 undergraduate,4 story,2 insurance,2 bus,9 administration,2 offices,1 available,2 express,1 research,10 famously,1 features,1 school,20 continue,3 cheung,2 dynamic,1 hau,6 travelling,1 pre,1 eastern,1 campus,12 outreach,2 please,1 engineering,4 kwan,1 overlooking,1 buses,3 support,1 shop,4 cards,1 hidden,1 figures,2 eventsvisitgivingalumnicareers,1 privacy,2 learning,1 jockey,4 life,4 situated,1 button,1 arrive,1 ting,3 gas,1 news,8 hours,1 wide,1 paced,1 center,5 cairn,1 sculpture,1 technology,4 sundial,1 lifestyle,3 urban,2 detailed,1 hotels,1 infrastructure,2 catering,1 passing,1 time,1 milestones,2 parking,2 achievement,1 interactive,1 program,2 road,9 faq,2 options,1 enter,1 plan,2 welcomes,1 natural,2 admissions,6 stations,4 creative,1 innovative,1 following,1 indoor,1 institutes,2 card,1 browse,1 study,4 range,1 commons,1 alumni,4 rock,1 modern,1 web,2 congregation,1 clicking,1 souvenir,4 yip,1 caused,1 display,1 apologize,1 help,1 clearwater,4 site,3 highlights,1 culture,2 foster,1 located,1 board,1 kok,1 guangzhou,2 treasures,1 experience,1 piazza,2 highways,1 ngau,1 island,1 minutes,1 profiles,2 tau,1 mtr,14 towards,4 water,1 lovers,1 visitors,4 transfer,2 hung,6 visitor,3 challenges,2 interwoven,1 tung,4 security,1 public,5 postgraduate,2 car,1 station,9 sai,4 informational,1 park,1 costs,1 stories,2 aims,1 resources,4 follow,7 spread,1 administrative,2 visit,5 
+Last modification date: Mon, size of page:  11 May 2020 09:39:58 GMT
+hkust,41 school,20 mtr,14 university,13 campus,12 science,11 research,10 hong,9 exit,9 kong,9 
+child links:
 https://www.ust.hk/visit#main-content
 https://www.ust.hk/visit#
 https://www.ust.hk/student
@@ -2550,12 +3193,40 @@ https://www.linkedin.com/school/hkust
 https://www.instagram.com/hkust/
 https://www.youtube.com/user/HKUST
 https://www.ust.hk/sites/default/files/menu_icons/IMG_5246.JPG
+
+parent links:
+http://www.cse.ust.hk
+https://library.ust.hk/
+https://hkustcareers.ust.hk/
+https://facultyprofiles.ust.hk/
+https://www.cse.ust.hk/admin/intranet/
+https://www.seng.ust.hk/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: home | careers at hkust
 URL: https://hkustcareers.ust.hk/
-Last modification date: Tue, size of page:  14 Apr 2020 09:09:22 GMT
-copyright,2 education,4 uncompromising,1 advanced,2 leading,1 instagram,1 advance,1 integrity,1 locally,1 recruitment,3 terms,2 faq,2 english,1 initiatives,1 diverse,1 bay,6 join,2 promotes,1 presence,1 plan,2 welcome,1 knowledge,1 generation,1 inclusive,1 qs,1 researchers,1 collaborative,1 impact,3 received,1 runners,1 recognitions,1 community,1 interdisciplinary,1 kong,10 hong,10 innovative,1 enrolment,1 mission,1 undertaken,1 advancement,1 schools,1 reserved,2 employability,1 science,4 institutes,1 inclusiveness,1 institute,2 programs,1 drive,1 societal,2 internal,2 strong,2 enhances,1 pursuit,1 retain,1 students,2 deliver,1 skip,1 teaching,3 global,4 privacysitemapcontact,1 seek,1 thinking,1 local,2 search,2 current,4 diversity,2 library,1 humanities,1 world,4 freedom,1 rights,2 hkust,30 departments,1 map,1 established,1 business,1 jobs,1 facebook,1 founded,1 spirit,1 staff,1 menu,1 th,2 cutting,1 subsidiaries,2 ranking,1 facilities,1 undergraduate,2 levels,1 excellence,3 administration,1 guangzhou,6 main,1 language,1 office,4 research,7 faculty,5 edge,1 academic,3 worldwide,1 international,3 creativity,1 upholds,1 dedicated,1 development,1 campus,12 profiles,1 commitment,2 engineering,1 history,1 significant,1 comprises,1 diversify,1 water,6 heart,1 respect,1 careers,4 rankings,2 core,1 vision,2 efforts,1 directions,1 materials,2 recruit,1 youtube,1 critical,1 student,1 university,11 globally,1 mass,1 values,2 learning,2 proactive,1 linkedin,1 content,1 life,1 times,1 producing,1 central,1 postgraduate,2 ranked,1 lies,1 human,3 class,1 news,1 living,2 apply,2 limited,2 social,1 multiple,1 resources,3 academics,1 employment,2 technology,2 follow,1 openings,6 home,2 environment,1 breadcrumb,1 china,1 disciplines,1 management,1 administrative,1 short,1 front,1 talents,1 outlook,1 coming,2 
-https://hkustcareers.ust.hk/#main-content
+Last modification date: Mon, size of page:  11 May 2020 09:40:01 GMT
+hkust,30 campus,12 university,11 kong,10 hong,10 research,7 bay,6 guangzhou,6 water,6 openings,6 
+child links:
+https://hkustcareers.usthk.cn/#main-content
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -2564,35 +3235,66 @@ https://www.ust.hk/map-directions
 https://hkustcareers.ust.hk
 https://facultyprofiles.ust.hk/
 https://www.ust.hk/about
-https://hkustcareers.ust.hk/How-to-Apply
-https://hkustcareers.ust.hk/FAQ
+https://hkustcareers.usthk.cn/How-to-Apply
+https://hkustcareers.usthk.cn/FAQ
 https://www.ab.ust.hk/hro/
-https://hkustcareers.ust.hk/#
+https://hkustcareers.usthk.cn/#
 https://www.ust.hk
 https://hkustcareers.ust.hk/
-https://hkustcareers.ust.hk/Faculty-Recruitment-Plan
-https://hkustcareers.ust.hk/About-HKUST/About-Clear-Water-Bay-Campus
+https://hkustcareers.usthk.cn/Faculty-Recruitment-Plan
+https://hkustcareers.usthk.cn/About-HKUST/About-Clear-Water-Bay-Campus
 https://gz.ust.hk/
-https://hkustcareers.ust.hk/Employment-Terms/Clear-Water-Bay-Campus
-https://hkustcareers.ust.hk/Employment-Terms/Guangzhou-Campus
-https://hkustcareers.ust.hk/About-HK
-https://hkustcareers.ust.hk/Coming-to-HK
-https://hkustcareers.ust.hk/Living-in-HK
+https://hkustcareers.usthk.cn/Employment-Terms/Clear-Water-Bay-Campus
+https://hkustcareers.usthk.cn/Employment-Terms/Guangzhou-Campus
+https://hkustcareers.usthk.cn/About-HK
+https://hkustcareers.usthk.cn/Coming-to-HK
+https://hkustcareers.usthk.cn/Living-in-HK
 https://hrmsxprod.psft.ust.hk:8044/psp/hrmsxprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL
 https://login.psft.ust.hk/cas/login?method=POST&service=https%3A//hrmsprod.psft.ust.hk/psp/hrmsprod/EMPLOYEE/HRMS/c/HRS_HRAM_EMP.HRS_CE.GBL%3F%26cmd%3Dlogin%26languageCd%3DENG%26userid%3DCASPROXY%26pwd%3Dz
 http://www.nami.org.hk/en/nami/careers.html
 https://dataprivacy.ust.hk/university-data-privacy-policy-statement/
-https://hkustcareers.ust.hk/sitemap
-https://hkustcareers.ust.hk/Contact-Us
+https://hkustcareers.usthk.cn/sitemap
+https://hkustcareers.usthk.cn/Contact-Us
 https://www.facebook.com/hkust/
 https://www.instagram.com/hkust
 https://www.linkedin.com/school/hkust/
 https://www.youtube.com/user/hkust
+
+parent links:
+http://www.cse.ust.hk
+https://www.ust.hk/news
+https://www.ust.hk/academics/list
+https://www.ust.hk/lifehkust
+https://www.ust.hk/map-directions
+https://hkustcareers.ust.hk/
+https://www.ust.hk/about-hkust
+https://www.cse.ust.hk/admin/intranet/
+https://www.cse.ust.hk/admin/search/
+https://www.ust.hk/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: faculty profiles | the hong kong university of science and technology
 URL: https://facultyprofiles.ust.hk/
-Last modification date: Tue, size of page:  05 May 2020 13:41:20 GMT
-date,1 copyright,2 hk,2 university,4 privacy,1 update,2 global,1 office,2 life,1 research,2 faculty,2 correctly,1 search,1 view,1 library,1 academic,1 ust,2 rights,2 browser,3 hkust,5 oir,2 departments,1 map,1 policy,1 news,1 website,1 jobs,1 profiles,2 technology,3 follow,1 kong,3 hong,3 directions,1 institutional,2 reserved,2 science,3 
+Last modification date: Mon, size of page:  11 May 2020 09:40:03 GMT
+hkust,5 university,4 browser,3 technology,3 kong,3 hong,3 science,3 copyright,2 hk,2 update,2 
+child links:
 https://www.ust.hk/news
 https://www.ust.hk/academics/list
 https://www.ust.hk/lifehkust
@@ -2609,11 +3311,44 @@ https://www.facebook.com/hkust
 https://www.instagram.com/hkust/
 https://www.linkedin.com/school/hkust/
 https://www.youtube.com/hkust
+
+parent links:
+http://www.cse.ust.hk
+https://www.ust.hk/news
+https://www.ust.hk/academics/list
+https://www.ust.hk/lifehkust
+https://library.ust.hk/
+https://www.ust.hk/map-directions
+https://hkustcareers.ust.hk/
+https://www.ust.hk/about-hkust
+https://www.cse.ust.hk/admin/intranet/
+https://www.seng.ust.hk/
+https://www.cse.ust.hk/admin/search/
+https://www.ust.hk/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
 Page title: about | the hong kong university of science and technology
 URL: https://www.ust.hk/about-hkust
-Last modification date: Tue, size of page:  05 May 2020 13:41:28 GMT
-shyy,1 bring,1 recognized,1 building,7 advance,1 ugc,1 offer,1 chia,2 graduate,6 bay,2 knowledge,4 excellent,1 neuroscience,2 engineers,1 july,6 bill,1 community,2 court,1 interdisciplinary,4 population,2 airport,1 senior,3 planning,1 advancement,2 steven,1 reserved,2 science,13 myportal,2 institute,12 formed,1 scheme,1 sustainable,2 hon,3 icon,1 roll,1 kellogg,9 founding,1 example,1 result,1 search,3 advertisements,1 humanities,4 fook,1 aacsb,1 hkust,78 targeted,1 departments,4 close,1 policy,4 chip,1 website,2 tsang,1 committee,6 business,6 sets,1 awarded,3 operational,1 staff,3 inaugural,2 march,5 blast,1 straight,3 yuan,1 june,7 series,1 fifth,1 information,4 aging,2 paul,1 anniversary,7 publications,2 addressing,2 november,8 official,2 developed,1 nansha,2 dr,6 faculty,6 assessment,1 fitness,2 woo,2 scholarship,2 speakers,1 contact,2 club,7 nanotechnology,1 tim,1 warning,1 talk,1 info,1 agreements,1 internationally,1 cho,1 consent,1 andrew,1 mainland,1 vision,4 chu,2 celebration,2 risen,1 materials,1 success,2 final,1 exchange,2 auditorium,1 fok,8 visiting,2 beginning,1 sources,1 rusal,1 directory,2 content,2 gates,1 optoelectronic,1 society,1 signs,1 producing,1 sik,1 laser,1 molecular,2 sir,1 eng,2 grants,5 digital,1 living,4 asia,4 deposition,1 home,1 forum,1 ying,8 gz,1 china,2 management,5 ching,1 president,7 named,4 copyright,2 education,5 hk,4 triggered,1 advanced,8 ho,1 focus,2 delivered,1 groundbreaking,3 scholarly,2 executive,1 nanometer,1 centers,2 guidelines,4 secretariat,1 sky,1 chow,1 cookie,1 signed,1 jointly,2 hong,11 talked,1 conservation,2 system,3 million,5 seventh,1 schools,3 employability,4 cma,1 analyze,1 john,1 aid,2 proportion,1 jp,3 skip,1 cell,1 government,3 world,9 library,3 top,1 rights,2 december,6 shenzhen,2 map,2 twenty,2 asian,2 entrepreneurship,5 chairman,5 positive,1 opportunities,3 mba,1 inauguration,3 century,2 multimedia,2 future,3 discovery,1 shau,3 shaw,1 governance,2 olympiad,3 covid,2 lo,1 recognition,1 main,1 office,7 accredited,1 serve,1 decorated,1 disorders,2 academic,8 ust,2 logo,1 relentless,1 lap,1 international,5 chronic,2 sitemap,2 traffic,1 settings,1 read,54 film,1 establish,1 personalize,1 tony,1 careers,1 rankings,3 inventions,2 ceremony,18 naming,2 survey,2 ideation,2 october,12 basic,1 nm,1 initiated,1 patent,1 student,7 university,23 financial,10 technique,1 media,2 effective,1 times,9 total,1 tier,1 leadership,3 ranked,15 construction,3 execution,2 sports,2 social,6 academics,2 entrepreneurial,6 control,3 distinguished,1 rapidly,1 enrollment,1 breadcrumb,1 activities,2 awards,3 ninth,1 objectives,1 strategy,1 strategic,3 accessibility,2 enters,1 taste,2 prev,1 led,1 lee,3 granted,1 contribution,1 accomplishments,1 initiatives,1 brand,2 events,1 breaking,2 based,1 browsing,1 phononic,1 diseases,2 received,1 recognitions,2 kong,11 accept,1 mission,4 programs,8 donated,3 students,5 association,2 global,9 kee,3 industry,2 giving,1 cookies,3 sc,1 liao,1 ias,6 lecture,2 arts,2 key,2 apps,2 calendar,2 st,1 neuro,1 launch,2 single,1 marvin,1 shiu,1 th,12 kick,1 collaboration,1 ranking,2 fourth,4 attained,1 technological,2 undergraduate,5 story,3 insurance,2 excellence,4 administration,3 generations,1 project,1 arena,1 research,25 uc,1 diameter,1 school,23 funded,1 continue,1 cheung,1 photonic,1 windshear,1 five,2 campus,7 outreach,2 nanomaterials,1 engineering,4 develop,1 pro,1 technologies,1 announced,1 chancellor,1 laboratory,2 senate,2 support,2 polymer,1 figures,4 eventsvisitgivingalumnicareers,1 graduates,2 book,1 emba,8 changes,1 privacy,2 effort,1 summit,1 jockey,7 life,4 button,1 ier,1 ting,1 retired,1 prometheus,1 wu,1 sze,1 news,8 winning,1 center,4 technology,6 inaugurated,1 lifestyle,2 urban,2 fund,2 infrastructure,2 nervous,1 hawking,1 gbs,3 time,4 milestones,3 stem,1 held,6 striving,1 program,12 displays,1 april,7 revolution,1 commencement,1 universities,3 carbon,1 faq,2 yu,3 plan,2 phase,1 natural,2 contract,1 admissions,6 institutes,2 nanotube,1 study,6 bright,1 exercise,1 teaching,1 foundation,2 alumni,1 rock,1 web,2 physics,1 congregation,1 wei,3 theme,1 event,2 clicking,1 academy,1 regular,1 established,4 chak,1 prof,7 site,2 walled,1 january,6 culture,2 chan,2 concerted,1 mathematical,2 collegiate,1 friendly,1 kok,1 guangzhou,5 experience,1 hosted,3 drug,1 eco,1 theater,1 celebrated,3 worldwide,4 mechanisms,1 tai,1 development,1 profiles,2 water,1 appointed,8 core,1 transfer,2 council,8 ground,2 visitor,1 signaling,1 challenges,2 values,1 vincent,1 tung,11 chung,2 east,1 september,12 award,1 public,4 postgraduate,2 stories,2 cost,1 limited,2 chek,1 built,1 february,4 stephen,1 eighth,1 resources,4 follow,2 professorships,3 diamond,1 third,5 administrative,2 cheng,3 visit,1 
+Last modification date: Mon, size of page:  11 May 2020 09:40:07 GMT
+hkust,78 read,54 research,25 university,23 school,23 ceremony,18 ranked,15 science,13 institute,12 october,12 
+child links:
 https://www.ust.hk/about#main-content
 https://www.ust.hk/about#
 https://www.ust.hk/student
@@ -2773,4 +3508,275 @@ https://www.linkedin.com/school/hkust
 https://www.instagram.com/hkust/
 https://www.youtube.com/user/HKUST
 https://www.ust.hk/sites/default/files/menu_icons/IMG_5246.JPG
+
+parent links:
+http://www.cse.ust.hk
+https://library.ust.hk/
+https://facultyprofiles.ust.hk/
+https://www.cse.ust.hk/admin/intranet/
+https://www.seng.ust.hk/
+https://www.cse.ust.hk/admin/search/
+https://www.cse.ust.hk/
+https://www.cse.ust.hk/#
+https://www.cse.ust.hk/ug/
+https://www.cse.ust.hk/pg/
+https://www.cse.ust.hk/Restricted/
+https://www.cse.ust.hk/admin/people/alumni/
+https://www.cse.ust.hk/admin/recruitment/
+https://www.cse.ust.hk/admin/industry_collaboration/
+https://www.cse.ust.hk/admin/welcome/
+https://www.cse.ust.hk/admin/mission/
+https://www.cse.ust.hk/admin/about/
+https://www.cse.ust.hk/admin/factsheet/
+https://www.cse.ust.hk/News/
+https://www.cse.ust.hk/admin/contact/
+https://www.cse.ust.hk/admin/people/faculty/
+https://www.cse.ust.hk/admin/people/staff/
+https://www.cse.ust.hk/admin/people/pg/
+https://www.cse.ust.hk/pg/research/areas/
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+department	computer	science	engineering	hkust	university	news	academic	departments	life	
+library	map	directions	jobs	faculty	profiles	intranet	school	quick	links	
+undergraduates	postgraduates	staff	alumni	job	seekers	employers	industry	partners	welcome	
+mission	vision	cse	fast	events	openings	contact	people	research	labs	
+centers	projects	computing	facilities	academics	undergraduate	postgraduate	enrichment	quality	assurance	
+admissions	pg	recruiting	graduate	placements	spotlights	stepping	realm	augmented	reality	
+practical	transformation	lives	remedy	medicine	visualizing	locations	finding	destination	set	
+simpler	creating	predictive	future	data	china	wechat	tackling	fake	facebook	
+previous	february	november	mapping	ahead	apr	feb	sep	forums	workshops	
+technology	forum	wed	bdi	career	fair	mon	postponed	thu	student	
+activities	local	programming	contest	sat	april	september	dr	kenneth	leung	
+raymond	wong	received	honorary	mention	common	core	students	forge	careers	
+overseas	autonomous	vehicles	developed	professor	serve	community	teaching	excellence	award	
+covid	outbreak	mainland	pinpoint	software	vulnerabilities	real	world	programs	towards	
+understanding	engagement	human	robot	interaction	machine	learning	analytics	platforms	users	
+preference	mood	modulation	music	spatiotemporal	models	precipitation	nowcasting	securing	smart	
+devices	code	analysis	testing	location	sensing	city	robo	lawyer	contract	
+generator	chatbot	spatial	temporal	crowdsourcing	coda	facilitating	applications	via	network	
+optimization	approximate	query	processing	synthesize	images	panoramic	view	publications	videos	
+updated	privacy	sitemap	copyright	hong	kong	rights	reserved	follow	instagram	
+youtube	linkedin	skip	main	content	information	media	guangzhou	visit	giving	
+myportal	search	button	eng	business	management	humanities	social	interdisciplinary	office	
+fok	ying	tung	jockey	club	institute	advanced	study	ias	public	
+policy	taste	visiting	exchange	scholarship	financial	aid	insurance	fitness	lifestyle	
+living	campus	outreach	arts	culture	infrastructure	bay	knowledge	transfer	focus	
+opportunities	program	entrepreneurship	entrepreneurial	ideation	execution	success	stories	addressing	global	
+challenges	aging	population	chronic	diseases	control	natural	resources	conservation	sustainable	
+urban	technological	advancement	inventions	twenty	century	education	governance	story	milestones	
+leadership	strategic	plan	figures	awards	rankings	senior	administration	eventsvisitgivingalumnicareers	scholarly	
+web	ust	breadcrumb	home	endeavors	difference	changing	innovation	researchers	unlock	
+genomic	secrets	scaly	foot	snail	develop	fever	screening	system	offering	
+efficient	solution	safeguarding	health	geo	fencing	quarantine	amid	pandemic	develops	
+anti	microbial	coating	fight	recognition	stands	gender	balance	performance	development	
+expanding	frontiers	converging	minds	slash	alternate	path	sustainability	using	tree	
+announcements	lending	hand	virus	slaying	air	purifiers	delivery	robots	fighting	
+bonding	becoming	ready	driverless	help	affected	category	creativity	internationalization	partnership	
+major	stem	featured	topics	international	browse	learn	talk	approach	measuring	
+inequalities	phys	org	hydrothermal	vents	daily	ming	pao	scientists	discover	
+multiple	rna	elements	microrna	biogenesis	eurekalert	tv	kg	ezone	coverage	
+schools	institutes	directory	administrative	apps	multimedia	faq	brand	guidelines	website	
+calendar	accessibility	close	accept	cookies	offer	browsing	experience	analyze	site	
+traffic	personalize	targeted	advertisements	read	clicking	cookie	settings	continue	consent	
+info	academy	bright	engineers	abfye	material	facility	aemf	aerodynamics	acoustics	
+animal	plant	care	atmospheric	center	automation	atc	biosciences	central	biotechnology	
+building	energy	berc	castle	lab	applied	economic	artificial	intelligence	caire	
+strategy	chinese	linguistics	display	cdr	epigenomics	fundamental	physics	gce	green	
+products	technologies	internship	iei	investing	language	marketing	supply	chain	metamaterials	
+polymer	systems	quantum	materials	cell	wireless	cenwit	reliability	cemar	integrated	
+laboratory	supplies	biology	centre	ocean	macau	national	treatment	heavy	metal	
+pollution	branch	cybersecurity	accounting	chemical	biological	cbe	chemistry	civil	environmental	
+civl	economics	electronic	ece	finance	industrial	decision	ieda	statistics	operations	
+mathematics	mechanical	aerospace	mae	design	manufacturing	services	dmsf	digital	division	
+environment	integrative	isd	ei	finetex	geotechnical	centrifuge	gcf	glassblowing	envf	
+ina	lma	joint	cities	led	fpd	foshan	robotics	shenzhen	bio	
+bdbi	bgi	dream	cil	didi	dji	dt	symlab	kaisa	naver	
+line	ai	nie	siat	brain	webank	xiaoi	cognitive	reasoning	xunlei	
+blockchain	cnerc	tissue	restoration	reconstruction	southern	marine	guangdong	huawei	hltc	
+initiative	emerging	market	studies	circuits	icdc	intelligent	driving	characterization	preparation	
+mcpf	molecular	neuroscience	nanosystem	fabrication	nff	element	healthcare	photonics	radio	
+frequency	identification	rfid	seng	scientific	computation	concentration	semiconductor	product	enhancement	
+spade	sino	german	analytical	south	scut	ssci	super	resolution	imaging	
+key	displays	optoelectronics	sight	networking	singlab	tanoto	asian	family	thompson	
+tongyi	commerce	vislab	water	william	mong	life@hkust	vibrant	colorful	goes	
+beyond	classrooms	textbooks	style	sports	wellness	essential	maintaining	body	mind	
+maintain	balanced	healthy	effectively	manage	psychological	special	educational	housing	dining	
+socializing	surroundings	time	outside	classroom	residential	catering	transportation	amenities	aim	
+build	civic	awareness	partnerships	wider	deepening	promoting	benevolent	apply	skills	
+connect	art	nourishes	imagination	stimulates	enriches	embrace	integral	rounded	array	
+available	inner	intimacy	alive	live	fullest	forming	own	organizations	taking	
+types	accommodate	diverse	meet	personal	happening	coming	thousands	miles	widen	
+horizons	leveraging	women	born	support	details	inside	collections	powersearch	databases	
+database	access	trial	ezproxy	arrivals	journals	guides	course	collection	highlights	
+output	spd	institutional	repository	scholar	theses	dataspace	archives	newsclipping	online	
+newsletters	rare	zone	antique	maps	history	paul	lin	papers	borrowing	
+reserve	document	hkall	interlibrary	loan	account	request	printing	scanning	computers	
+items	booking	classes	games	literacy	bridge	departmental	coordinators	embedded	instruction	
+outcome	based	placing	venues	join	workshop	italks	series	favorite	lectures	
+exhibitions	conferences	visitors	librarian	subject	librarians	floor	plans	hours	service	
+goals	achievements	vacancies	user	libqual	discovery	week	dimensions	readers	alert	
+forms	policies	rules	responsible	behavior	glance	start	reserves	word	phrase	
+phraseauthortitlesubjectcall	noissn	isbngenre	formcourse	nameinstructor	catalogprimo	qr	xyz	apos	browzine	
+name	instructor	catalog	reopened	monday	floors	entry	wear	mask	actions	
+safety	cooperation	action	ensure	commons	exhibition	glimpses	past	seals	seal	
+impression	catalogues	dynasties	free	ebooks	ejournals	streaming	various	publishers	enabled	
+semester	remote	including	books	page	equipment	space	holds	renewals	recalls	
+headsets	markers	usbs	copying	ic	availability	video	conference	interview	popular	
+winning	films	audios	coaching	create	orcid	id	phone	whatsapp	email	
+hk	wordpress	rss	lee	shau	kee	kowloon	ig	blog	dear	
+following	announcement	reduce	spread	novel	coronavirus	offices	indoor	outdoor	souvenir	
+shop	remain	closed	notice	please	click	detailed	operating	retail	outlets	
+implement	enter	pre	registered	apologize	inconvenience	caused	thank	dynamic	scenic	
+arrive	situated	heart	asia	tip	unique	paced	modern	interwoven	traditions	
+countryside	charms	occupies	stunning	acre	overlooking	pristine	sai	kung	peninsula	
+famously	considered	havens	lovers	prev	direction	stop	ho	ting	sik	
+visitor	located	southeast	piazza	welcomes	refurbishment	contributed	generous	objective	functional	
+innovative	informational	aims	engage	foster	achievement	prospective	parents	leveraged	interactive	
+creative	official	mementos	store	features	wide	range	exclusive	merchandise	congregation	
+gifts	post	cards	bags	selection	apparels	mtr	bus	minibus	taxi	
+stations	transport	choi	hung	hang	hau	po	lam	travelling	airport	
+express	station	board	entrance	route	helps	locate	buses	leave	terminals	
+exit	tiu	keng	leng	terminus	ngau	tau	kok	taxis	easily	
+hotels	costs	approximately	fare	island	eastern	harbour	crossing	tin	straight	
+roundabout	lane	tseung	kwan	tunnel	signs	passing	yip	road	clearwater	
+gas	head	interchange	prince	edward	kwun	tong	lung	cheung	minutes	
+drive	shatin	territories	tate	cairn	lion	rock	staying	left	onto	
+parking	example	julac	card	holders	car	park	near	security	rates	
+related	questions	check	hidden	treasures	circle	red	bird	sundial	sculpture	
+logo	armillary	sphere	fountain	recruitment	employment	terms	current	internal	subsidiaries	
+limited	menu	founded	dedicated	generation	front	runners	levels	producing	societal	
+impact	comprises	enrolment	english	short	established	strong	presence	recognitions	ranked	
+times	th	worldwide	employability	ranking	qs	pursuit	lies	uncompromising	efforts	
+recruit	retain	talents	globally	locally	seek	diversify	critical	mass	class	
+cutting	edge	initiatives	deliver	promotes	enhances	thinking	outlook	proactive	undertaken	
+disciplines	upholds	values	diversity	inclusive	collaborative	integrity	freedom	commitment	spirit	
+inclusiveness	respect	leading	significant	advance	privacysitemapcontact	oir	browser	date	update	
+correctly	objectives	beginning	icon	groundbreaking	ceremony	shaw	auditorium	tsang	shiu	
+tim	december	collaboration	agreements	government	establish	gz	october	kellogg	emba	
+ninth	prof	wei	shyy	appointed	fourth	president	st	five	roll	
+eighth	held	inauguration	named	professorships	launch	anniversary	book	prometheus	sky	
+final	event	celebration	seventh	july	jointly	hosted	mathematical	olympiad	committee	
+june	inaugural	universities	summit	celebrated	cma	lecture	theater	naming	march	
+third	cheng	yu	survey	graduates	kick	steven	chu	distinguished	speakers	
+phase	project	enters	hon	andrew	liao	gbs	sc	jp	fifth	
+council	chairman	january	attained	proportion	internationally	excellent	grants	ugc	assessment	
+exercise	optoelectronic	photonic	phononic	signaling	mechanisms	neuro	disorders	awarded	nervous	
+cost	effective	eco	friendly	chip	funded	theme	scheme	ier	uc	
+rusal	chow	tai	fook	fund	donated	million	construction	commencement	nansha	
+tony	chan	ground	breaking	marvin	foundation	stephen	hawking	delivered	contribution	
+nanomaterials	nanotechnology	inaugurated	john	cho	chak	ching	wu	basic	drug	
+single	walled	carbon	nanotube	diameter	nm	nanometer	accredited	association	collegiate	
+aacsb	sze	yuan	chung	retired	pro	chancellor	vincent	lo	executive	
+mba	chia	woo	initiated	east	bill	gates	talked	revolution	granted	
+patent	technique	diamond	film	sources	laser	deposition	signed	operational	windshear	
+warning	chek	lap	senate	sir	triggered	blast	founding	planning	formed	
+built	announced	court	secretariat	enrollment	total	regular	decorated	recognized	accomplishments	
+relentless	striving	sets	generations	bring	positive	changes	society	rapidly	risen	
+arena	top	tier	result	concerted	effort	ug	webmail	mail	cs	
+schedule	note	marked	asterisk	itsc	vpn	connection	required	taught	overview	
+press	releases	photos	dean	reach	microelectronics	communications	explore	title	description	
+tackle	sweeping	continents	teams	tirelessly	contribute	taskforce	speeding	detection	carriers	
+halting	developing	vaccine	watch	recently	shared	agenda	move	roads	food	
+spray	disinfectant	broadcast	messages	liu	shares	journey	inventing	serving	safeguard	
+multidisciplinary	team	richard	devised	officials	border	identify	distinguish	passengers	antimicrobial	
+yeung	king	lun	highly	versatile	period	days	provides	lasting	protection	
+surface	disinfection	contamination	shed	light	sars	epitopes	trigger	immune	found	
+fraction	exists	genetic	sequences	exactly	believe	candidates	response	matthew	mckay	
+gary	innovated	designed	automated	called	signature	applying	term	ambassadors	spraying	
+sharing	hksar	blaze	trails	mountains	inspire	evolving	cup	champion	winner	
+presentation	competition	app	ustransit	smarter	travel	categories	studying	aspirations	submodule	
+inbound	scholarships	counseling	bold	ideas	tangible	results	kei	lau	osa	
+nick	holonyak	jr	recipient	fang	chair	contributions	hetero	epitaxy	compound	
+semiconductors	silicon	lasers	advancing	field	emitting	diode	microdisplays	patrick	yue	
+fellow	optical	elected	visible	communication	fiber	successfully	rechargeable	liquid	fuels	
+fuel	promises	scale	recharge	electric	vehicle	matter	existing	battery	usually	
+takes	bank	tang	wan	kyoto	prize	oled	impacted	organic	electronics	
+greatly	benefited	multi	billion	dollar	kwok	hoi	sing	reaps	prestigious	
+lcd	incremental	improvements	numerous	aspects	label	breakthrough	speed	crystal	milliseconds	
+reduced	comprehensive	ambit	footer	secondary	units	admin	contacts	abreast	updates	
+subscribe	mtpc	subscription	am	fosters	cross	disciplinary	pursuits	benedict	yuen	
+bba	instantly	recognizable	donate	overcome	hardships	due	portal	discoveries	breakthroughs	
+unveil	unknown	chapters	push	envelope	variety	options	acquire	breadth	depth	
+expertise	potential	insatiable	curiosity	door	infinite	possibilities	change	solve	blending	
+solutions	improve	visionary	principled	leaders	aspire	businesses	shape	gaining	profound	
+complexities	perspectives	understand	multifaceted	issues	maximize	fulfill	bringing	foremost	scholars	
+spearhead	publicize	limits	sector	confronting	region	rigorous	evidence	approaches	force	
+admission	summer	courses	continuing	professional	mental	equally	physical	provide	breeding	
+nascent	entrepreneurs	tomorrow	participated	affiliated	spin	companies	matters	volunteerism	sweet	
+crisis	harness	lot	leisure	item	short_start_month	short_start_day	short_end_month	short_end_day	row	
+trendence	nd	connections	actively	encourage	collaborations	cultural	exchanges	nationalities	offers	
+comp	degree	broad	allowing	flexibility	pursue	individual	level	cosc	catered	
+wishing	double	degrees	fulfilling	requirements	additionally	refer	below	beng	bsc	
+cpeg	dsct	risk	rmbi	dual	cogbm	cpgbm	additional	minor	enrol	
+typically	requires	complete	credits	list	declare	intention	form	rr	declaration	
+withdrawal	enroll	registration	procedure	arro	login	pay	attention	deadlines	count	
+included	calculation	gga	application	deadline	spring	pm	wednesday	bdt	descriptions	
+honors	independent	interestd	direct	advising	coordinator	qiong	luo	enquiry	navigation	
+master	philosophy	mphil	doctor	phd	faqs	msc	kai	chen	restricted	
+personnel	sent	cseform	resource	meeting	bookshelf	idrive	logos	themselves	academia	
+ties	organizing	relevant	delivering	developments	affairs	positions	associate	instructional	assistant	
+&amp;	re	co	op	dit	yan	behalf	exciting	discipline	widely	
+source	tools	techniques	advancements	nearly	spheres	endeavor	grown	roughly	administered	
+math	choices	oriented	centered	principles	embodied	statements	parent	employer	colleague	
+hear	comments	suggestions	encouragement	version	prepare	productive	providing	theory	particular	
+produce	qualified	possessing	contributing	agencies	societies	communities	leader	attract	regional	
+catalyst	hub	graduating	assisting	governmental	outstanding	promote	prepared	specific	profession	
+stimulating	individuals	pioneering	benefit	demonstrate	technical	competence	consistent	practice	specialist	
+perspective	generalist	combined	hallmarks	conduct	ethical	confidence	lead	transmit	instill	
+lifelong	activity	means	implementation	nature	structure	function	interconnection	covering	foundations	
+graphics	base	educate	assist	growth	evolved	slow	expensive	specialized	affordable	
+ordinary	virtually	advances	interfacing	created	ubiquitous	workplace	requirement	professionals	witnessed	
+realized	midst	explicit	interactions	disconnected	implicit	pervasive	interconnected	environments	play	
+deep	aside	encouraged	tailored	credited	according	prestige	peers	representing	mix	
+junior	languages	theoretical	earned	renowned	regarded	xiaojuan	ma	honourable	mentions	
+chi	zhang	ieee	yang	qiang	lei	qian	editor	chief	transactions	
+mobile	runner	lip	reader	reading	supervised	brian	mak	iet	patw	
+samuel	chanson	hongming	microsoft	fellowship	lili	desmond	tsoi	padmanabhan	krishnamurthy	
+joined	hku	won	receiving	tsinghua	fyp	bronze	pan	pearl	river	
+delta	august	lips	hearing	aids	hosts	acm	hui	europaea	lionel	
+ni	jiangchuan	canadian	alumnus	yepang	shing	firebird	ctf	championship	pwc	
+hackaday	everbright	pakdd	paper	icc	tse	cheuk	ng	day	gold	
+hkict	gang	fan	qingkai	shi	rongxin	xiao	conflict	banking	influential	
+grand	sigsoft	artifact	jingguo	zhou	charles	address	lift	tel	fax	
+photo	text	sort	position	mgmt	syst	engg	prog	lang	dyyeung	
+scc	horner	kwang	timcheng	bo	li	bli	qyang	tencent	qianzh	
+primary	appointment	tongzhang	shueng	han	gchan	leichen	siu	wing	scheng	
+albert	achung	cunsheng	ding	cding	pascale	fung	mordecai	golin	james	
+yau	jamesk	dik	dlee	fangzhen	flin	dimitris	papadias	chuen	pong	
+tcpong	huamin	qu	quan	chiew	lan	taicl	keung	cktang	dekai	
+ke	yi	yike	nevin	lianwen	lzhang	sunil	arya	brahim	bensaou	
+csbb	kaichen	panhui	sunghun	kim	hunkim	kan	jogesh	muppala	wilfred	
+pedro	sander	psander	raywong	kit	saikit	charlesz	qifeng	cqf	eelium	
+mxj	papadopoulos	dipapado	yangqiu	song	yqsong	shuai	wang	shuaiw	tao	
+taow	weiwa	adjunct	huilei	gmail	com	zhengyou	yuwing	ricci	ieong	
+david	rossiter	cindy	xin	lecturer	lixin	wai	kwtleung	chat	cecia	
+ki	kccecia	gibson	ngok	lamngok	chatzopoulos	dcab	emeritus	roland	chin	
+mounir	hamdi	frederick	lochovsky	fred	helen	shen	helens	derick	wood	
+rm	cyt	extn	hilda	hiu	cshilda	officer	jacqueline	jacquelinec	manager	
+ssri	lily	cslily	chiu	sharon	sharonchiu	vanessa	csyckwok	connie	cswclau	
+betty	secretary	isaac	csisaac	que	yin	tik	csdee	tam	brenda	
+csbrenda	angela	vincentchoi	kwong	renfrew	wwkwong	lai	dominic	kin	tak	
+cstak	daniel	daniellau	winnie	henry	yiu	homepage	assistants	associates	nam	
+kiu	namkiu	kelvinchiu	peter	cspeter	lmkia	wallacem	shek	nickoshek	ka	
+jimw	tutors	dalton	shauna	tutor	md	isa	noor	liza	spaeth	
+ted	publish	upload	url	agree	loading	abadhan	saumya	sabyasachi	bai	
+xuyang	xbaiad	ghareh	chamani	javad	jgc	inasu	chittilappilly	anand	aicaa	
+jin	yilun	yjinas	jae	boum	jbkim	kumyol	serkan	skumyol	kwak	
+hyunjung	hkwak	yung	kylambd	llibb	shichao	slicd	wenchao	wlibs	zheng	
+zlict	xliucr	yun	yluoav	yiqing	ymaay	niu	zhe	zniu	peng	
+zhenhui	zpengab	qiu	yqiuac	qshiaa	sun	dong	dsunae	mingfei	msunag	
+vu	tuan	anh	tavu	jierong	jwangdh	lipeng	lwangay	yilei	ywanggq	
+huan	hweiad	mtwongaf	aoyu	awuac	xueyang	xwuba	ziming	zwual	xia	
+meng	mxiaag	xie	wentao	wxieaj	hao	hxinaa	zengqiang	zyanad	xiaotian	
+xyouaa	jincheng	jyubh	zeng	gaoxiong	yuxiang	yzengal	ziqian	zzengae	wuqi	
+wzhangcb	yishuo	yzhanggd	yongqi	yzhangee	yushan	yzhanghw	zzhangei	diao	shizhe	
+sdiaoaa	hara	yuki	yhara	eui	wehong	shu	xinhuan	xshuaa	yusen	
+ysunbc	sustained	sec	db	hci	ne	se	vg	exhibit	performing	
+tasks	moment	include	speech	motion	subareas	mining	image	representation	strengthen	
+resistance	malicious	threats	cyber	cryptography	voice	stage	draws	retrieval	focuses	
+primarily	integration	driven	intensive	centralized	distributed	engine	hardware	accelerated	graph	
+stream	graphs	stc	empowering	seamless	emphasis	designing	visualization	affective	computational	
+welfare	virtual	modalities	conducting	covers	classified	follows	protocols	cloud	internet	
+sensor	networks	includes	verification	debugging	synthesis	empirical	methods	parallel	concurrency	
+arising	looks	solving	determines	inherent	complexity	algorithms	structures	geometry	coding	
+leads	challenge	pictures	investigation	medical	

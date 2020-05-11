@@ -1,0 +1,195 @@
+2020/05/11-17:58:40.193630 c4c RocksDB version: 5.17.2
+2020/05/11-17:58:40.193727 c4c Git sha rocksdb_build_git_sha:@f438b98e552010613cff8684a7d84191ed785148@
+2020/05/11-17:58:40.193752 c4c Compile date Nov 27 2018
+2020/05/11-17:58:40.193777 c4c DB SUMMARY
+2020/05/11-17:58:40.194112 c4c CURRENT file:  CURRENT
+2020/05/11-17:58:40.194142 c4c IDENTITY file:  IDENTITY
+2020/05/11-17:58:40.194209 c4c MANIFEST file:  MANIFEST-000050 size: 149 Bytes
+2020/05/11-17:58:40.194229 c4c SST files in src/main/DB/TitleInvertedFile dir, Total Num: 3, files: 000004.sst 000016.sst 000019.sst 
+2020/05/11-17:58:40.194246 c4c Write Ahead Log file in src/main/DB/TitleInvertedFile: 000051.log size: 0 ; 
+2020/05/11-17:58:40.194270 c4c                         Options.error_if_exists: 0
+2020/05/11-17:58:40.194412 c4c                       Options.create_if_missing: 1
+2020/05/11-17:58:40.194425 c4c                         Options.paranoid_checks: 1
+2020/05/11-17:58:40.194432 c4c                                     Options.env: 0000027DAED1CF00
+2020/05/11-17:58:40.194439 c4c                                Options.info_log: 0000027DAF365980
+2020/05/11-17:58:40.194445 c4c                Options.max_file_opening_threads: 16
+2020/05/11-17:58:40.194452 c4c                              Options.statistics: 0000000000000000
+2020/05/11-17:58:40.194458 c4c                               Options.use_fsync: 0
+2020/05/11-17:58:40.194465 c4c                       Options.max_log_file_size: 0
+2020/05/11-17:58:40.194471 c4c                  Options.max_manifest_file_size: 1073741824
+2020/05/11-17:58:40.194478 c4c                   Options.log_file_time_to_roll: 0
+2020/05/11-17:58:40.194484 c4c                       Options.keep_log_file_num: 1000
+2020/05/11-17:58:40.194491 c4c                    Options.recycle_log_file_num: 0
+2020/05/11-17:58:40.194497 c4c                         Options.allow_fallocate: 1
+2020/05/11-17:58:40.194503 c4c                        Options.allow_mmap_reads: 0
+2020/05/11-17:58:40.194510 c4c                       Options.allow_mmap_writes: 0
+2020/05/11-17:58:40.194516 c4c                        Options.use_direct_reads: 0
+2020/05/11-17:58:40.194522 c4c                        Options.use_direct_io_for_flush_and_compaction: 0
+2020/05/11-17:58:40.194539 c4c          Options.create_missing_column_families: 0
+2020/05/11-17:58:40.194546 c4c                              Options.db_log_dir: 
+2020/05/11-17:58:40.194552 c4c                                 Options.wal_dir: src/main/DB/TitleInvertedFile
+2020/05/11-17:58:40.194558 c4c                Options.table_cache_numshardbits: 6
+2020/05/11-17:58:40.194564 c4c                      Options.max_subcompactions: 1
+2020/05/11-17:58:40.194570 c4c                  Options.max_background_flushes: -1
+2020/05/11-17:58:40.194576 c4c                         Options.WAL_ttl_seconds: 0
+2020/05/11-17:58:40.194583 c4c                       Options.WAL_size_limit_MB: 0
+2020/05/11-17:58:40.194589 c4c             Options.manifest_preallocation_size: 4194304
+2020/05/11-17:58:40.194595 c4c                     Options.is_fd_close_on_exec: 1
+2020/05/11-17:58:40.194601 c4c                   Options.advise_random_on_open: 1
+2020/05/11-17:58:40.194607 c4c                    Options.db_write_buffer_size: 0
+2020/05/11-17:58:40.194613 c4c                    Options.write_buffer_manager: 0000027DAF38A1B0
+2020/05/11-17:58:40.194620 c4c         Options.access_hint_on_compaction_start: 1
+2020/05/11-17:58:40.194626 c4c  Options.new_table_reader_for_compaction_inputs: 0
+2020/05/11-17:58:40.194632 c4c           Options.random_access_max_buffer_size: 1048576
+2020/05/11-17:58:40.194638 c4c                      Options.use_adaptive_mutex: 0
+2020/05/11-17:58:40.194644 c4c                            Options.rate_limiter: 0000000000000000
+2020/05/11-17:58:40.194651 c4c     Options.sst_file_manager.rate_bytes_per_sec: 0
+2020/05/11-17:58:40.194657 c4c                       Options.wal_recovery_mode: 2
+2020/05/11-17:58:40.194663 c4c                  Options.enable_thread_tracking: 0
+2020/05/11-17:58:40.194669 c4c                  Options.enable_pipelined_write: 0
+2020/05/11-17:58:40.194709 c4c         Options.allow_concurrent_memtable_write: 1
+2020/05/11-17:58:40.194718 c4c      Options.enable_write_thread_adaptive_yield: 1
+2020/05/11-17:58:40.194724 c4c             Options.write_thread_max_yield_usec: 100
+2020/05/11-17:58:40.194731 c4c            Options.write_thread_slow_yield_usec: 3
+2020/05/11-17:58:40.194737 c4c                               Options.row_cache: None
+2020/05/11-17:58:40.194743 c4c                              Options.wal_filter: None
+2020/05/11-17:58:40.194749 c4c             Options.avoid_flush_during_recovery: 0
+2020/05/11-17:58:40.194756 c4c             Options.allow_ingest_behind: 0
+2020/05/11-17:58:40.194762 c4c             Options.preserve_deletes: 0
+2020/05/11-17:58:40.194768 c4c             Options.two_write_queues: 0
+2020/05/11-17:58:40.194774 c4c             Options.manual_wal_flush: 0
+2020/05/11-17:58:40.194780 c4c             Options.max_background_jobs: 2
+2020/05/11-17:58:40.194786 c4c             Options.max_background_compactions: -1
+2020/05/11-17:58:40.194792 c4c             Options.avoid_flush_during_shutdown: 0
+2020/05/11-17:58:40.194798 c4c           Options.writable_file_max_buffer_size: 1048576
+2020/05/11-17:58:40.194805 c4c             Options.delayed_write_rate : 16777216
+2020/05/11-17:58:40.194811 c4c             Options.max_total_wal_size: 0
+2020/05/11-17:58:40.194817 c4c             Options.delete_obsolete_files_period_micros: 21600000000
+2020/05/11-17:58:40.194824 c4c                   Options.stats_dump_period_sec: 600
+2020/05/11-17:58:40.194830 c4c                          Options.max_open_files: -1
+2020/05/11-17:58:40.194836 c4c                          Options.bytes_per_sync: 0
+2020/05/11-17:58:40.194843 c4c                      Options.wal_bytes_per_sync: 0
+2020/05/11-17:58:40.194849 c4c       Options.compaction_readahead_size: 0
+2020/05/11-17:58:40.194855 c4c Compression algorithms supported:
+2020/05/11-17:58:40.194870 c4c 	kZSTD supported: 0
+2020/05/11-17:58:40.194877 c4c 	kSnappyCompression supported: 0
+2020/05/11-17:58:40.194883 c4c 	kBZip2Compression supported: 0
+2020/05/11-17:58:40.194889 c4c 	kZlibCompression supported: 0
+2020/05/11-17:58:40.194894 c4c 	kLZ4Compression supported: 0
+2020/05/11-17:58:40.194900 c4c 	kXpressCompression supported: 0
+2020/05/11-17:58:40.194906 c4c 	kLZ4HCCompression supported: 0
+2020/05/11-17:58:40.194912 c4c 	kZSTDNotFinalCompression supported: 0
+2020/05/11-17:58:40.194927 c4c Fast CRC32 supported: Supported on x86
+2020/05/11-17:58:40.196135 c4c [c:\users\aretter\code\rocksdb\db\version_set.cc:3406] Recovering from manifest file: MANIFEST-000050
+2020/05/11-17:58:40.196422 c4c [c:\users\aretter\code\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2020/05/11-17:58:40.196458 c4c               Options.comparator: leveldb.BytewiseComparator
+2020/05/11-17:58:40.196470 c4c           Options.merge_operator: None
+2020/05/11-17:58:40.196479 c4c        Options.compaction_filter: None
+2020/05/11-17:58:40.196487 c4c        Options.compaction_filter_factory: None
+2020/05/11-17:58:40.196496 c4c         Options.memtable_factory: SkipListFactory
+2020/05/11-17:58:40.196505 c4c            Options.table_factory: BlockBasedTable
+2020/05/11-17:58:40.196597 c4c            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000027DAEDFBFD0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000027DAF1B3530
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2020/05/11-17:58:40.196674 c4c        Options.write_buffer_size: 67108864
+2020/05/11-17:58:40.196688 c4c  Options.max_write_buffer_number: 2
+2020/05/11-17:58:40.196698 c4c          Options.compression: NoCompression
+2020/05/11-17:58:40.196706 c4c                  Options.bottommost_compression: Disabled
+2020/05/11-17:58:40.196715 c4c       Options.prefix_extractor: nullptr
+2020/05/11-17:58:40.196723 c4c   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2020/05/11-17:58:40.196732 c4c             Options.num_levels: 7
+2020/05/11-17:58:40.196740 c4c        Options.min_write_buffer_number_to_merge: 1
+2020/05/11-17:58:40.196748 c4c     Options.max_write_buffer_number_to_maintain: 0
+2020/05/11-17:58:40.196757 c4c            Options.bottommost_compression_opts.window_bits: -14
+2020/05/11-17:58:40.196766 c4c                  Options.bottommost_compression_opts.level: 32767
+2020/05/11-17:58:40.196775 c4c               Options.bottommost_compression_opts.strategy: 0
+2020/05/11-17:58:40.196783 c4c         Options.bottommost_compression_opts.max_dict_bytes: 0
+2020/05/11-17:58:40.196792 c4c         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2020/05/11-17:58:40.196801 c4c                  Options.bottommost_compression_opts.enabled: false
+2020/05/11-17:58:40.196809 c4c            Options.compression_opts.window_bits: -14
+2020/05/11-17:58:40.196817 c4c                  Options.compression_opts.level: 32767
+2020/05/11-17:58:40.196826 c4c               Options.compression_opts.strategy: 0
+2020/05/11-17:58:40.196834 c4c         Options.compression_opts.max_dict_bytes: 0
+2020/05/11-17:58:40.196843 c4c         Options.compression_opts.zstd_max_train_bytes: 0
+2020/05/11-17:58:40.196852 c4c                  Options.compression_opts.enabled: false
+2020/05/11-17:58:40.196860 c4c      Options.level0_file_num_compaction_trigger: 4
+2020/05/11-17:58:40.196869 c4c          Options.level0_slowdown_writes_trigger: 20
+2020/05/11-17:58:40.196877 c4c              Options.level0_stop_writes_trigger: 36
+2020/05/11-17:58:40.196886 c4c                   Options.target_file_size_base: 67108864
+2020/05/11-17:58:40.196894 c4c             Options.target_file_size_multiplier: 1
+2020/05/11-17:58:40.196903 c4c                Options.max_bytes_for_level_base: 268435456
+2020/05/11-17:58:40.196912 c4c Options.level_compaction_dynamic_level_bytes: 0
+2020/05/11-17:58:40.196920 c4c          Options.max_bytes_for_level_multiplier: 10.000000
+2020/05/11-17:58:40.196940 c4c Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2020/05/11-17:58:40.196949 c4c Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2020/05/11-17:58:40.196957 c4c Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2020/05/11-17:58:40.196966 c4c Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2020/05/11-17:58:40.196975 c4c Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2020/05/11-17:58:40.196984 c4c Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2020/05/11-17:58:40.196993 c4c Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2020/05/11-17:58:40.197002 c4c       Options.max_sequential_skip_in_iterations: 8
+2020/05/11-17:58:40.197011 c4c                    Options.max_compaction_bytes: 1677721600
+2020/05/11-17:58:40.197019 c4c                        Options.arena_block_size: 8388608
+2020/05/11-17:58:40.197028 c4c   Options.soft_pending_compaction_bytes_limit: 68719476736
+2020/05/11-17:58:40.197037 c4c   Options.hard_pending_compaction_bytes_limit: 274877906944
+2020/05/11-17:58:40.197045 c4c       Options.rate_limit_delay_max_milliseconds: 100
+2020/05/11-17:58:40.197054 c4c                Options.disable_auto_compactions: 0
+2020/05/11-17:58:40.197064 c4c                        Options.compaction_style: kCompactionStyleLevel
+2020/05/11-17:58:40.197074 c4c                          Options.compaction_pri: kByCompensatedSize
+2020/05/11-17:58:40.197083 c4c Options.compaction_options_universal.size_ratio: 1
+2020/05/11-17:58:40.197096 c4c Options.compaction_options_universal.min_merge_width: 2
+2020/05/11-17:58:40.197107 c4c Options.compaction_options_universal.max_merge_width: 4294967295
+2020/05/11-17:58:40.197116 c4c Options.compaction_options_universal.max_size_amplification_percent: 200
+2020/05/11-17:58:40.197133 c4c Options.compaction_options_universal.compression_size_percent: -1
+2020/05/11-17:58:40.197144 c4c Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2020/05/11-17:58:40.197153 c4c Options.compaction_options_fifo.max_table_files_size: 1073741824
+2020/05/11-17:58:40.197162 c4c Options.compaction_options_fifo.allow_compaction: 0
+2020/05/11-17:58:40.197170 c4c Options.compaction_options_fifo.ttl: 0
+2020/05/11-17:58:40.197179 c4c                   Options.table_properties_collectors: 
+2020/05/11-17:58:40.197189 c4c                   Options.inplace_update_support: 0
+2020/05/11-17:58:40.197197 c4c                 Options.inplace_update_num_locks: 10000
+2020/05/11-17:58:40.197207 c4c               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2020/05/11-17:58:40.197217 c4c   Options.memtable_huge_page_size: 0
+2020/05/11-17:58:40.197225 c4c                           Options.bloom_locality: 0
+2020/05/11-17:58:40.197234 c4c                    Options.max_successive_merges: 0
+2020/05/11-17:58:40.197243 c4c                Options.optimize_filters_for_hits: 0
+2020/05/11-17:58:40.197251 c4c                Options.paranoid_file_checks: 0
+2020/05/11-17:58:40.197260 c4c                Options.force_consistency_checks: 0
+2020/05/11-17:58:40.197268 c4c                Options.report_bg_io_stats: 0
+2020/05/11-17:58:40.197276 c4c                               Options.ttl: 0
+2020/05/11-17:58:40.200943 c4c [c:\users\aretter\code\rocksdb\db\version_set.cc:3610] Recovered from manifest file:src/main/DB/TitleInvertedFile/MANIFEST-000050 succeeded,manifest_file_number is 50, next_file_number is 52, last_sequence is 408, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2020/05/11-17:58:40.200973 c4c [c:\users\aretter\code\rocksdb\db\version_set.cc:3618] Column family [default] (ID 0), log number is 49
+2020/05/11-17:58:40.201549 c4c EVENT_LOG_v1 {"time_micros": 1589191120201495, "job": 1, "event": "recovery_started", "log_files": [51]}
+2020/05/11-17:58:40.201567 c4c [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:561] Recovering log #51 mode 2
+2020/05/11-17:58:40.201702 c4c [c:\users\aretter\code\rocksdb\db\version_set.cc:2936] Creating manifest 53
+2020/05/11-17:58:40.221485 c4c EVENT_LOG_v1 {"time_micros": 1589191120221471, "job": 1, "event": "recovery_finished"}
+2020/05/11-17:58:40.235378 c4c [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1287] DB pointer 0000027DAF39D070

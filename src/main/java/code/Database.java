@@ -85,20 +85,21 @@ public class Database
     {
         // change link to pageID
         // same type of link separated by , and child links and parent links are separated by a space
+
+        String content = "";
         if(type == 0) {//add child links
-            String content = "";
             for (String s : pageInfo.getChildLink()) {
                 content += page_ID_Bi.IdBiConversion(s) + ",";
             }
             content += " ";
         }
         if (type == 1 ){//add parent links
-            String content = new String(page_ID_Bi.getDb().get(pageInfo.getPageID().getBytes()));
+            content = new String(db.get(pageInfo.getPageID().getBytes()));
             for (String s : pageInfo.getParentLink()) {
                 content += page_ID_Bi.IdBiConversion(s)+",";
             }
-            db.put(pageInfo.getPageID().getBytes(), content.getBytes());
         }
+        db.put(pageInfo.getPageID().getBytes(), content.getBytes());
 
     }
 
@@ -222,11 +223,20 @@ public class Database
 //                    output+= new String(word_ID_Bi.db.get(key_value[0].getBytes()))+","+ key_value[1]+" ";
 //                }
                 String result = Database.getTopN_keyword(new String(page_ID_Bi.db.get(iter.key())),10);
-                output += result;
+                for (String s : result.split(" ")) {
+                    String[] word_freq = s.split(",");
+                    byte[] word = word_ID_Bi.db.get(word_freq[0].getBytes());
+                    output += new String(word) +","+ word_freq[1]+" ";
+                }
                 output += "\n";
                 // children links
+                output+="child links:\n";
                 String links = new String(pageID_Links.db.get(iter.key()));
                 for (String s : links.split(" ")[0].split(",")) {
+                    output += new String(page_ID_Bi.db.get(s.getBytes())) + "\n";
+                }
+                output+="\nparent links:\n";
+                for (String s : links.split(" ")[1].split(",")) {
                     output += new String(page_ID_Bi.db.get(s.getBytes())) + "\n";
                 }
                 pw.write(output);
@@ -234,8 +244,11 @@ public class Database
                         "--------------------------------------------\n");
             }
             Vector<String> stemKeyword = Database.getStemKeyword();
+            int count = 0;
             for (String s : stemKeyword) {
+                if (count % 10 == 0) pw.write("\n"); // every line 10 words
                 pw.write(s+"\t");
+                count++;
             }
             pw.write("\n");
             pw.close();
@@ -255,7 +268,9 @@ public class Database
         try {
             int numOfKeyword = Integer.parseInt(new String(word_ID_Bi.db.get("#".getBytes())));
             for (int i = 0; i < numOfKeyword; i++) {
-                stringVector.add(new String(word_ID_Bi.db.get(String.valueOf(i).getBytes())));
+                byte[] word = word_ID_Bi.db.get(String.valueOf(i).getBytes());
+                if (word == null) continue;
+                stringVector.add(new String(word));
             }
         }catch (RocksDBException re){
             re.printStackTrace();
@@ -272,11 +287,12 @@ public class Database
     public static String getTopN_keyword(String url, int num){
         Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
         Database forwardIndex = DbTypeEnum.getDbtypeEnum("ForwardIndex").getDatabase();
-        List<String> keywords = new ArrayList<String>();
+        List<String> keywords = new ArrayList<String>(num);
         // initial keyword's frequency to compare
-        List<Integer> freq = new ArrayList<Integer>();
+        List<Integer> freq = new ArrayList<Integer>(num);
         for (int i = 0; i < num; i++) {
             freq.add(0);
+            keywords.add("");
         }
         try {
             byte[] pageID = page_ID_Bi.db.get(url.getBytes());
@@ -288,17 +304,17 @@ public class Database
                         if (i == freq.size() - 1) break;// smaller then the smallest frequency then ignore
                         else{ // smaller than or equal to the frequency of keywords with index i
                             keywords.add(i+1,key_freq[0]);//insert after the index
-                            keywords.remove(num-1); // keep max number of keywords be num
+                            keywords.remove(num); // keep max number of keywords be num
                             freq.add(i+1,Integer.parseInt(key_freq[1]));
-                            freq.remove(num-1);// keep max number of keywords be num
+                            freq.remove(num);// keep max number of keywords be num
                             break;
                         }
                     }else{
                         if (i == 0){ // largest frequency
                             keywords.add(0,key_freq[0]);
-                            keywords.remove(num-1);// keep max number of keywords be num
+                            keywords.remove(num);// keep max number of keywords be num
                             freq.add(0,Integer.parseInt(key_freq[1]));
-                            freq.remove(num-1);// keep max number of keywords be num
+                            freq.remove(num);// keep max number of keywords be num
                         }
                     }
                 }
