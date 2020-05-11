@@ -9,7 +9,6 @@ import java.util.*;
 public class SearchEngine {
 
     static final int TOTAL_NUM_PAGES = 30;      // The total number of pages
-    static final int OUTPUT_PAGES_NUM = 50;     // The number of output pages
     static final Double TITLE_BONUS_WEIGHT = 1.0;   // The title bonus weight
     static StopStem stopStem = new StopStem("src/main/stopwords.txt");
 
@@ -127,6 +126,7 @@ public class SearchEngine {
                 query.add(stopStem.stem(w));
             }
         }
+        int querySize = query.size();
 
         // a map from pageID to query word weight
         Map<String, Double> weightMap = new HashMap<String, Double>();
@@ -234,10 +234,10 @@ public class SearchEngine {
 
                 // pageID of pages containing this phrase
                 Vector<String> pagesContainPhrase = new Vector<String>();
-                // map from pageid to normalized tf
+                // map from pageId to normalized tf
                 Map<String, Double> normTf = new HashMap<String, Double>();
 
-                // check each page in intersetion map
+                // check each page in intersection map
                 for(Map.Entry<String, String> entry : intersectMap.entrySet()){
                     String pageID = entry.getKey();
                     String wordPosition = entry.getValue();
@@ -259,7 +259,8 @@ public class SearchEngine {
                         }
                         if(found){
                             // phrase found, term frequency increase
-                            pagesContainPhrase.add(pageID);
+                            if(!pagesContainPhrase.contains(pageID))
+                                pagesContainPhrase.add(pageID);
                             tf++;
                         }
                     }
@@ -406,7 +407,7 @@ public class SearchEngine {
             if(stopStem.isStopWord(t)) continue;
             query.add(t);
             // weight map of a single word
-            Map<String, Double> weightMap = new HashMap<String, Double>();
+            Map<String, Double> weightMap;
             if(t.split(" ").length == 1){
                 weightMap = simple_search(t);
             }
@@ -432,7 +433,7 @@ public class SearchEngine {
 
             String content = new String(pageID_PageInfo.getDb().get(pageID.getBytes()));
             // get sum of words which is the page size
-            int sumWord = Integer.parseInt(content.split(" ")[0].split(",")[2]);
+            int sumWord = Integer.parseInt(content.split(",")[2];
             Double documentLength = Math.sqrt(sumWord);
             Double queryLength = Math.sqrt(query.size());
             // calculate score
@@ -442,7 +443,7 @@ public class SearchEngine {
         }
 
         // sort the value of the score map
-        List<Map.Entry<String, Double>> list = new ArrayList(scoreMap.entrySet());
+        List<Map.Entry<String, Double> > list = new ArrayList(scoreMap.entrySet());
         Collections.sort(list, new Comparator<Map.Entry<String, Double>>() {
             @Override
             public int compare(Map.Entry<String, Double> o1, Map.Entry<String, Double> o2) {
@@ -458,5 +459,16 @@ public class SearchEngine {
         }
 
         return result;
+    }
+
+    public static void main(String[] args){
+        Vector<String> queries = new Vector<String>();
+        queries.add("HKUST");
+        queries.add("Computer Science");
+        try{
+            Vector<String> search_result = SearchEngine.search(queries, 10);
+        } catch (RocksDBException e){
+            e.printStackTrace();
+        }
     }
 }
