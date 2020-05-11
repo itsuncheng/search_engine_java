@@ -460,6 +460,24 @@ public class SearchEngine {
 
         return result;
     }
+    
+    /**
+     * Fetch pageInfo of given pageId
+     * @param pageId
+     * @return pageInfo - a string contains page title, URL, last modification date and page size
+     * @throws RocksDBException
+     */
+    public static String pageId_to_pageInfo(String pageId) throws RocksDBException{
+        // Database needed
+        Database pageID_PageInfo = DbTypeEnum.getDbtypeEnum("PageID_PageInfo").getDatabase();
+        Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
+
+        String content = new String(pageID_PageInfo.getDb().get(pageId.getBytes()));
+        String[] info = content.split(",");
+        String output = "Page title: " + info[0] + "\nURL: " + new String(page_ID_Bi.getDb().get(pageId.getBytes())) + "\nLast modification date: " + info[1]
+                + " " + info[2] + " \nsize of page: " + info[3] + "\n";
+        return output;
+    }
 
 //    public static void main(String[] args){
 //        Vector<String> queries = new Vector<String>();
