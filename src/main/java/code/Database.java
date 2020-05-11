@@ -285,19 +285,21 @@ public class Database
                 String[] key_freq = s.split(",");
                 for (int i = freq.size() - 1; i >= 0; i--) {
                     if (Integer.parseInt(key_freq[1]) <= freq.get(i)) {
-                        if (i == freq.size() - 1) break;
+                        if (i == freq.size() - 1) break;// smaller then the smallest frequency then ignore
                         else{ // smaller than or equal to the frequency of keywords with index i
-                            keywords.add(i+1,key_freq[0]);
+                            keywords.add(i+1,key_freq[0]);//insert after the index
                             keywords.remove(num-1); // keep max number of keywords be num
                             freq.add(i+1,Integer.parseInt(key_freq[1]));
                             freq.remove(num-1);// keep max number of keywords be num
+                            break;
                         }
-                    }
-                    if (i == 0){ // largest frequency
-                        keywords.add(0,key_freq[0]);
-                        keywords.remove(num-1);// keep max number of keywords be num
-                        freq.add(0,Integer.parseInt(key_freq[1]));
-                        freq.remove(num-1);// keep max number of keywords be num
+                    }else{
+                        if (i == 0){ // largest frequency
+                            keywords.add(0,key_freq[0]);
+                            keywords.remove(num-1);// keep max number of keywords be num
+                            freq.add(0,Integer.parseInt(key_freq[1]));
+                            freq.remove(num-1);// keep max number of keywords be num
+                        }
                     }
                 }
             }
