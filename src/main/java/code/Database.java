@@ -214,8 +214,8 @@ public class Database
             RocksIterator iter = pageID_PageInfo.db.newIterator();
             for(iter.seekToFirst(); iter.isValid(); iter.next()) {
                 String[] info = new String(iter.value()).split(",");
-                String output = "Page title: " + info[0] + "\nURL: " + new String(page_ID_Bi.db.get(iter.key())) + "\nLast modification date: " + info[1]
-                        + ", size of page: " + info[2] + "\n";
+                String output = "Page title: " + info[0] + "\nURL: " + new String(page_ID_Bi.db.get(iter.key())) + "\nLast modification date: " + info[1]+info[2]
+                        + ", size of page: " + info[3] + "\n";
                 // words
 //                String content = new String(forwardIndex.db.get(iter.key()));
 //                for (String s : content.split(" ")) {
@@ -233,11 +233,15 @@ public class Database
                 output+="child links:\n";
                 String links = new String(pageID_Links.db.get(iter.key()));
                 for (String s : links.split(" ")[0].split(",")) {
-                    output += new String(page_ID_Bi.db.get(s.getBytes())) + "\n";
+                    byte[] link = page_ID_Bi.db.get(s.getBytes());
+                    if (link == null) continue;
+                    output += new String(link) + "\n";
                 }
                 output+="\nparent links:\n";
                 for (String s : links.split(" ")[1].split(",")) {
-                    output += new String(page_ID_Bi.db.get(s.getBytes())) + "\n";
+                    byte[] link = page_ID_Bi.db.get(s.getBytes());
+                    if (link == null) continue;
+                    output += new String(link) + "\n";
                 }
                 pw.write(output);
                 pw.write("-------------------------------------------------------------------------------------------" +

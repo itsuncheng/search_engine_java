@@ -6,7 +6,10 @@ import org.htmlparser.beans.StringBean;
 import org.htmlparser.NodeFilter;
 import org.htmlparser.Parser;
 import org.htmlparser.filters.NodeClassFilter;
+import org.htmlparser.lexer.Lexer;
+import org.htmlparser.lexer.Page;
 import org.htmlparser.tags.TitleTag;
+import org.htmlparser.util.DefaultParserFeedback;
 import org.htmlparser.util.NodeList;
 import org.htmlparser.util.ParserException;
 import java.util.regex.Pattern;
@@ -28,11 +31,11 @@ public class Crawler
      */
     public Crawler(String _url){
         url = _url;
-        try{
-            parser = new Parser(url);
-        }catch (ParserException pe){
-            pe.printStackTrace();
-        }
+//        try{
+            parser = createParser(url);
+//        }catch (ParserException pe){
+//            pe.printStackTrace();
+//        }
 
     }
 
@@ -94,6 +97,7 @@ public class Crawler
      */
     public String getLastModDay() throws ParserException
     {
+        if(parser.getConnection()==null) return "NaN";
     	String lastMod = parser.getConnection().getHeaderField("last-modified");
     	if (lastMod == null) {
     		lastMod = parser.getConnection().getHeaderField("date");
@@ -117,6 +121,16 @@ public class Crawler
             size=contents.length();
     	}
         return size;
+    }
+
+    /**
+     * avoid exception by page
+     * @param html the url to be crawl
+     * @return parser object use to crawl page information
+     */
+    private static Parser createParser(String html) {
+        Lexer mLexer = new Lexer(new Page(html));
+        return new Parser(mLexer,new DefaultParserFeedback(DefaultParserFeedback.QUIET));
     }
 
 
