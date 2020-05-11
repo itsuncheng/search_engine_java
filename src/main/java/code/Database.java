@@ -288,16 +288,16 @@ public class Database
                         if (i == freq.size() - 1) break;
                         else{ // smaller than or equal to the frequency of keywords with index i
                             keywords.add(i+1,key_freq[0]);
-                            keywords.remove(num); // keep max number of keywords be num
+                            keywords.remove(num-1); // keep max number of keywords be num
                             freq.add(i+1,Integer.parseInt(key_freq[1]));
-                            freq.remove(num);// keep max number of keywords be num
+                            freq.remove(num-1);// keep max number of keywords be num
                         }
                     }
                     if (i == 0){ // largest frequency
                         keywords.add(0,key_freq[0]);
-                        keywords.remove(num);// keep max number of keywords be num
+                        keywords.remove(num-1);// keep max number of keywords be num
                         freq.add(0,Integer.parseInt(key_freq[1]));
-                        freq.remove(num);// keep max number of keywords be num
+                        freq.remove(num-1);// keep max number of keywords be num
                     }
                 }
             }
