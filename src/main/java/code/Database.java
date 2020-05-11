@@ -78,22 +78,27 @@ public class Database
      * Add links (including child link and parent link)
      * @param pageInfo the class with contain the basic page information
      * @param page_ID_Bi the database saved page and page id
+     * @param type if equals to 0 then add child links, if equals to 1 then add parent links
      * @throws RocksDBException
      */
-    public void addLinks(PageInfo pageInfo, Database page_ID_Bi) throws RocksDBException
+    public void addLinks(PageInfo pageInfo, Database page_ID_Bi, int type) throws RocksDBException
     {
         // change link to pageID
         // same type of link separated by , and child links and parent links are separated by a space
-        String content = "";
-        for (String s:pageInfo.getChildLink()){
-            content += page_ID_Bi.IdBiConversion(s)+",";
+        if(type == 0) {//add child links
+            String content = "";
+            for (String s : pageInfo.getChildLink()) {
+                content += page_ID_Bi.IdBiConversion(s) + ",";
+            }
+            content += " ";
         }
-        content+=" ";
-
-        for (String s : pageInfo.getParentLink()) {
-            content += page_ID_Bi.IdBiConversion(s)+",";
+        if (type == 1 ){//add parent links
+            String content = new String(page_ID_Bi.getDb().get(pageInfo.getPageID().getBytes()));
+            for (String s : pageInfo.getParentLink()) {
+                content += page_ID_Bi.IdBiConversion(s)+",";
+            }
+            db.put(pageInfo.getPageID().getBytes(), content.getBytes());
         }
-        db.put(pageInfo.getPageID().getBytes(), content.getBytes());
 
     }
 
