@@ -433,7 +433,7 @@ public class SearchEngine {
 
             String content = new String(pageID_PageInfo.getDb().get(pageID.getBytes()));
             // get sum of words which is the page size
-            int sumWord = Integer.parseInt(content.split(",")[2];
+            int sumWord = Integer.parseInt(content.split(",")[content.split(",").length-1]);
             Double documentLength = Math.sqrt(sumWord);
             Double queryLength = Math.sqrt(query.size());
             // calculate score
@@ -461,14 +461,14 @@ public class SearchEngine {
         return result;
     }
 
-    public static void main(String[] args){
-        Vector<String> queries = new Vector<String>();
-        queries.add("HKUST");
-        queries.add("Computer Science");
-        try{
-            Vector<String> search_result = SearchEngine.search(queries, 10);
-        } catch (RocksDBException e){
-            e.printStackTrace();
-        }
-    }
+//    public static void main(String[] args){
+//        Vector<String> queries = new Vector<String>();
+//        queries.add("HKUST");
+//        queries.add("Computer Science");
+//        try{
+//            Vector<String> search_result = SearchEngine.search(queries, 10);
+//        } catch (RocksDBException e){
+//            e.printStackTrace();
+//        }
+//    }
 }
