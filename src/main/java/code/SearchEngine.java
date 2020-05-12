@@ -7,7 +7,7 @@ import java.util.*;
 
 public class SearchEngine {
 
-    static final int TOTAL_NUM_PAGES = 30;      // The total number of pages
+    static final int TOTAL_NUM_PAGES = 70;      // The total number of pages
     static final int OUTPUT_PAGES_NUM = 50;     // The number of output pages
     static final Double TITLE_BONUS_WEIGHT = 1.0;   // The title bonus weight
     static StopStem stopStem = new StopStem("src/main/stopwords.txt");

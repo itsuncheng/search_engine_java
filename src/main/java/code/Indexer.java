@@ -147,9 +147,9 @@ public class Indexer {
             if(!stopStem.isStopWord(wordList[i])){
                 result = stopStem.stem(wordList[i]);
                 if(result.length() > 0) {
-                    String wordID = word_ID_Bi.IdBiConversion(wordList[i]);
+                	String wordID = word_ID_Bi.IdBiConversion(result);
                     dbfile.addWord(wordID, pageID, i+1);
-                    pageInfo.addKeyword(wordList[i]);//
+                    pageInfo.addKeyword(result);//
                 }
             }
         }

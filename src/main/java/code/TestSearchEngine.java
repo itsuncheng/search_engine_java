@@ -12,14 +12,15 @@ public class TestSearchEngine {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
     	Vector<String> queries = new Vector<String>();
-		queries.add("hkust");
-//		queries.add("Computer Science");
+		queries.add("HKUST");
+		queries.add("Computer Science");
 //		queries.add("News");
 		try {
 			List<Map.Entry<String, Double>> search_results = SearchEngine.search(queries, 10);
 	        
 	        Vector<String> results = new Vector<String>();
 	        Vector<Double> scores = new Vector<Double>();
+//	        System.out.println(search_results.size());
 	        for(Map.Entry<String, Double> entry : search_results){
 	            results.add(entry.getKey());
 	            scores.add(entry.getValue());
