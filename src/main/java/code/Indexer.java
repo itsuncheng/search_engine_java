@@ -209,7 +209,7 @@ public class Indexer {
 
     public static void main(String[] args) {
         try{
-            Indexer in = new Indexer("http://www.cse.ust.hk", 30);
+            Indexer in = new Indexer("http://www.cse.ust.hk", 70);
             Database.printAll();
         }catch (RocksDBException re){
             re.printStackTrace();
