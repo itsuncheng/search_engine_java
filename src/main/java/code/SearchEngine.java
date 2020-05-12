@@ -7,7 +7,7 @@ import java.util.*;
 
 public class SearchEngine {
 
-    static final int TOTAL_NUM_PAGES = 30;      // The total number of pages
+    static final int TOTAL_NUM_PAGES = 70;      // The total number of pages
     static final int OUTPUT_PAGES_NUM = 50;     // The number of output pages
     static final Double TITLE_BONUS_WEIGHT = 1.0;   // The title bonus weight
     static StopStem stopStem = new StopStem("src/main/stopwords.txt");
@@ -390,10 +390,10 @@ public class SearchEngine {
      *
      * @param inputQuery the input query vector contains single words string and phrase string, e.g. "Computer Science", "UST"
      * @param numResults number of results needed
-     * @return results a vector of pageID
+     * @return list a list of entries containing pageID and score
      * @throws RocksDBException
      */
-    public static Vector<String> search(Vector<String> inputQuery, int numResults) throws RocksDBException{
+    public static List<Map.Entry<String, Double>> search(Vector<String> inputQuery, int numResults) throws RocksDBException{
         // weight map
         Map<String, Double> sumWeightMap = new HashMap<String, Double>();
         // score map
@@ -411,13 +411,15 @@ public class SearchEngine {
             }
             else weightMap = phrase_search(t);
 
-            for(Map.Entry<String, Double> entry : weightMap.entrySet()){
-                String pageID = entry.getKey();
-                Double weight = sumWeightMap.get(pageID);
-                if(weight == null) weight = 0.0;
-                weight += entry.getValue();
-                //update sum up weight map
-                sumWeightMap.put(pageID, weight);
+            if(weightMap != null) {
+                for (Map.Entry<String, Double> entry : weightMap.entrySet()) {
+                    String pageID = entry.getKey();
+                    Double weight = sumWeightMap.get(pageID);
+                    if (weight == null) weight = 0.0;
+                    weight += entry.getValue();
+                    //update sum up weight map
+                    sumWeightMap.put(pageID, weight);
+                }
             }
         }
 
@@ -429,7 +431,7 @@ public class SearchEngine {
 
             String content = new String(pageID_PageInfo.getDb().get(pageID.getBytes()));
             // get sum of words which is the page size
-            int sumWord = Integer.parseInt(content.split(" ")[0].split(",")[2]);
+            int sumWord = Integer.parseInt(content.split(",")[content.split(",").length-1].strip());
             Double documentLength = Math.sqrt(sumWord);
             Double queryLength = Math.sqrt(query.size());
             // calculate score
@@ -446,14 +448,63 @@ public class SearchEngine {
                 return o2.getValue() > o1.getValue() ? 1 : -1;
             }
         });
-
-        // record the result
-        Vector<String> result = new Vector<String>();
+        List<Map.Entry<String, Double> > result = new ArrayList<Map.Entry<String, Double>>();
         for(Map.Entry<String, Double> entry : list){
-            result.add(entry.getKey());
+            result.add(entry);
             if(result.size() == numResults) break;
         }
-
+        
         return result;
     }
+
+    /**
+     * Fetch pageInfo of given pageId
+     * @param pageId
+     * @return pageInfo - a string contains page title, URL, last modification date and page size
+     * @throws RocksDBException
+     */
+    public static String[] pageId_to_pageInfo(String pageId, Double score) throws RocksDBException{
+        // Database needed
+        Database page_ID_Bi = DbTypeEnum.getDbtypeEnum("Page_ID_Bi").getDatabase();
+        Database word_ID_Bi = DbTypeEnum.getDbtypeEnum("Word_ID_Bi").getDatabase();
+        Database pageID_PageInfo = DbTypeEnum.getDbtypeEnum("PageID_PageInfo").getDatabase();
+        Database pageID_Links = DbTypeEnum.getDbtypeEnum("PageID_Links").getDatabase();
+        Database forwardIndex = DbTypeEnum.getDbtypeEnum("ForwardIndex").getDatabase();
+
+        String content = new String(pageID_PageInfo.getDb().get(pageId.getBytes()));
+        String[] info = content.split(",");
+        String[] output = new String[8];
+        output[0] = score.toString(); // score 
+        output[1] = info[0]; //page title
+        output[2] = new String(page_ID_Bi.getDb().get(pageId.getBytes())); //URL
+        output[3] = info[1] + " " + info[2]; //Last Mod Day
+        output[4] = info[3]; //Size of Page
+        // top N keywords
+        String result = Database.getTopN_keyword(new String(page_ID_Bi.getDb().get(pageId.getBytes())),5);
+        output[5] = ""; //Top frequent words and their frequency
+        for (String s : result.split(" ")) {
+            String[] word_freq = s.split(",");
+            byte[] word = word_ID_Bi.getDb().get(word_freq[0].getBytes());
+            output[5] += new String(word) +","+ word_freq[1]+" ";
+        }
+
+        // parent links
+        output[6] = ""; //Parent links
+        String links = new String(pageID_Links.getDb().get(pageId.getBytes()));
+        if (links.split(" ").length > 1) {
+	        for (String s : links.split(" ")[1].split(",")) {
+	            output[6] += new String(page_ID_Bi.getDb().get(s.getBytes())) + "\n";
+	        }
+        }
+        
+        // children links
+        output[7] = ""; //Children links
+        links = new String(pageID_Links.getDb().get(pageId.getBytes()));
+        for (String s : links.split(" ")[0].split(",")) {
+        	output[7] += new String(page_ID_Bi.getDb().get(s.getBytes())) + "\n";
+        }
+        
+        return output;
+    }
+
 }

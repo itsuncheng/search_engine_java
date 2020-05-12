@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="skeleton.css">
+    <title>Form example</title>
+</head>
+<body>
+    <!-- <div style="position:absolute; top:35%; right:0; left:0; text-align:center; "> -->
+    <div style="margin: auto; width: 65%; padding-top: 10%; text-align:center;">
+    	<br><br>
+        <h3>Search Engine</h3>
+        <form action="search.jsp" method="POST">
+            <!-- Please enter a list of words, separated by space (use double quotes for phrases): -->
+            <br>
+            <div class="row">
+    			<div class="nine columns">
+    				<label>Search for words, separated by space (use double quotes for phrases)</label>
+            		<input style="width: 100%;" type="text" name="txtname" placeholder="&quot;Computer Science&quot; HKUST" required>
+            	</div>
+            	<div class="three columns">
+    				<label>Number of Results</label>
+            		<select class="u-full-width" name="numresults">
+				        <option value="10">10</option>
+				        <option value="20">20</option>
+				        <option value="30">30</option>
+				        <option value="40">40</option>
+				        <option value="50">50</option>
+				    </select>
+            	</div>
+            </div>	
+           	<br>
+            <input class="button-primary" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

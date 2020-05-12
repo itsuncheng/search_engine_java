@@ -147,9 +147,9 @@ public class Indexer {
             if(!stopStem.isStopWord(wordList[i])){
                 result = stopStem.stem(wordList[i]);
                 if(result.length() > 0) {
-                    String wordID = word_ID_Bi.IdBiConversion(wordList[i]);
+                    String wordID = word_ID_Bi.IdBiConversion(result);
                     dbfile.addWord(wordID, pageID, i+1);
-                    pageInfo.addKeyword(wordList[i]);//
+                    pageInfo.addKeyword(result);//
                 }
             }
         }
@@ -209,7 +209,7 @@ public class Indexer {
 
     public static void main(String[] args) {
         try{
-            Indexer in = new Indexer("http://www.cse.ust.hk", 30);
+            Indexer in = new Indexer("http://www.cse.ust.hk", 70);
             Database.printAll();
         }catch (RocksDBException re){
             re.printStackTrace();
