@@ -1,7 +1,7 @@
-### Search Engine for HKUST
+# Search Engine for HKUST
 This is a project we conducted for COMP4321: Search Engines for Web and Enterprise Data. We built a scraper and indexer in Java, and connect our system to a [RocksDB database](https://rocksdb.org/). We also built a frontend using [apache tomcat server](http://tomcat.apache.org/). 
 
-### Notes
+## Notes
 
 This Java project is managed by Maven so it's best to use a Maven to setup this project. It is preferred to use an IDE to make the execution process much easier.
 
